@@ -1,0 +1,1 @@
+PODS_TOUCHLOCK_VENTOUCHLOCK_OTHER_LDFLAGS = -framework "LocalAuthentication"

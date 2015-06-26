@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+    <string>大窗</string>
+    <string>安静</string>
+    <string>房号吉利</string>
+    <string>离电梯近</string>
+    <string>勿扰</string>
+    <string>苦涩</string>
+    <string>香辣</string>
+    <string>甜</string>
+    <string>下雨</string>
+    <string>刮风</string>
+    <string>晴朗</string>
+    <string>万里无云</string>
+</array>
+</plist>

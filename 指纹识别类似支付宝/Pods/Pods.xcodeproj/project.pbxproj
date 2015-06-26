@@ -1,0 +1,2907 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		004A0C8B3DE7E05AC90F8965 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1275B2C5869BFC6D764AEFC3 /* UIKit.framework */; };
+		03E12868EBAB985B42ACB02D /* SAMGradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E0F61400199FF4710041FBC /* SAMGradientView.h */; };
+		093B843C8472FFC8C86E8822 /* SAMAddressBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 992B05D258EE77A7F081939B /* SAMAddressBar.h */; };
+		0ADAB235CFAB4905BEA41ABA /* UIControl+SAMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D88FDC4E3743EA99B319A82 /* UIControl+SAMAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0F6CE582A21D15AA43BB15D1 /* SAMAddressBarTextFieldBackgroundViewInnerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 560E3FBE7CC2D736A291DA3C /* SAMAddressBarTextFieldBackgroundViewInnerView.h */; };
+		11C915540D8F274402D253BD /* UIViewController+VENTouchLock.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ABF2A1310CC7BA3FBCD9CEA /* UIViewController+VENTouchLock.h */; };
+		1369E8268A565FC5235FCCC8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726738ED9F7904935C59EC63 /* CoreGraphics.framework */; };
+		16A68B5207B1E897EAFB1BB9 /* NSUserDefaults+SAMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CA1B876295FB41DA539CE0A /* NSUserDefaults+SAMAdditions.h */; };
+		17677C8F8F3BC982CDA63E1A /* SAMLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = A54BFB59895998314C55F111 /* SAMLabel.h */; };
+		1A46B1CB6370844E905457AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1275B2C5869BFC6D764AEFC3 /* UIKit.framework */; };
+		1C2A71DC4FBAF83FEB892E6A /* SAMCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FC79B17239A52C0755CC521 /* SAMCategories.h */; };
+		1C8FDD2F5264FF4B3ABFD3E9 /* SAMWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 109C403ACAF73640975D45F3 /* SAMWebView.h */; };
+		1CE265AEAEC2B9AA9BC7AA77 /* SAMTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 556CC1CA26E604B0DC7F95A9 /* SAMTextField.h */; };
+		1F153A2374B06AB5572785F8 /* SAMBadgeView.h in Headers */ = {isa = PBXBuildFile; fileRef = AC382F7BCC01D331CF94D5D6 /* SAMBadgeView.h */; };
+		20F3B59B97CD4DAA59953F9D /* NSNumber+SAMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E4D60CC2D9999DB10736F6 /* NSNumber+SAMAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		216457A2DB2DA2AF3321EF67 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E07ED5B486D1BACEBC629BEF /* LocalAuthentication.framework */; };
+		22BBC9A8C176B09CCFE75340 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726738ED9F7904935C59EC63 /* CoreGraphics.framework */; };
+		241F6F459FA172802DFDCB33 /* SAMAddressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F3801D2012C38FD9A2AB300D /* SAMAddressBar.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2890474EDF97B1A62AAFB45D /* SAMCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 614A9DC3D304D6C5A08032AB /* SAMCircleProgressView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		28A93854EDF480DD4FEEEBC0 /* SAMHUDWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6E3AF2B43E4B3E8A4ACAD1 /* SAMHUDWindow.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2B0F84AD2A23AF1F943B1CF1 /* NSDate+SAMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 05391186E7265869C27215B7 /* NSDate+SAMAdditions.h */; };
+		2BD82DB4A9071D8984563E20 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726738ED9F7904935C59EC63 /* CoreGraphics.framework */; };
+		2C9D76E0FD6A8648A3130E1B /* NSURL+SAMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 04B80B062DC8C1E44736B879 /* NSURL+SAMAdditions.h */; };
+		2CD0AB8DBC5B250A1B6FB084 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1275B2C5869BFC6D764AEFC3 /* UIKit.framework */; };
+		2DB2323787F6E214B6CBC313 /* VENTouchLockPasscodeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 23A3BF68EA9709DB71359793 /* VENTouchLockPasscodeView.h */; };
+		2E0CF6FF73770FC27E932350 /* SAMLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C463418A87292B079323FF45 /* SAMLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2E3FE3946EF7305988B6D628 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A423B84930C5E45FE3091E /* Foundation.framework */; };
+		3123621B17BC1502DD8B1BFD /* VENTouchLockPasscodeCharacterView.m in Sources */ = {isa = PBXBuildFile; fileRef = C78095D55C70EF59471AFDF7 /* VENTouchLockPasscodeCharacterView.m */; };
+		33CD0533FB0D05F72DF5ADE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A423B84930C5E45FE3091E /* Foundation.framework */; };
+		357D4E2DABB7E128F2AD9BEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A423B84930C5E45FE3091E /* Foundation.framework */; };
+		3826062132495069A9401A0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1275B2C5869BFC6D764AEFC3 /* UIKit.framework */; };
+		392CF0854F716AF8404CF9C5 /* UIViewController+VENTouchLock.m in Sources */ = {isa = PBXBuildFile; fileRef = A6572E1F954A17603B669174 /* UIViewController+VENTouchLock.m */; };
+		3A96E28F42D280760101B4D6 /* VENTouchLockCreatePasscodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 305DB6F1132AC620DD048FA9 /* VENTouchLockCreatePasscodeViewController.m */; };
+		3AC12FC8240115B1504D0F36 /* UIApplication+SAMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D46B4AE6319BBCBC8D5B8B58 /* UIApplication+SAMAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3B869681EE9674E94EA4F484 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBF899F377A93F1B207233E /* QuartzCore.framework */; };
+		3CC42E457B2B4C9BD1F5F5C8 /* UIViewController+SAMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 528C539177CDDF5E224C5A6C /* UIViewController+SAMAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3DA4FB03364D3EEFB12ACFDC /* SAMLoadingView.h in Headers */ = {isa = PBXBuildFile; fileRef = AB612190EC16A8E4E3F14715 /* SAMLoadingView.h */; };
+		3E30B40D7BB2E5B471AD70CA /* Pods-TouchLock-SAMAddressBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D74C5CC5917E94314A9A5DD /* Pods-TouchLock-SAMAddressBar-dummy.m */; };
+		3F04C38745649F1AE1EF5803 /* VENTouchLockEnterPasscodeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E0C60D788EB4C7CE4814C368 /* VENTouchLockEnterPasscodeViewController.h */; };
+		40363158B8F96ADFEA82FD77 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726738ED9F7904935C59EC63 /* CoreGraphics.framework */; };
+		40F87CFCDDAC1191B4E770BA /* Pods-TouchLock-SAMLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CB1028A9F4CA2C5630AF01 /* Pods-TouchLock-SAMLabel-dummy.m */; };
+		417751162FFF31BDB2F93C27 /* UIControl+SAMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F024DB40C10A76EB9E278D3E /* UIControl+SAMAdditions.h */; };
+		43B928271EC3ECFC3422B53E /* UIScreen+SAMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E681A283D005D3C5820BEC43 /* UIScreen+SAMAdditions.h */; };
+		483E2020C9695F4494747799 /* SAMHUDWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E080D36807D905A5613AD8 /* SAMHUDWindowViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4A1491E2988436177FC3D593 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1275B2C5869BFC6D764AEFC3 /* UIKit.framework */; };
+		4F5B7FE178E8083B0E7E2938 /* UIViewController+SAMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CFE42A04CE0157B759E75380 /* UIViewController+SAMAdditions.h */; };
+		4FD80647CA45E967A57755DF /* SAMHUDView.h in Headers */ = {isa = PBXBuildFile; fileRef = E1BCFB646A0485CFC7508069 /* SAMHUDView.h */; };
+		4FF32103F811932F3C74CCB4 /* Pods-TouchLock-SAMCategories-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A95F40B41F6EC27515263B6 /* Pods-TouchLock-SAMCategories-dummy.m */; };
+		520CE452E4868AEB0D7797BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A423B84930C5E45FE3091E /* Foundation.framework */; };
+		520F4797E5118D3B4822ACBF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1275B2C5869BFC6D764AEFC3 /* UIKit.framework */; };
+		54B0A0AF3F86D0F342F70B63 /* SAMTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E866263DE2CE4BF6634D70D /* SAMTextView.h */; };
+		593F28FE827D5BF79FCB129F /* NSUserDefaults+SAMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EA4D959C53A178BC4500C0 /* NSUserDefaults+SAMAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5D189C517A08B21822C831A3 /* VENTouchLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F1A02D270C3AD08EC5B292 /* VENTouchLock.m */; };
+		5D778537EDA7708D76A3ADC7 /* UIDevice+SAMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA02928787CFF1EE0EECE70 /* UIDevice+SAMAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		62D8C121DDD8B1A49D991A21 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726738ED9F7904935C59EC63 /* CoreGraphics.framework */; };
+		65DD373FB320D8378062F30D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1275B2C5869BFC6D764AEFC3 /* UIKit.framework */; };
+		68F08B4DEA0326468D81FDCC /* NSString+SAMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D2478DCC5DDBE9574BB9ED6B /* NSString+SAMAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		694D08A4CE2DFED0FC2221FD /* VENTouchLockPasscodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB654170994399203663A8F /* VENTouchLockPasscodeView.m */; };
+		6B8EF562C03D6B07540AEF59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A423B84930C5E45FE3091E /* Foundation.framework */; };
+		6C5CD12EE812E82A554B1EB9 /* UIScreen+SAMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BED126C643FCEB385840384C /* UIScreen+SAMAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6CF3C65B570F81A78FD5495C /* Pods-TouchLock-SSKeychain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 659AFE58AF9DDD7C4C67069B /* Pods-TouchLock-SSKeychain-dummy.m */; };
+		71800225FC9007532CDE1A5F /* NSNumber+SAMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E54F6E4A6ED0E3187107E58F /* NSNumber+SAMAdditions.h */; };
+		71A00AA852AC730C895B4054 /* SAMAddressBarTextFieldBackgroundViewInnerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 087DF88BE54659A678AEE837 /* SAMAddressBarTextFieldBackgroundViewInnerView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7261E33ACFF6B82669CF9FC6 /* VENTouchLock.h in Headers */ = {isa = PBXBuildFile; fileRef = C6C6F6C416769F7FD6201C2B /* VENTouchLock.h */; };
+		7608070EA82FB1E860881B82 /* NSString+SAMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8F8BBDCC8C0B2E0D0A2F34F /* NSString+SAMAdditions.h */; };
+		76DF6B33E9D4B21137B30AE7 /* SAMPersistentRateLimit.h in Headers */ = {isa = PBXBuildFile; fileRef = BF62ED6AFE220D31DE426997 /* SAMPersistentRateLimit.h */; };
+		7CBB3CA5C15222D71B96A840 /* VENTouchLockSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E848F3B2565BBDA58D59EEB4 /* VENTouchLockSplashViewController.m */; };
+		7D01778FAD253AFD9AF79DE8 /* NSDictionary+SAMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6AFB6BC6C329D45B9ECAC1 /* NSDictionary+SAMAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7E3FF8B77B16320299EA7109 /* SAMAddressBarTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = FB32EE31CC39EF07803D7B12 /* SAMAddressBarTextField.h */; };
+		7EB660A34BA6E0316A561DC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A423B84930C5E45FE3091E /* Foundation.framework */; };
+		81F0658D765A254E508DFC0C /* NSDate+SAMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD284C41D0379633A157066D /* NSDate+SAMAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		820EC9F4D85A773BC48ECDE4 /* VENTouchLockEnterPasscodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 947F10CE49F23486F693A40D /* VENTouchLockEnterPasscodeViewController.m */; };
+		829B6D895322B57E948656C2 /* SAMWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FD6F6B0E71538A5DC801A56 /* SAMWebViewController.h */; };
+		82C733E688EC19F82D934CE1 /* UIColor+SAMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 390E511733A68AB40A6147BA /* UIColor+SAMAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		831ACCAE8555B17B323BA2AB /* SAMWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 058FBDBEFB6A25D80D653223 /* SAMWebView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		85AC4364975AB2585178ABEF /* SSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 5757D39BC8445233695005C9 /* SSKeychainQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		86B1CE1781D2CBF9D5B88383 /* VENTouchLockAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 4874AC65EA48AAC36993BDD9 /* VENTouchLockAppearance.h */; };
+		882C877D44E7A6714FD9B4C0 /* SAMAddressBarTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C61337041E416E305332EAC1 /* SAMAddressBarTextField.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		88CDA83FE89BBC4EC3EE312A /* UIView+SAMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F773B5EEA01D215974B333D /* UIView+SAMAdditions.h */; };
+		8B63F06C31B7D82F94C9A522 /* NSArray+SAMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 687CA80EE913BBB9AEF25A8D /* NSArray+SAMAdditions.h */; };
+		8CC0C1B569CAF224602FFEF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1275B2C5869BFC6D764AEFC3 /* UIKit.framework */; };
+		8D0A89595106B5C4DE929D86 /* Pods-TouchLock-SAMLoadingView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A703EF9C1E7B1468EC6B5B /* Pods-TouchLock-SAMLoadingView-dummy.m */; };
+		8D56DCD78E8D172A20FF7E90 /* VENTouchLockPasscodeCharacterView.h in Headers */ = {isa = PBXBuildFile; fileRef = A01D52AAF104C4BB9F6000AB /* VENTouchLockPasscodeCharacterView.h */; };
+		8F8670A297E9C1C6DA536BFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A423B84930C5E45FE3091E /* Foundation.framework */; };
+		92670BF5ACB766CFE067D19E /* VENTouchLockPasscodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1AF1B8EAB522DF5CDCDAC7 /* VENTouchLockPasscodeViewController.m */; };
+		9357E977D098C6417EFA6169 /* SAMHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6588AEA5699EE600FAE39723 /* SAMHUDView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		96EFA7D08417E3D1DEAF78E9 /* SAMHUDWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 134AFDB9C092268369B65D4D /* SAMHUDWindow.h */; };
+		97D5EE4D35B8526C87C1649F /* Pods-TouchLock-SAMGradientView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB9F710DCCFDE7B1E53A4B9 /* Pods-TouchLock-SAMGradientView-dummy.m */; };
+		986301D95251ABA1B000788D /* SAMAddressBarTextFieldBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 950B50F8EF037DAC09DFFF94 /* SAMAddressBarTextFieldBackgroundView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		995D59FFCE1D4D699D53720F /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7238926C27FFBAB5572525 /* MessageUI.framework */; };
+		9AAB488E7C1D0C2EF666E61E /* UIApplication+SAMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E120712FB9F8A2C3E81927 /* UIApplication+SAMAdditions.h */; };
+		9C161290EF467BCCF5002016 /* VENTouchLockCreatePasscodeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AD72867389D4F6CC2F6E5C4C /* VENTouchLockCreatePasscodeViewController.h */; };
+		9E386BD26CC704A8F635AC02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A423B84930C5E45FE3091E /* Foundation.framework */; };
+		A0730EEDE8FD2D722D7609E1 /* NSArray+SAMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B43B7293C5F10970CBECCF /* NSArray+SAMAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A0A97CE4CD707A25F4EE0A12 /* SAMBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB717C52A22A7C3FF8AC05C /* SAMBadgeView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A120B2A5DEA2692A7D351A48 /* SSKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 208B2CB0837CE8707CF47B38 /* SSKeychainQuery.h */; };
+		A4157C0FB3DD631FD4B5A047 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBF899F377A93F1B207233E /* QuartzCore.framework */; };
+		A634B47C25FEAF653409B34B /* Pods-TouchLock-SAMWebView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F605A3D4EAA8429F52A20E21 /* Pods-TouchLock-SAMWebView-dummy.m */; };
+		A7FD5A6A0BABA9B9510C2F18 /* SAMWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D24317B4255DC94A752ABF /* SAMWebViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A8642B2548089587EC3C836C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1275B2C5869BFC6D764AEFC3 /* UIKit.framework */; };
+		A9CA506013140822E538A04F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9FAB8C71D86F4DC01B0BF96 /* Security.framework */; };
+		AB2A5CAB21501015162C5C1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A423B84930C5E45FE3091E /* Foundation.framework */; };
+		B05680B4608F9F4D35984593 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A423B84930C5E45FE3091E /* Foundation.framework */; };
+		B125DAEBAC47F46B1829E664 /* VENTouchLockPasscodeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F427EBB92EE3DC1819C1BF90 /* VENTouchLockPasscodeViewController.h */; };
+		B36274003D053B3A37FEAE01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A423B84930C5E45FE3091E /* Foundation.framework */; };
+		B3F7454ED0DB42AB5E02E81E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A423B84930C5E45FE3091E /* Foundation.framework */; };
+		B628C164F5EF28B08FE844FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1275B2C5869BFC6D764AEFC3 /* UIKit.framework */; };
+		BAD2EC04035B8F0835FC3DEE /* UIScrollView+SAMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3885FCD3D005188797D02D54 /* UIScrollView+SAMAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BAEE741D5DF80D9AE0DAAB8D /* SAMCircleProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 05DB13EB398F2258B5134447 /* SAMCircleProgressView.h */; };
+		BB18A25E39DABE3FB35D625A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A423B84930C5E45FE3091E /* Foundation.framework */; };
+		BBC25CBF8DCB2D18BC35DD40 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD2A7E4360D84E85DA3B1AE /* SSKeychain.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BF33161C96841710B7BDDA6C /* SAMGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B36E9FD328D2EDE95625FF9 /* SAMGradientView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BF86804285345433DDE7E07F /* Pods-TouchLock-SAMHUDView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E00609617CD304566C768C /* Pods-TouchLock-SAMHUDView-dummy.m */; };
+		C10B37324711CDDAFFEFBECE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726738ED9F7904935C59EC63 /* CoreGraphics.framework */; };
+		C23775CE4736592698705066 /* UIColor+SAMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 33878FEE0DA5E7F3D293762F /* UIColor+SAMAdditions.h */; };
+		C2CDFD3C083CDAF001D32B2D /* NSDictionary+SAMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B603B3D92123E52CFBC2F9E /* NSDictionary+SAMAdditions.h */; };
+		C574E7791ACCD78EC0957DDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A423B84930C5E45FE3091E /* Foundation.framework */; };
+		C6CE3801199BF899629CF990 /* SAMPersistentRateLimit.m in Sources */ = {isa = PBXBuildFile; fileRef = 59951F3C4CF329E9AB691291 /* SAMPersistentRateLimit.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C6E09CE8E9B11CCEA67E47CD /* Pods-TouchLock-SAMTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B33595D72141220CDDC89D /* Pods-TouchLock-SAMTextView-dummy.m */; };
+		C74273ED2DEBC826CDFC5AD1 /* NSURL+SAMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 695644D939AE31C903BCDB25 /* NSURL+SAMAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CDFCA399FF9807CFD70080F1 /* NSData+SAMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB1423C7A9BB0235AA472D2 /* NSData+SAMAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CFD9E08049444B9B153346A3 /* UIScrollView+SAMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 39C798D29510AC46633EA98D /* UIScrollView+SAMAdditions.h */; };
+		D1DC47FA6CB4090E44CE6819 /* SSKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = C09BD383D0237A9C8455D9C0 /* SSKeychain.h */; };
+		D20E7E0DEBEFD81F1EBDA263 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A423B84930C5E45FE3091E /* Foundation.framework */; };
+		D5E4786E5A0BF6ABCDA3DF0F /* Pods-TouchLock-SSToolkit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB731229CA62082F855D18F4 /* Pods-TouchLock-SSToolkit-dummy.m */; };
+		D616392FD369A058B24A24FB /* SAMRateLimit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D809A097361BFB2C4F0D279 /* SAMRateLimit.h */; };
+		D625C758C47D30B4E01B4315 /* NSData+SAMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 273A3530DFFA38DAE6143929 /* NSData+SAMAdditions.h */; };
+		D76DF900ACC03DECF56BC0FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726738ED9F7904935C59EC63 /* CoreGraphics.framework */; };
+		D9FA0464F8D6433196D4E354 /* SAMLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6AD7880DCC9C851659B85A /* SAMLoadingView.m */; };
+		DB1CC9DB41B6C59F22EE22F5 /* NSObject+SAMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 092CF6B2ED6E43271309EDDB /* NSObject+SAMAdditions.h */; };
+		E022D17BBE476F1142EAC7B1 /* Pods-TouchLock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A8962269EFC49AECCE61091 /* Pods-TouchLock-dummy.m */; };
+		E0ABCDAD92CFD1166C5F3C20 /* VENTouchLockAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB96CD40737E3F91050EDD0 /* VENTouchLockAppearance.m */; };
+		E18AC71E414195E39AD8016B /* UIDevice+SAMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = BD4A69367BFD480EABD38416 /* UIDevice+SAMAdditions.h */; };
+		E26A4D0C5B2F69ECBDE93C24 /* SAMHUDWindowViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FFC1AC59AEB236224F2F7557 /* SAMHUDWindowViewController.h */; };
+		E2BCA9E8EF698B9FC9314341 /* SAMAddressBarTextFieldBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4186C25AEF2D470B7E944D6F /* SAMAddressBarTextFieldBackgroundView.h */; };
+		E4B947E6D15756BBE01C05C3 /* NSObject+SAMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 39115D0AD6BC4A24B041D491 /* NSObject+SAMAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E5A5E5703CD9B2FCCC8FF7EB /* Pods-TouchLock-SAMTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D416AC8B146A40971E8A055 /* Pods-TouchLock-SAMTextField-dummy.m */; };
+		E73DE1C69E08EC55043DB166 /* SAMRateLimit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1979B883C554C7227E2BEA2C /* SAMRateLimit.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EB0198B442FA74327A39DD07 /* Pods-TouchLock-SAMBadgeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DACA76CF6CB0BFA76F94F83E /* Pods-TouchLock-SAMBadgeView-dummy.m */; };
+		EB7A641A51422CFC44510086 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726738ED9F7904935C59EC63 /* CoreGraphics.framework */; };
+		EBFDF1972E721BBD80636E1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1275B2C5869BFC6D764AEFC3 /* UIKit.framework */; };
+		EC7FE5A982CF531C2AAD080B /* SAMTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E676A3FDF33AB2CA2D1B3C /* SAMTextView.m */; };
+		ED49F50E2D42391099CF310D /* UIView+SAMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2362BBC15303F6D0C877BF40 /* UIView+SAMAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EEF1CFCD4EB583AB5A49036B /* Pods-TouchLock-SAMCircleProgressView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5A3135447DF289F78001D6 /* Pods-TouchLock-SAMCircleProgressView-dummy.m */; };
+		F0C122BB4F6F3BFB84D128C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A423B84930C5E45FE3091E /* Foundation.framework */; };
+		F5A31146D94FFD8608B20AEA /* Pods-TouchLock-SAMRateLimit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48658BF49EA928CE40DFAC11 /* Pods-TouchLock-SAMRateLimit-dummy.m */; };
+		F69577CD7EB97B869C861DCB /* SAMTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA5D5094CFD7FF904AAA9D1 /* SAMTextField.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F69D7E597C73FD97EF6996AD /* VENTouchLockSplashViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7317DDB37EB287E28C18ECCC /* VENTouchLockSplashViewController.h */; };
+		F843693EE5C4880E3A03F64F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 726738ED9F7904935C59EC63 /* CoreGraphics.framework */; };
+		F915FFBF0721D2C1EB0540DB /* Pods-TouchLock-VENTouchLock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 940F0F9199500EC42862ECA1 /* Pods-TouchLock-VENTouchLock-dummy.m */; };
+		FA622E21DDF0232C1878C24A /* SSToolkit.h in Headers */ = {isa = PBXBuildFile; fileRef = 067D95FE18CACD67318A1C3F /* SSToolkit.h */; };
+		FF1B15F34AF9BA4E36DB5FAE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBF899F377A93F1B207233E /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D8BBD8904F870383AFFF531 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE4C5E41103469E83FFFA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 802EF91994126F88BDAEFD07;
+			remoteInfo = "Pods-TouchLock-SAMWebView";
+		};
+		1539D83393A65DDB53EB2CB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE4C5E41103469E83FFFA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FE16280742C6CDF262B35C5;
+			remoteInfo = "Pods-TouchLock-SAMCircleProgressView";
+		};
+		2093918C5A39693C4DB495F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE4C5E41103469E83FFFA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F5878D1A8105E0EAAD5E297;
+			remoteInfo = "Pods-TouchLock-SSKeychain";
+		};
+		2F7B8353EF095951F4F71A4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE4C5E41103469E83FFFA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B34F790D7E011E9CE5995095;
+			remoteInfo = "Pods-TouchLock-SAMLoadingView";
+		};
+		325C42217DB3D9E0F9A0A90E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE4C5E41103469E83FFFA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15401B294D0BDB1E87E9CE83;
+			remoteInfo = "Pods-TouchLock-SAMHUDView";
+		};
+		37DBFC86722A46E3C8CD32AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE4C5E41103469E83FFFA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C4A0C91421745CB4A0E082;
+			remoteInfo = "Pods-TouchLock-SAMTextField";
+		};
+		3EE47E0647D91CDB44524B61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE4C5E41103469E83FFFA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA1675F453173CFBB23D40B8;
+			remoteInfo = "Pods-TouchLock-SAMRateLimit";
+		};
+		4B08BDE19E9A8171E1C675FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE4C5E41103469E83FFFA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FE16280742C6CDF262B35C5;
+			remoteInfo = "Pods-TouchLock-SAMCircleProgressView";
+		};
+		543A48EE2CF993E6845EAFE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE4C5E41103469E83FFFA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B34F790D7E011E9CE5995095;
+			remoteInfo = "Pods-TouchLock-SAMLoadingView";
+		};
+		5C7C0595D3E0346F1B6E7807 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE4C5E41103469E83FFFA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80F8895769E4AA900B36B9D0;
+			remoteInfo = "Pods-TouchLock-SAMBadgeView";
+		};
+		6264B093FD9B0F3911F743CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE4C5E41103469E83FFFA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F5878D1A8105E0EAAD5E297;
+			remoteInfo = "Pods-TouchLock-SSKeychain";
+		};
+		6D915A572499EF09585530D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE4C5E41103469E83FFFA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DEDC9E49B67C81F79EB42DB;
+			remoteInfo = "Pods-TouchLock-VENTouchLock";
+		};
+		7D9599873FB208D7D642F8AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE4C5E41103469E83FFFA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15401B294D0BDB1E87E9CE83;
+			remoteInfo = "Pods-TouchLock-SAMHUDView";
+		};
+		7F263FD4DEFD80026CB48170 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE4C5E41103469E83FFFA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43DD7349CCBCD5290640B88A;
+			remoteInfo = "Pods-TouchLock-SAMCategories";
+		};
+		83CD7CD18EFF8240E2E196B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE4C5E41103469E83FFFA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 540603CED7F28F66CDFDD125;
+			remoteInfo = "Pods-TouchLock-SAMTextView";
+		};
+		8847402A2ACB77E4DACCD017 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE4C5E41103469E83FFFA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33A3F2C9B32BBAB2B14DC9B2;
+			remoteInfo = "Pods-TouchLock-SAMLabel";
+		};
+		8DA391D2C8CC030B61768DFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE4C5E41103469E83FFFA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B75CA690CCE088CABA7AB7C3;
+			remoteInfo = "Pods-TouchLock-SAMGradientView";
+		};
+		8F369BF24CECD8293C9C9C4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE4C5E41103469E83FFFA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 002C3B79E3D1FCE3DF7BCD1D;
+			remoteInfo = "Pods-TouchLock-SAMAddressBar";
+		};
+		A77952A5CE3A49B5FEFF8A1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE4C5E41103469E83FFFA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 002C3B79E3D1FCE3DF7BCD1D;
+			remoteInfo = "Pods-TouchLock-SAMAddressBar";
+		};
+		ABEC2C6873D58FDC29355769 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE4C5E41103469E83FFFA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 540603CED7F28F66CDFDD125;
+			remoteInfo = "Pods-TouchLock-SAMTextView";
+		};
+		B3DD5769A1B8204739F847B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE4C5E41103469E83FFFA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43DD7349CCBCD5290640B88A;
+			remoteInfo = "Pods-TouchLock-SAMCategories";
+		};
+		C052DA045EEE8C6451EC4606 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE4C5E41103469E83FFFA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80F8895769E4AA900B36B9D0;
+			remoteInfo = "Pods-TouchLock-SAMBadgeView";
+		};
+		C998256C414D1E0FBD095973 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE4C5E41103469E83FFFA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 802EF91994126F88BDAEFD07;
+			remoteInfo = "Pods-TouchLock-SAMWebView";
+		};
+		CCA5C0E72FBB7477F6167291 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE4C5E41103469E83FFFA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B75CA690CCE088CABA7AB7C3;
+			remoteInfo = "Pods-TouchLock-SAMGradientView";
+		};
+		D1F9C752E7E36F523468D155 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE4C5E41103469E83FFFA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33A3F2C9B32BBAB2B14DC9B2;
+			remoteInfo = "Pods-TouchLock-SAMLabel";
+		};
+		D32843DC0D017D8240ED6C3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE4C5E41103469E83FFFA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA1675F453173CFBB23D40B8;
+			remoteInfo = "Pods-TouchLock-SAMRateLimit";
+		};
+		DBB25C8C758CF865ECADB4B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE4C5E41103469E83FFFA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C4A0C91421745CB4A0E082;
+			remoteInfo = "Pods-TouchLock-SAMTextField";
+		};
+		F2D07919693869C44DC5C0A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE4C5E41103469E83FFFA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DFEDA1943495528B82FC66A;
+			remoteInfo = "Pods-TouchLock-SSToolkit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00AE0003946756C61934BCF8 /* Pods-TouchLock-SAMAddressBar-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchLock-SAMAddressBar-Private.xcconfig"; sourceTree = "<group>"; };
+		01D56E511FB9B3B61CE287B1 /* Pods-TouchLock-SAMHUDView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchLock-SAMHUDView.xcconfig"; sourceTree = "<group>"; };
+		04B80B062DC8C1E44736B879 /* NSURL+SAMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+SAMAdditions.h"; path = "SAMCategories/NSURL+SAMAdditions.h"; sourceTree = "<group>"; };
+		04BC8588D82B6296C93B8F08 /* Pods-TouchLock-SSToolkit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchLock-SSToolkit.xcconfig"; sourceTree = "<group>"; };
+		05391186E7265869C27215B7 /* NSDate+SAMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+SAMAdditions.h"; path = "SAMCategories/NSDate+SAMAdditions.h"; sourceTree = "<group>"; };
+		058FBDBEFB6A25D80D653223 /* SAMWebView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMWebView.m; path = SAMWebView/SAMWebView.m; sourceTree = "<group>"; };
+		05DB13EB398F2258B5134447 /* SAMCircleProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMCircleProgressView.h; path = SAMCircleProgressView/SAMCircleProgressView.h; sourceTree = "<group>"; };
+		060578C3439B7DB2130A2D67 /* libPods-TouchLock-SAMRateLimit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TouchLock-SAMRateLimit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		067D95FE18CACD67318A1C3F /* SSToolkit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSToolkit.h; path = SSToolkit/SSToolkit.h; sourceTree = "<group>"; };
+		069713EC203BD77B58A7CF3B /* SAMAddressBar-stop.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SAMAddressBar-stop.png"; path = "Resources/SAMAddressBar-stop.png"; sourceTree = "<group>"; };
+		076E51C5B479ADB9719E4F93 /* Pods-TouchLock-SAMAddressBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TouchLock-SAMAddressBar-prefix.pch"; sourceTree = "<group>"; };
+		07F1A02D270C3AD08EC5B292 /* VENTouchLock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENTouchLock.m; path = VENTouchLock/VENTouchLock.m; sourceTree = "<group>"; };
+		087DF88BE54659A678AEE837 /* SAMAddressBarTextFieldBackgroundViewInnerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMAddressBarTextFieldBackgroundViewInnerView.m; path = SAMAddressBar/SAMAddressBarTextFieldBackgroundViewInnerView.m; sourceTree = "<group>"; };
+		08A00E93C8632CAFBA649DFB /* VENTouchLockPasscodeView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = VENTouchLockPasscodeView.xib; path = VENTouchLock/Views/VENTouchLockPasscodeView.xib; sourceTree = "<group>"; };
+		092CF6B2ED6E43271309EDDB /* NSObject+SAMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+SAMAdditions.h"; path = "SAMCategories/NSObject+SAMAdditions.h"; sourceTree = "<group>"; };
+		0A789CD02ECBC7BE5ADB6163 /* SAMAddressBar-stop@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SAMAddressBar-stop@2x.png"; path = "Resources/SAMAddressBar-stop@2x.png"; sourceTree = "<group>"; };
+		0BA33E25115EBF3647335DD4 /* libPods-TouchLock-SAMTextField.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TouchLock-SAMTextField.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BC6FEC689FF92941747238B /* SAMWebView-reload-button@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SAMWebView-reload-button@2x.png"; path = "Resources/SAMWebView-reload-button@2x.png"; sourceTree = "<group>"; };
+		0E0F61400199FF4710041FBC /* SAMGradientView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMGradientView.h; path = SAMGradientView/SAMGradientView.h; sourceTree = "<group>"; };
+		0FFA66D9A5640E35081971F5 /* SAMAddressBar-reload@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SAMAddressBar-reload@2x.png"; path = "Resources/SAMAddressBar-reload@2x.png"; sourceTree = "<group>"; };
+		109C403ACAF73640975D45F3 /* SAMWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMWebView.h; path = SAMWebView/SAMWebView.h; sourceTree = "<group>"; };
+		10A423B84930C5E45FE3091E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		10E00609617CD304566C768C /* Pods-TouchLock-SAMHUDView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TouchLock-SAMHUDView-dummy.m"; sourceTree = "<group>"; };
+		1275B2C5869BFC6D764AEFC3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		12784CC453E7F1AF62894119 /* SAMWebView-action-button-mini.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SAMWebView-action-button-mini.png"; path = "Resources/SAMWebView-action-button-mini.png"; sourceTree = "<group>"; };
+		134AFDB9C092268369B65D4D /* SAMHUDWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMHUDWindow.h; path = SAMHUDView/SAMHUDWindow.h; sourceTree = "<group>"; };
+		15D87293CB1397FB93F25B61 /* Pods-TouchLock-SSToolkit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchLock-SSToolkit-Private.xcconfig"; sourceTree = "<group>"; };
+		17CB1028A9F4CA2C5630AF01 /* Pods-TouchLock-SAMLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TouchLock-SAMLabel-dummy.m"; sourceTree = "<group>"; };
+		1979B883C554C7227E2BEA2C /* SAMRateLimit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMRateLimit.m; path = SAMRateLimit/SAMRateLimit.m; sourceTree = "<group>"; };
+		1ABF2A1310CC7BA3FBCD9CEA /* UIViewController+VENTouchLock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+VENTouchLock.h"; path = "VENTouchLock/Categories/UIViewController+VENTouchLock.h"; sourceTree = "<group>"; };
+		1B36E9FD328D2EDE95625FF9 /* SAMGradientView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMGradientView.m; path = SAMGradientView/SAMGradientView.m; sourceTree = "<group>"; };
+		1B603B3D92123E52CFBC2F9E /* NSDictionary+SAMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+SAMAdditions.h"; path = "SAMCategories/NSDictionary+SAMAdditions.h"; sourceTree = "<group>"; };
+		1D53941EBB7474901C902757 /* SAMHUDView-Check@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SAMHUDView-Check@2x.png"; path = "Resources/SAMHUDView-Check@2x.png"; sourceTree = "<group>"; };
+		1E866263DE2CE4BF6634D70D /* SAMTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMTextView.h; path = SAMTextView/SAMTextView.h; sourceTree = "<group>"; };
+		1EB717C52A22A7C3FF8AC05C /* SAMBadgeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMBadgeView.m; path = SAMBadgeView/SAMBadgeView.m; sourceTree = "<group>"; };
+		208B2CB0837CE8707CF47B38 /* SSKeychainQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSKeychainQuery.h; path = SSKeychain/SSKeychainQuery.h; sourceTree = "<group>"; };
+		22C709AD9A604F7D2DA06ED3 /* Pods-TouchLock-SAMLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TouchLock-SAMLabel-prefix.pch"; sourceTree = "<group>"; };
+		22C7DF202705AFB6C779E89E /* Pods-TouchLock-SAMGradientView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchLock-SAMGradientView.xcconfig"; sourceTree = "<group>"; };
+		2362BBC15303F6D0C877BF40 /* UIView+SAMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SAMAdditions.m"; path = "SAMCategories/UIView+SAMAdditions.m"; sourceTree = "<group>"; };
+		23A3BF68EA9709DB71359793 /* VENTouchLockPasscodeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENTouchLockPasscodeView.h; path = VENTouchLock/Views/VENTouchLockPasscodeView.h; sourceTree = "<group>"; };
+		25B5E9052B118FABC11123FD /* SAMWebView-action-button@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SAMWebView-action-button@2x.png"; path = "Resources/SAMWebView-action-button@2x.png"; sourceTree = "<group>"; };
+		273A3530DFFA38DAE6143929 /* NSData+SAMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+SAMAdditions.h"; path = "SAMCategories/NSData+SAMAdditions.h"; sourceTree = "<group>"; };
+		274182DF50CCF75592A3C2C5 /* Pods-TouchLock-SSKeychain.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchLock-SSKeychain.xcconfig"; sourceTree = "<group>"; };
+		2969E4A4728E71A6DBD34E1B /* SAMWebView-safari-button@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SAMWebView-safari-button@2x.png"; path = "Resources/SAMWebView-safari-button@2x.png"; sourceTree = "<group>"; };
+		2A5BCC59269AD7D17AC4C594 /* libPods-TouchLock-SAMWebView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TouchLock-SAMWebView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB96CD40737E3F91050EDD0 /* VENTouchLockAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENTouchLockAppearance.m; path = VENTouchLock/Models/VENTouchLockAppearance.m; sourceTree = "<group>"; };
+		2E80FFAC1B45ABEB1E8EC5FE /* Pods-TouchLock-VENTouchLock-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TouchLock-VENTouchLock-prefix.pch"; sourceTree = "<group>"; };
+		305DB6F1132AC620DD048FA9 /* VENTouchLockCreatePasscodeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENTouchLockCreatePasscodeViewController.m; path = VENTouchLock/Controllers/VENTouchLockCreatePasscodeViewController.m; sourceTree = "<group>"; };
+		33878FEE0DA5E7F3D293762F /* UIColor+SAMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+SAMAdditions.h"; path = "SAMCategories/UIColor+SAMAdditions.h"; sourceTree = "<group>"; };
+		37D388EB21B72A018F5479B9 /* Pods-TouchLock-SAMRateLimit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchLock-SAMRateLimit-Private.xcconfig"; sourceTree = "<group>"; };
+		3885FCD3D005188797D02D54 /* UIScrollView+SAMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+SAMAdditions.m"; path = "SAMCategories/UIScrollView+SAMAdditions.m"; sourceTree = "<group>"; };
+		38E4D60CC2D9999DB10736F6 /* NSNumber+SAMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+SAMAdditions.m"; path = "SAMCategories/NSNumber+SAMAdditions.m"; sourceTree = "<group>"; };
+		390E511733A68AB40A6147BA /* UIColor+SAMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+SAMAdditions.m"; path = "SAMCategories/UIColor+SAMAdditions.m"; sourceTree = "<group>"; };
+		39115D0AD6BC4A24B041D491 /* NSObject+SAMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SAMAdditions.m"; path = "SAMCategories/NSObject+SAMAdditions.m"; sourceTree = "<group>"; };
+		39C798D29510AC46633EA98D /* UIScrollView+SAMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+SAMAdditions.h"; path = "SAMCategories/UIScrollView+SAMAdditions.h"; sourceTree = "<group>"; };
+		3AA720D490F2E5CC2B8957B8 /* SAMWebView-back-button.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SAMWebView-back-button.png"; path = "Resources/SAMWebView-back-button.png"; sourceTree = "<group>"; };
+		3ABF56694D1AEE8BABD2807D /* SAMWebView-reload-button.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SAMWebView-reload-button.png"; path = "Resources/SAMWebView-reload-button.png"; sourceTree = "<group>"; };
+		3C8759467065A57499F2DE95 /* Pods-TouchLock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchLock.debug.xcconfig"; sourceTree = "<group>"; };
+		3CE6E5805ED6CBBBBB8FB1B0 /* Pods-TouchLock-SAMRateLimit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchLock-SAMRateLimit.xcconfig"; sourceTree = "<group>"; };
+		3D416AC8B146A40971E8A055 /* Pods-TouchLock-SAMTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TouchLock-SAMTextField-dummy.m"; sourceTree = "<group>"; };
+		3D74C5CC5917E94314A9A5DD /* Pods-TouchLock-SAMAddressBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TouchLock-SAMAddressBar-dummy.m"; sourceTree = "<group>"; };
+		3F7F53392DA88CEFE1C51598 /* libPods-TouchLock-SAMLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TouchLock-SAMLabel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40771D857877522EBF5761D4 /* SAMHUDView-X@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SAMHUDView-X@2x.png"; path = "Resources/SAMHUDView-X@2x.png"; sourceTree = "<group>"; };
+		4186C25AEF2D470B7E944D6F /* SAMAddressBarTextFieldBackgroundView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMAddressBarTextFieldBackgroundView.h; path = SAMAddressBar/SAMAddressBarTextFieldBackgroundView.h; sourceTree = "<group>"; };
+		443938E7F32284F4CF572FDB /* Pods-TouchLock-SAMBadgeView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchLock-SAMBadgeView-Private.xcconfig"; sourceTree = "<group>"; };
+		45B33595D72141220CDDC89D /* Pods-TouchLock-SAMTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TouchLock-SAMTextView-dummy.m"; sourceTree = "<group>"; };
+		47973760BC71619603F90CFB /* libPods-TouchLock-SAMGradientView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TouchLock-SAMGradientView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48658BF49EA928CE40DFAC11 /* Pods-TouchLock-SAMRateLimit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TouchLock-SAMRateLimit-dummy.m"; sourceTree = "<group>"; };
+		4874AC65EA48AAC36993BDD9 /* VENTouchLockAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENTouchLockAppearance.h; path = VENTouchLock/Models/VENTouchLockAppearance.h; sourceTree = "<group>"; };
+		4A7238926C27FFBAB5572525 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
+		4A95F40B41F6EC27515263B6 /* Pods-TouchLock-SAMCategories-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TouchLock-SAMCategories-dummy.m"; sourceTree = "<group>"; };
+		4B6AFB6BC6C329D45B9ECAC1 /* NSDictionary+SAMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+SAMAdditions.m"; path = "SAMCategories/NSDictionary+SAMAdditions.m"; sourceTree = "<group>"; };
+		4C12D617096A7D117EA19A1A /* SAMWebView-safari-button-mini@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SAMWebView-safari-button-mini@2x.png"; path = "Resources/SAMWebView-safari-button-mini@2x.png"; sourceTree = "<group>"; };
+		4E773895099055CA967C1F7E /* SAMWebView-forward-button.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SAMWebView-forward-button.png"; path = "Resources/SAMWebView-forward-button.png"; sourceTree = "<group>"; };
+		4E9E0E088C2212B942EC416D /* Pods-TouchLock-SAMTextField-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchLock-SAMTextField-Private.xcconfig"; sourceTree = "<group>"; };
+		4EDE7C85B438756B573F0BC1 /* Pods-TouchLock-SAMWebView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchLock-SAMWebView-Private.xcconfig"; sourceTree = "<group>"; };
+		4F26974D7845B5301BD977D1 /* Pods-TouchLock-VENTouchLock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchLock-VENTouchLock.xcconfig"; sourceTree = "<group>"; };
+		4FC79B17239A52C0755CC521 /* SAMCategories.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMCategories.h; path = SAMCategories/SAMCategories.h; sourceTree = "<group>"; };
+		4FCBBCE14184A595A093E941 /* Pods-TouchLock-SAMCircleProgressView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchLock-SAMCircleProgressView-Private.xcconfig"; sourceTree = "<group>"; };
+		51E69D7B60CC3FB822D163B5 /* SAMWebView-forward-button@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SAMWebView-forward-button@2x.png"; path = "Resources/SAMWebView-forward-button@2x.png"; sourceTree = "<group>"; };
+		528C539177CDDF5E224C5A6C /* UIViewController+SAMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+SAMAdditions.m"; path = "SAMCategories/UIViewController+SAMAdditions.m"; sourceTree = "<group>"; };
+		544E6A87A67F978DBE6ED919 /* Pods-TouchLock-SAMLoadingView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchLock-SAMLoadingView-Private.xcconfig"; sourceTree = "<group>"; };
+		54EA4D959C53A178BC4500C0 /* NSUserDefaults+SAMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSUserDefaults+SAMAdditions.m"; path = "SAMCategories/NSUserDefaults+SAMAdditions.m"; sourceTree = "<group>"; };
+		5565B18777682A74463E8334 /* Pods-TouchLock-SAMAddressBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchLock-SAMAddressBar.xcconfig"; sourceTree = "<group>"; };
+		556CC1CA26E604B0DC7F95A9 /* SAMTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMTextField.h; path = SAMTextField/SAMTextField.h; sourceTree = "<group>"; };
+		560E3FBE7CC2D736A291DA3C /* SAMAddressBarTextFieldBackgroundViewInnerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMAddressBarTextFieldBackgroundViewInnerView.h; path = SAMAddressBar/SAMAddressBarTextFieldBackgroundViewInnerView.h; sourceTree = "<group>"; };
+		5668C19D40A9CF9236E8A54A /* SAMAddressBar-background@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SAMAddressBar-background@2x.png"; path = "Resources/SAMAddressBar-background@2x.png"; sourceTree = "<group>"; };
+		56E0BE11BBCC131F20E9E947 /* SAMWebView-forward-button-mini@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SAMWebView-forward-button-mini@2x.png"; path = "Resources/SAMWebView-forward-button-mini@2x.png"; sourceTree = "<group>"; };
+		5757D39BC8445233695005C9 /* SSKeychainQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSKeychainQuery.m; path = SSKeychain/SSKeychainQuery.m; sourceTree = "<group>"; };
+		59951F3C4CF329E9AB691291 /* SAMPersistentRateLimit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMPersistentRateLimit.m; path = SAMRateLimit/SAMPersistentRateLimit.m; sourceTree = "<group>"; };
+		5E1AF1B8EAB522DF5CDCDAC7 /* VENTouchLockPasscodeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENTouchLockPasscodeViewController.m; path = VENTouchLock/Controllers/VENTouchLockPasscodeViewController.m; sourceTree = "<group>"; };
+		60BBEE05EC3D06456C73530E /* Pods-TouchLock-SSKeychain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TouchLock-SSKeychain-prefix.pch"; sourceTree = "<group>"; };
+		614A9DC3D304D6C5A08032AB /* SAMCircleProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMCircleProgressView.m; path = SAMCircleProgressView/SAMCircleProgressView.m; sourceTree = "<group>"; };
+		628D24866ECA4C201CE9DB6E /* Pods-TouchLock-VENTouchLock-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchLock-VENTouchLock-Private.xcconfig"; sourceTree = "<group>"; };
+		632BDF7A1C77E9B63F0DD24B /* Pods-TouchLock-SAMHUDView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TouchLock-SAMHUDView-prefix.pch"; sourceTree = "<group>"; };
+		63CA120A3CB9021BAC628F1A /* Pods-TouchLock-SAMGradientView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TouchLock-SAMGradientView-prefix.pch"; sourceTree = "<group>"; };
+		63CD68AB4177E8148245E410 /* Pods-TouchLock-SAMBadgeView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchLock-SAMBadgeView.xcconfig"; sourceTree = "<group>"; };
+		6588AEA5699EE600FAE39723 /* SAMHUDView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMHUDView.m; path = SAMHUDView/SAMHUDView.m; sourceTree = "<group>"; };
+		659AFE58AF9DDD7C4C67069B /* Pods-TouchLock-SSKeychain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TouchLock-SSKeychain-dummy.m"; sourceTree = "<group>"; };
+		687CA80EE913BBB9AEF25A8D /* NSArray+SAMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+SAMAdditions.h"; path = "SAMCategories/NSArray+SAMAdditions.h"; sourceTree = "<group>"; };
+		691B02106438564A9509FB10 /* SAMHUDView-Check.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SAMHUDView-Check.png"; path = "Resources/SAMHUDView-Check.png"; sourceTree = "<group>"; };
+		695644D939AE31C903BCDB25 /* NSURL+SAMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+SAMAdditions.m"; path = "SAMCategories/NSURL+SAMAdditions.m"; sourceTree = "<group>"; };
+		6A8962269EFC49AECCE61091 /* Pods-TouchLock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TouchLock-dummy.m"; sourceTree = "<group>"; };
+		6B276AACD4AC47D532043E62 /* Pods-TouchLock-SAMTextView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchLock-SAMTextView-Private.xcconfig"; sourceTree = "<group>"; };
+		6B4647FFE0A13E574BEC587B /* SAMWebView-reload-button-mini@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SAMWebView-reload-button-mini@2x.png"; path = "Resources/SAMWebView-reload-button-mini@2x.png"; sourceTree = "<group>"; };
+		6B893BEB50CB5BD19F2D608A /* Pods-TouchLock-SAMGradientView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchLock-SAMGradientView-Private.xcconfig"; sourceTree = "<group>"; };
+		6CA1B876295FB41DA539CE0A /* NSUserDefaults+SAMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSUserDefaults+SAMAdditions.h"; path = "SAMCategories/NSUserDefaults+SAMAdditions.h"; sourceTree = "<group>"; };
+		6D8427AFF17550DF2D8A542B /* Pods-TouchLock-SAMTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TouchLock-SAMTextView-prefix.pch"; sourceTree = "<group>"; };
+		6DEF355EF2A48962E070552B /* libPods-TouchLock-SAMLoadingView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TouchLock-SAMLoadingView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EBF899F377A93F1B207233E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		6F5DB771EDA8A7F40B5F1882 /* libPods-TouchLock-SAMHUDView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TouchLock-SAMHUDView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7185110FB76140818FB51AD8 /* SAMWebView-stop-button@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SAMWebView-stop-button@2x.png"; path = "Resources/SAMWebView-stop-button@2x.png"; sourceTree = "<group>"; };
+		726738ED9F7904935C59EC63 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		7317DDB37EB287E28C18ECCC /* VENTouchLockSplashViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENTouchLockSplashViewController.h; path = VENTouchLock/Controllers/VENTouchLockSplashViewController.h; sourceTree = "<group>"; };
+		74FAD970C4ED7E457F9CAB3A /* SAMAddressBar-reload.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SAMAddressBar-reload.png"; path = "Resources/SAMAddressBar-reload.png"; sourceTree = "<group>"; };
+		75A703EF9C1E7B1468EC6B5B /* Pods-TouchLock-SAMLoadingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TouchLock-SAMLoadingView-dummy.m"; sourceTree = "<group>"; };
+		7A937A581DE53DBF1D8CCF07 /* Pods-TouchLock-SAMCategories-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TouchLock-SAMCategories-prefix.pch"; sourceTree = "<group>"; };
+		7C95B3954DD638C947C29AEC /* Pods-TouchLock-SAMLabel-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchLock-SAMLabel-Private.xcconfig"; sourceTree = "<group>"; };
+		7D11876D0184A3BB80D6FDF4 /* SAMWebView-reload-button-mini.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SAMWebView-reload-button-mini.png"; path = "Resources/SAMWebView-reload-button-mini.png"; sourceTree = "<group>"; };
+		7D95606FC5C00B5D40F56EAC /* Pods-TouchLock-SAMWebView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TouchLock-SAMWebView-prefix.pch"; sourceTree = "<group>"; };
+		7F773B5EEA01D215974B333D /* UIView+SAMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SAMAdditions.h"; path = "SAMCategories/UIView+SAMAdditions.h"; sourceTree = "<group>"; };
+		7F9E3F29B0849C722883F55A /* Pods-TouchLock-SAMHUDView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchLock-SAMHUDView-Private.xcconfig"; sourceTree = "<group>"; };
+		7FD6F6B0E71538A5DC801A56 /* SAMWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMWebViewController.h; path = SAMWebView/SAMWebViewController.h; sourceTree = "<group>"; };
+		821174C25ECB315886513263 /* libPods-TouchLock-SAMCircleProgressView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TouchLock-SAMCircleProgressView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8213BCBBBBE1E2D6A35DB069 /* SAMWebView-back-button-mini.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SAMWebView-back-button-mini.png"; path = "Resources/SAMWebView-back-button-mini.png"; sourceTree = "<group>"; };
+		829024FE0666EAB6700542CF /* Pods-TouchLock-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TouchLock-resources.sh"; sourceTree = "<group>"; };
+		83F78769ED923E9B4254DE02 /* Pods-TouchLock-SAMLoadingView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TouchLock-SAMLoadingView-prefix.pch"; sourceTree = "<group>"; };
+		84D24317B4255DC94A752ABF /* SAMWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMWebViewController.m; path = SAMWebView/SAMWebViewController.m; sourceTree = "<group>"; };
+		878F346D19B3B108EA4D5D6E /* Pods-TouchLock-SAMCategories-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchLock-SAMCategories-Private.xcconfig"; sourceTree = "<group>"; };
+		8898B61EF3B6A26F9DE962A1 /* SAMWebView-action-button.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SAMWebView-action-button.png"; path = "Resources/SAMWebView-action-button.png"; sourceTree = "<group>"; };
+		88B73DCC61F03D150CB6F089 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		936A9828DB75A737137883D2 /* libPods-TouchLock-SAMTextView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TouchLock-SAMTextView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		940F0F9199500EC42862ECA1 /* Pods-TouchLock-VENTouchLock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TouchLock-VENTouchLock-dummy.m"; sourceTree = "<group>"; };
+		947F10CE49F23486F693A40D /* VENTouchLockEnterPasscodeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENTouchLockEnterPasscodeViewController.m; path = VENTouchLock/Controllers/VENTouchLockEnterPasscodeViewController.m; sourceTree = "<group>"; };
+		950B50F8EF037DAC09DFFF94 /* SAMAddressBarTextFieldBackgroundView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMAddressBarTextFieldBackgroundView.m; path = SAMAddressBar/SAMAddressBarTextFieldBackgroundView.m; sourceTree = "<group>"; };
+		96B43B7293C5F10970CBECCF /* NSArray+SAMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+SAMAdditions.m"; path = "SAMCategories/NSArray+SAMAdditions.m"; sourceTree = "<group>"; };
+		9715A4E241835BC4F463085F /* Pods-TouchLock-SAMCategories.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchLock-SAMCategories.xcconfig"; sourceTree = "<group>"; };
+		98E676A3FDF33AB2CA2D1B3C /* SAMTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMTextView.m; path = SAMTextView/SAMTextView.m; sourceTree = "<group>"; };
+		992B05D258EE77A7F081939B /* SAMAddressBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMAddressBar.h; path = SAMAddressBar/SAMAddressBar.h; sourceTree = "<group>"; };
+		9AA5D5094CFD7FF904AAA9D1 /* SAMTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMTextField.m; path = SAMTextField/SAMTextField.m; sourceTree = "<group>"; };
+		9CD4EDEB75381AAE0A88EDC5 /* SAMWebView-action-button-mini@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SAMWebView-action-button-mini@2x.png"; path = "Resources/SAMWebView-action-button-mini@2x.png"; sourceTree = "<group>"; };
+		9D809A097361BFB2C4F0D279 /* SAMRateLimit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMRateLimit.h; path = SAMRateLimit/SAMRateLimit.h; sourceTree = "<group>"; };
+		9D88FDC4E3743EA99B319A82 /* UIControl+SAMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+SAMAdditions.m"; path = "SAMCategories/UIControl+SAMAdditions.m"; sourceTree = "<group>"; };
+		9E8A2F9174417C5DB4F46A56 /* libPods-TouchLock-SAMAddressBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TouchLock-SAMAddressBar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F5AC898DA5A9FA06E196299 /* Pods-TouchLock-SAMLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchLock-SAMLabel.xcconfig"; sourceTree = "<group>"; };
+		A011D0A9C6AB27644985BC71 /* libPods-TouchLock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TouchLock.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A01D52AAF104C4BB9F6000AB /* VENTouchLockPasscodeCharacterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENTouchLockPasscodeCharacterView.h; path = VENTouchLock/Views/VENTouchLockPasscodeCharacterView.h; sourceTree = "<group>"; };
+		A1729CF6FDF6C0EFF1D604D7 /* SAMWebView-back-button-mini@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SAMWebView-back-button-mini@2x.png"; path = "Resources/SAMWebView-back-button-mini@2x.png"; sourceTree = "<group>"; };
+		A54BFB59895998314C55F111 /* SAMLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMLabel.h; path = SAMLabel/SAMLabel.h; sourceTree = "<group>"; };
+		A6572E1F954A17603B669174 /* UIViewController+VENTouchLock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+VENTouchLock.m"; path = "VENTouchLock/Categories/UIViewController+VENTouchLock.m"; sourceTree = "<group>"; };
+		A6C3B66316923D7B6F9DB228 /* SAMWebView-stop-button-mini@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SAMWebView-stop-button-mini@2x.png"; path = "Resources/SAMWebView-stop-button-mini@2x.png"; sourceTree = "<group>"; };
+		AA933FF9DAB651DB57BF4721 /* Pods-TouchLock-SSToolkit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TouchLock-SSToolkit-prefix.pch"; sourceTree = "<group>"; };
+		AAD2A7E4360D84E85DA3B1AE /* SSKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSKeychain.m; path = SSKeychain/SSKeychain.m; sourceTree = "<group>"; };
+		AB612190EC16A8E4E3F14715 /* SAMLoadingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMLoadingView.h; path = SAMLoadingView/SAMLoadingView.h; sourceTree = "<group>"; };
+		AC382F7BCC01D331CF94D5D6 /* SAMBadgeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMBadgeView.h; path = SAMBadgeView/SAMBadgeView.h; sourceTree = "<group>"; };
+		AD72867389D4F6CC2F6E5C4C /* VENTouchLockCreatePasscodeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENTouchLockCreatePasscodeViewController.h; path = VENTouchLock/Controllers/VENTouchLockCreatePasscodeViewController.h; sourceTree = "<group>"; };
+		B063E754CD5F6B65732897D9 /* Pods-TouchLock-SAMWebView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchLock-SAMWebView.xcconfig"; sourceTree = "<group>"; };
+		B37B79987A0B946457CF76E0 /* libPods-TouchLock-VENTouchLock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TouchLock-VENTouchLock.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B426A90330A1042333040469 /* Pods-TouchLock-SAMCircleProgressView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchLock-SAMCircleProgressView.xcconfig"; sourceTree = "<group>"; };
+		B53AAE0C98D8879565BE9323 /* SAMWebView-safari-button-mini.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SAMWebView-safari-button-mini.png"; path = "Resources/SAMWebView-safari-button-mini.png"; sourceTree = "<group>"; };
+		B69F399322C816B6FE8238E5 /* SAMWebView-back-button@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SAMWebView-back-button@2x.png"; path = "Resources/SAMWebView-back-button@2x.png"; sourceTree = "<group>"; };
+		B6E120712FB9F8A2C3E81927 /* UIApplication+SAMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+SAMAdditions.h"; path = "SAMCategories/UIApplication+SAMAdditions.h"; sourceTree = "<group>"; };
+		B7B0E769CD224E40C1CDE140 /* libPods-TouchLock-SSKeychain.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TouchLock-SSKeychain.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B81C9986F367A35FE558BDA7 /* Pods-TouchLock-SAMBadgeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TouchLock-SAMBadgeView-prefix.pch"; sourceTree = "<group>"; };
+		B9FAB8C71D86F4DC01B0BF96 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		BAC7BF14433FE2008D60C112 /* Pods-TouchLock-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TouchLock-environment.h"; sourceTree = "<group>"; };
+		BD4A69367BFD480EABD38416 /* UIDevice+SAMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+SAMAdditions.h"; path = "SAMCategories/UIDevice+SAMAdditions.h"; sourceTree = "<group>"; };
+		BD5A3135447DF289F78001D6 /* Pods-TouchLock-SAMCircleProgressView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TouchLock-SAMCircleProgressView-dummy.m"; sourceTree = "<group>"; };
+		BE271028C7CA4DB619969975 /* Pods-TouchLock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchLock.release.xcconfig"; sourceTree = "<group>"; };
+		BE6E3AF2B43E4B3E8A4ACAD1 /* SAMHUDWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMHUDWindow.m; path = SAMHUDView/SAMHUDWindow.m; sourceTree = "<group>"; };
+		BED126C643FCEB385840384C /* UIScreen+SAMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+SAMAdditions.m"; path = "SAMCategories/UIScreen+SAMAdditions.m"; sourceTree = "<group>"; };
+		BF62ED6AFE220D31DE426997 /* SAMPersistentRateLimit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMPersistentRateLimit.h; path = SAMRateLimit/SAMPersistentRateLimit.h; sourceTree = "<group>"; };
+		BFA02928787CFF1EE0EECE70 /* UIDevice+SAMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+SAMAdditions.m"; path = "SAMCategories/UIDevice+SAMAdditions.m"; sourceTree = "<group>"; };
+		BFF3F14C75B839262C61F3BB /* Pods-TouchLock-SAMTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchLock-SAMTextView.xcconfig"; sourceTree = "<group>"; };
+		C09BD383D0237A9C8455D9C0 /* SSKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSKeychain.h; path = SSKeychain/SSKeychain.h; sourceTree = "<group>"; };
+		C463418A87292B079323FF45 /* SAMLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMLabel.m; path = SAMLabel/SAMLabel.m; sourceTree = "<group>"; };
+		C61337041E416E305332EAC1 /* SAMAddressBarTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMAddressBarTextField.m; path = SAMAddressBar/SAMAddressBarTextField.m; sourceTree = "<group>"; };
+		C6C6F6C416769F7FD6201C2B /* VENTouchLock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENTouchLock.h; path = VENTouchLock/VENTouchLock.h; sourceTree = "<group>"; };
+		C78095D55C70EF59471AFDF7 /* VENTouchLockPasscodeCharacterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENTouchLockPasscodeCharacterView.m; path = VENTouchLock/Views/VENTouchLockPasscodeCharacterView.m; sourceTree = "<group>"; };
+		C7F4CF7C9AE5AF750CDB7773 /* SAMWebView-forward-button-mini.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SAMWebView-forward-button-mini.png"; path = "Resources/SAMWebView-forward-button-mini.png"; sourceTree = "<group>"; };
+		CA738FEA91566B7DF80DA70D /* SAMWebView-safari-button.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SAMWebView-safari-button.png"; path = "Resources/SAMWebView-safari-button.png"; sourceTree = "<group>"; };
+		CB7151101D314A971F289440 /* libPods-TouchLock-SAMCategories.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TouchLock-SAMCategories.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB9F710DCCFDE7B1E53A4B9 /* Pods-TouchLock-SAMGradientView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TouchLock-SAMGradientView-dummy.m"; sourceTree = "<group>"; };
+		CF7A5B08207452A403B89981 /* Pods-TouchLock-SAMTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TouchLock-SAMTextField-prefix.pch"; sourceTree = "<group>"; };
+		CFB654170994399203663A8F /* VENTouchLockPasscodeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENTouchLockPasscodeView.m; path = VENTouchLock/Views/VENTouchLockPasscodeView.m; sourceTree = "<group>"; };
+		CFCA55486F950D359ACBE207 /* Pods-TouchLock-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TouchLock-acknowledgements.plist"; sourceTree = "<group>"; };
+		CFE42A04CE0157B759E75380 /* UIViewController+SAMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+SAMAdditions.h"; path = "SAMCategories/UIViewController+SAMAdditions.h"; sourceTree = "<group>"; };
+		D04121EB7CDBEF4F14F5B29F /* Pods-TouchLock-SAMRateLimit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TouchLock-SAMRateLimit-prefix.pch"; sourceTree = "<group>"; };
+		D2478DCC5DDBE9574BB9ED6B /* NSString+SAMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+SAMAdditions.m"; path = "SAMCategories/NSString+SAMAdditions.m"; sourceTree = "<group>"; };
+		D46B4AE6319BBCBC8D5B8B58 /* UIApplication+SAMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+SAMAdditions.m"; path = "SAMCategories/UIApplication+SAMAdditions.m"; sourceTree = "<group>"; };
+		D481AF03B149071AF563509C /* libPods-TouchLock-SAMBadgeView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TouchLock-SAMBadgeView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D81CA20764223E75FC5E4270 /* SAMWebView-stop-button.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SAMWebView-stop-button.png"; path = "Resources/SAMWebView-stop-button.png"; sourceTree = "<group>"; };
+		D9B8E0B2B94CAC16384BCA3C /* Pods-TouchLock-SAMLoadingView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchLock-SAMLoadingView.xcconfig"; sourceTree = "<group>"; };
+		DACA76CF6CB0BFA76F94F83E /* Pods-TouchLock-SAMBadgeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TouchLock-SAMBadgeView-dummy.m"; sourceTree = "<group>"; };
+		DE6AD7880DCC9C851659B85A /* SAMLoadingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMLoadingView.m; path = SAMLoadingView/SAMLoadingView.m; sourceTree = "<group>"; };
+		DEB1423C7A9BB0235AA472D2 /* NSData+SAMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+SAMAdditions.m"; path = "SAMCategories/NSData+SAMAdditions.m"; sourceTree = "<group>"; };
+		E07ED5B486D1BACEBC629BEF /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/LocalAuthentication.framework; sourceTree = DEVELOPER_DIR; };
+		E0C60D788EB4C7CE4814C368 /* VENTouchLockEnterPasscodeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENTouchLockEnterPasscodeViewController.h; path = VENTouchLock/Controllers/VENTouchLockEnterPasscodeViewController.h; sourceTree = "<group>"; };
+		E1BCFB646A0485CFC7508069 /* SAMHUDView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMHUDView.h; path = SAMHUDView/SAMHUDView.h; sourceTree = "<group>"; };
+		E2935FB227EB3008B2430E73 /* SAMAddressBar-background.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SAMAddressBar-background.png"; path = "Resources/SAMAddressBar-background.png"; sourceTree = "<group>"; };
+		E54F6E4A6ED0E3187107E58F /* NSNumber+SAMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+SAMAdditions.h"; path = "SAMCategories/NSNumber+SAMAdditions.h"; sourceTree = "<group>"; };
+		E681A283D005D3C5820BEC43 /* UIScreen+SAMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScreen+SAMAdditions.h"; path = "SAMCategories/UIScreen+SAMAdditions.h"; sourceTree = "<group>"; };
+		E80E5E6D4753542267DCBF5F /* SAMCategories.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SAMCategories.bundle; path = SAMCategories/SAMCategories.bundle; sourceTree = "<group>"; };
+		E848F3B2565BBDA58D59EEB4 /* VENTouchLockSplashViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VENTouchLockSplashViewController.m; path = VENTouchLock/Controllers/VENTouchLockSplashViewController.m; sourceTree = "<group>"; };
+		EB281B804593EC821C63D07B /* SAMWebView-stop-button-mini.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SAMWebView-stop-button-mini.png"; path = "Resources/SAMWebView-stop-button-mini.png"; sourceTree = "<group>"; };
+		EE7664B338F053778F1F32CC /* Pods-TouchLock-SAMTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchLock-SAMTextField.xcconfig"; sourceTree = "<group>"; };
+		F024DB40C10A76EB9E278D3E /* UIControl+SAMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+SAMAdditions.h"; path = "SAMCategories/UIControl+SAMAdditions.h"; sourceTree = "<group>"; };
+		F05DF035C7A2DE22250C3211 /* Pods-TouchLock-SAMCircleProgressView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TouchLock-SAMCircleProgressView-prefix.pch"; sourceTree = "<group>"; };
+		F29D47D373F8324581EACF6A /* Pods-TouchLock-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TouchLock-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F3801D2012C38FD9A2AB300D /* SAMAddressBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMAddressBar.m; path = SAMAddressBar/SAMAddressBar.m; sourceTree = "<group>"; };
+		F427EBB92EE3DC1819C1BF90 /* VENTouchLockPasscodeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VENTouchLockPasscodeViewController.h; path = VENTouchLock/Controllers/VENTouchLockPasscodeViewController.h; sourceTree = "<group>"; };
+		F605A3D4EAA8429F52A20E21 /* Pods-TouchLock-SAMWebView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TouchLock-SAMWebView-dummy.m"; sourceTree = "<group>"; };
+		F8E080D36807D905A5613AD8 /* SAMHUDWindowViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMHUDWindowViewController.m; path = SAMHUDView/SAMHUDWindowViewController.m; sourceTree = "<group>"; };
+		F8F8BBDCC8C0B2E0D0A2F34F /* NSString+SAMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+SAMAdditions.h"; path = "SAMCategories/NSString+SAMAdditions.h"; sourceTree = "<group>"; };
+		FA240C0B6A6B6EC9BE87360B /* libPods-TouchLock-SSToolkit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TouchLock-SSToolkit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB32EE31CC39EF07803D7B12 /* SAMAddressBarTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMAddressBarTextField.h; path = SAMAddressBar/SAMAddressBarTextField.h; sourceTree = "<group>"; };
+		FB731229CA62082F855D18F4 /* Pods-TouchLock-SSToolkit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TouchLock-SSToolkit-dummy.m"; sourceTree = "<group>"; };
+		FD284C41D0379633A157066D /* NSDate+SAMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+SAMAdditions.m"; path = "SAMCategories/NSDate+SAMAdditions.m"; sourceTree = "<group>"; };
+		FEC3EBF32FE8138C8806DEFC /* Pods-TouchLock-SSKeychain-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TouchLock-SSKeychain-Private.xcconfig"; sourceTree = "<group>"; };
+		FF784E4D449D7A1C4EB60740 /* SAMHUDView-X.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "SAMHUDView-X.png"; path = "Resources/SAMHUDView-X.png"; sourceTree = "<group>"; };
+		FFC1AC59AEB236224F2F7557 /* SAMHUDWindowViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMHUDWindowViewController.h; path = SAMHUDView/SAMHUDWindowViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		059F7E06292A0D894D7A1689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F843693EE5C4880E3A03F64F /* CoreGraphics.framework in Frameworks */,
+				520CE452E4868AEB0D7797BD /* Foundation.framework in Frameworks */,
+				1A46B1CB6370844E905457AC /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1060E53B32161E497D5EB710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB18A25E39DABE3FB35D625A /* Foundation.framework in Frameworks */,
+				995D59FFCE1D4D699D53720F /* MessageUI.framework in Frameworks */,
+				004A0C8B3DE7E05AC90F8965 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E339612DCDCCA9A88848E3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1369E8268A565FC5235FCCC8 /* CoreGraphics.framework in Frameworks */,
+				AB2A5CAB21501015162C5C1E /* Foundation.framework in Frameworks */,
+				2CD0AB8DBC5B250A1B6FB084 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37B7AC62167513D6A9898747 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22BBC9A8C176B09CCFE75340 /* CoreGraphics.framework in Frameworks */,
+				B05680B4608F9F4D35984593 /* Foundation.framework in Frameworks */,
+				A8642B2548089587EC3C836C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BBDD6C0D5E06C6E64E52AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D8C121DDD8B1A49D991A21 /* CoreGraphics.framework in Frameworks */,
+				6B8EF562C03D6B07540AEF59 /* Foundation.framework in Frameworks */,
+				3826062132495069A9401A0A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45268C591B0A2ED4AA85CF4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3F7454ED0DB42AB5E02E81E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4540473A0A7A7D05C19FBBC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D76DF900ACC03DECF56BC0FD /* CoreGraphics.framework in Frameworks */,
+				F0C122BB4F6F3BFB84D128C4 /* Foundation.framework in Frameworks */,
+				B628C164F5EF28B08FE844FB /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E283AEC94F15BC73BDA8A52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C10B37324711CDDAFFEFBECE /* CoreGraphics.framework in Frameworks */,
+				D20E7E0DEBEFD81F1EBDA263 /* Foundation.framework in Frameworks */,
+				A4157C0FB3DD631FD4B5A047 /* QuartzCore.framework in Frameworks */,
+				65DD373FB320D8378062F30D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EC7E9D8C00A1DA9DD40ADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33CD0533FB0D05F72DF5ADE3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B6F3C80CCAC325A931202D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C574E7791ACCD78EC0957DDE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B6E10705E1016055240CF8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8670A297E9C1C6DA536BFC /* Foundation.framework in Frameworks */,
+				4A1491E2988436177FC3D593 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A248A5D300F9640A54FECCDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E3FE3946EF7305988B6D628 /* Foundation.framework in Frameworks */,
+				216457A2DB2DA2AF3321EF67 /* LocalAuthentication.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC0E3495DF2A86162EDB20FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD82DB4A9071D8984563E20 /* CoreGraphics.framework in Frameworks */,
+				357D4E2DABB7E128F2AD9BEB /* Foundation.framework in Frameworks */,
+				520F4797E5118D3B4822ACBF /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF4566D69DF42C62B1A6A0AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40363158B8F96ADFEA82FD77 /* CoreGraphics.framework in Frameworks */,
+				7EB660A34BA6E0316A561DC0 /* Foundation.framework in Frameworks */,
+				3B869681EE9674E94EA4F484 /* QuartzCore.framework in Frameworks */,
+				8CC0C1B569CAF224602FFEF7 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1165D4A762840F2B4901877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E386BD26CC704A8F635AC02 /* Foundation.framework in Frameworks */,
+				A9CA506013140822E538A04F /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC81612E8A351A565240A2A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7A641A51422CFC44510086 /* CoreGraphics.framework in Frameworks */,
+				B36274003D053B3A37FEAE01 /* Foundation.framework in Frameworks */,
+				FF1B15F34AF9BA4E36DB5FAE /* QuartzCore.framework in Frameworks */,
+				EBFDF1972E721BBD80636E1E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A748FE7BE0E61101340C89E /* SSToolkit */ = {
+			isa = PBXGroup;
+			children = (
+				067D95FE18CACD67318A1C3F /* SSToolkit.h */,
+				373843E1BF6FDEBBBF611623 /* Support Files */,
+			);
+			path = SSToolkit;
+			sourceTree = "<group>";
+		};
+		0FFC662AEF13EA23B1009569 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9715A4E241835BC4F463085F /* Pods-TouchLock-SAMCategories.xcconfig */,
+				878F346D19B3B108EA4D5D6E /* Pods-TouchLock-SAMCategories-Private.xcconfig */,
+				4A95F40B41F6EC27515263B6 /* Pods-TouchLock-SAMCategories-dummy.m */,
+				7A937A581DE53DBF1D8CCF07 /* Pods-TouchLock-SAMCategories-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-TouchLock-SAMCategories";
+			sourceTree = "<group>";
+		};
+		227C6455AE4312328EA6DCA0 /* SAMLabel */ = {
+			isa = PBXGroup;
+			children = (
+				A54BFB59895998314C55F111 /* SAMLabel.h */,
+				C463418A87292B079323FF45 /* SAMLabel.m */,
+				FC338468D80707507DDAFF8F /* Support Files */,
+			);
+			path = SAMLabel;
+			sourceTree = "<group>";
+		};
+		230210C3C68DB98191CBFD8F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9B8E0B2B94CAC16384BCA3C /* Pods-TouchLock-SAMLoadingView.xcconfig */,
+				544E6A87A67F978DBE6ED919 /* Pods-TouchLock-SAMLoadingView-Private.xcconfig */,
+				75A703EF9C1E7B1468EC6B5B /* Pods-TouchLock-SAMLoadingView-dummy.m */,
+				83F78769ED923E9B4254DE02 /* Pods-TouchLock-SAMLoadingView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-TouchLock-SAMLoadingView";
+			sourceTree = "<group>";
+		};
+		23FECE95F34678A000F84EDB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				758E9A0F7A9DA5C38F3239A3 /* Pods-TouchLock */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		289A328C6705476697C2A76A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				553E24BB47B7F830BAD07ABA /* SAMAddressBar */,
+				2C7C6AE078FAB1B3A18CFD80 /* SAMBadgeView */,
+				E023C5CBE20D7E14E58B6049 /* SAMCategories */,
+				BA7F62A160A4D58C4BC5DFBE /* SAMCircleProgressView */,
+				B3CA405CF819AD7DE8EAD214 /* SAMGradientView */,
+				70A43974C20D898BC49D201A /* SAMHUDView */,
+				227C6455AE4312328EA6DCA0 /* SAMLabel */,
+				3CAA75B8C1877F44E2CFB823 /* SAMLoadingView */,
+				BCFD559763FCD29863651D6A /* SAMRateLimit */,
+				3F90A3FE1253D2B782833CBF /* SAMTextField */,
+				89A314F782B625271F4AB212 /* SAMTextView */,
+				CD23BD6512CEA5960662F3B1 /* SAMWebView */,
+				A3275F80C5D521D096D89177 /* SSKeychain */,
+				0A748FE7BE0E61101340C89E /* SSToolkit */,
+				56467A608BDB3248B7E9319B /* VENTouchLock */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2C7C6AE078FAB1B3A18CFD80 /* SAMBadgeView */ = {
+			isa = PBXGroup;
+			children = (
+				AC382F7BCC01D331CF94D5D6 /* SAMBadgeView.h */,
+				1EB717C52A22A7C3FF8AC05C /* SAMBadgeView.m */,
+				4258AD4CB40D8E00709B69B9 /* Support Files */,
+			);
+			path = SAMBadgeView;
+			sourceTree = "<group>";
+		};
+		35B4F5B1C328843F336AFF0C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E80E5E6D4753542267DCBF5F /* SAMCategories.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		373843E1BF6FDEBBBF611623 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				04BC8588D82B6296C93B8F08 /* Pods-TouchLock-SSToolkit.xcconfig */,
+				15D87293CB1397FB93F25B61 /* Pods-TouchLock-SSToolkit-Private.xcconfig */,
+				FB731229CA62082F855D18F4 /* Pods-TouchLock-SSToolkit-dummy.m */,
+				AA933FF9DAB651DB57BF4721 /* Pods-TouchLock-SSToolkit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-TouchLock-SSToolkit";
+			sourceTree = "<group>";
+		};
+		38C2887C2671AA58988E96D3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E2935FB227EB3008B2430E73 /* SAMAddressBar-background.png */,
+				5668C19D40A9CF9236E8A54A /* SAMAddressBar-background@2x.png */,
+				74FAD970C4ED7E457F9CAB3A /* SAMAddressBar-reload.png */,
+				0FFA66D9A5640E35081971F5 /* SAMAddressBar-reload@2x.png */,
+				069713EC203BD77B58A7CF3B /* SAMAddressBar-stop.png */,
+				0A789CD02ECBC7BE5ADB6163 /* SAMAddressBar-stop@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3CAA75B8C1877F44E2CFB823 /* SAMLoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				AB612190EC16A8E4E3F14715 /* SAMLoadingView.h */,
+				DE6AD7880DCC9C851659B85A /* SAMLoadingView.m */,
+				230210C3C68DB98191CBFD8F /* Support Files */,
+			);
+			path = SAMLoadingView;
+			sourceTree = "<group>";
+		};
+		3F90A3FE1253D2B782833CBF /* SAMTextField */ = {
+			isa = PBXGroup;
+			children = (
+				556CC1CA26E604B0DC7F95A9 /* SAMTextField.h */,
+				9AA5D5094CFD7FF904AAA9D1 /* SAMTextField.m */,
+				636F149491AC56ED839A9AA6 /* Support Files */,
+			);
+			path = SAMTextField;
+			sourceTree = "<group>";
+		};
+		4258AD4CB40D8E00709B69B9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63CD68AB4177E8148245E410 /* Pods-TouchLock-SAMBadgeView.xcconfig */,
+				443938E7F32284F4CF572FDB /* Pods-TouchLock-SAMBadgeView-Private.xcconfig */,
+				DACA76CF6CB0BFA76F94F83E /* Pods-TouchLock-SAMBadgeView-dummy.m */,
+				B81C9986F367A35FE558BDA7 /* Pods-TouchLock-SAMBadgeView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-TouchLock-SAMBadgeView";
+			sourceTree = "<group>";
+		};
+		4D5779D044062ABB94EA37C6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				01D56E511FB9B3B61CE287B1 /* Pods-TouchLock-SAMHUDView.xcconfig */,
+				7F9E3F29B0849C722883F55A /* Pods-TouchLock-SAMHUDView-Private.xcconfig */,
+				10E00609617CD304566C768C /* Pods-TouchLock-SAMHUDView-dummy.m */,
+				632BDF7A1C77E9B63F0DD24B /* Pods-TouchLock-SAMHUDView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-TouchLock-SAMHUDView";
+			sourceTree = "<group>";
+		};
+		5486E091B3577E660052C26B = {
+			isa = PBXGroup;
+			children = (
+				88B73DCC61F03D150CB6F089 /* Podfile */,
+				59299B7F95BD894021D4E93B /* Frameworks */,
+				289A328C6705476697C2A76A /* Pods */,
+				D6181502F2C4D677B8FE1290 /* Products */,
+				23FECE95F34678A000F84EDB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		553E24BB47B7F830BAD07ABA /* SAMAddressBar */ = {
+			isa = PBXGroup;
+			children = (
+				992B05D258EE77A7F081939B /* SAMAddressBar.h */,
+				F3801D2012C38FD9A2AB300D /* SAMAddressBar.m */,
+				FB32EE31CC39EF07803D7B12 /* SAMAddressBarTextField.h */,
+				C61337041E416E305332EAC1 /* SAMAddressBarTextField.m */,
+				4186C25AEF2D470B7E944D6F /* SAMAddressBarTextFieldBackgroundView.h */,
+				950B50F8EF037DAC09DFFF94 /* SAMAddressBarTextFieldBackgroundView.m */,
+				560E3FBE7CC2D736A291DA3C /* SAMAddressBarTextFieldBackgroundViewInnerView.h */,
+				087DF88BE54659A678AEE837 /* SAMAddressBarTextFieldBackgroundViewInnerView.m */,
+				38C2887C2671AA58988E96D3 /* Resources */,
+				8F21CE66D0FA42582C2AFDE8 /* Support Files */,
+			);
+			path = SAMAddressBar;
+			sourceTree = "<group>";
+		};
+		56467A608BDB3248B7E9319B /* VENTouchLock */ = {
+			isa = PBXGroup;
+			children = (
+				1ABF2A1310CC7BA3FBCD9CEA /* UIViewController+VENTouchLock.h */,
+				A6572E1F954A17603B669174 /* UIViewController+VENTouchLock.m */,
+				C6C6F6C416769F7FD6201C2B /* VENTouchLock.h */,
+				07F1A02D270C3AD08EC5B292 /* VENTouchLock.m */,
+				4874AC65EA48AAC36993BDD9 /* VENTouchLockAppearance.h */,
+				2BB96CD40737E3F91050EDD0 /* VENTouchLockAppearance.m */,
+				AD72867389D4F6CC2F6E5C4C /* VENTouchLockCreatePasscodeViewController.h */,
+				305DB6F1132AC620DD048FA9 /* VENTouchLockCreatePasscodeViewController.m */,
+				E0C60D788EB4C7CE4814C368 /* VENTouchLockEnterPasscodeViewController.h */,
+				947F10CE49F23486F693A40D /* VENTouchLockEnterPasscodeViewController.m */,
+				A01D52AAF104C4BB9F6000AB /* VENTouchLockPasscodeCharacterView.h */,
+				C78095D55C70EF59471AFDF7 /* VENTouchLockPasscodeCharacterView.m */,
+				23A3BF68EA9709DB71359793 /* VENTouchLockPasscodeView.h */,
+				CFB654170994399203663A8F /* VENTouchLockPasscodeView.m */,
+				F427EBB92EE3DC1819C1BF90 /* VENTouchLockPasscodeViewController.h */,
+				5E1AF1B8EAB522DF5CDCDAC7 /* VENTouchLockPasscodeViewController.m */,
+				7317DDB37EB287E28C18ECCC /* VENTouchLockSplashViewController.h */,
+				E848F3B2565BBDA58D59EEB4 /* VENTouchLockSplashViewController.m */,
+				650A8D8E857D02FC2434FE4D /* Resources */,
+				AAED49BB9FCD4817ECB642CE /* Support Files */,
+			);
+			path = VENTouchLock;
+			sourceTree = "<group>";
+		};
+		59299B7F95BD894021D4E93B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E98A738EFD96857D9109808 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59F9DE9AF13232CE3F1C85C4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				22C7DF202705AFB6C779E89E /* Pods-TouchLock-SAMGradientView.xcconfig */,
+				6B893BEB50CB5BD19F2D608A /* Pods-TouchLock-SAMGradientView-Private.xcconfig */,
+				CEB9F710DCCFDE7B1E53A4B9 /* Pods-TouchLock-SAMGradientView-dummy.m */,
+				63CA120A3CB9021BAC628F1A /* Pods-TouchLock-SAMGradientView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-TouchLock-SAMGradientView";
+			sourceTree = "<group>";
+		};
+		636F149491AC56ED839A9AA6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE7664B338F053778F1F32CC /* Pods-TouchLock-SAMTextField.xcconfig */,
+				4E9E0E088C2212B942EC416D /* Pods-TouchLock-SAMTextField-Private.xcconfig */,
+				3D416AC8B146A40971E8A055 /* Pods-TouchLock-SAMTextField-dummy.m */,
+				CF7A5B08207452A403B89981 /* Pods-TouchLock-SAMTextField-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-TouchLock-SAMTextField";
+			sourceTree = "<group>";
+		};
+		650A8D8E857D02FC2434FE4D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				08A00E93C8632CAFBA649DFB /* VENTouchLockPasscodeView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		70A43974C20D898BC49D201A /* SAMHUDView */ = {
+			isa = PBXGroup;
+			children = (
+				E1BCFB646A0485CFC7508069 /* SAMHUDView.h */,
+				6588AEA5699EE600FAE39723 /* SAMHUDView.m */,
+				134AFDB9C092268369B65D4D /* SAMHUDWindow.h */,
+				BE6E3AF2B43E4B3E8A4ACAD1 /* SAMHUDWindow.m */,
+				FFC1AC59AEB236224F2F7557 /* SAMHUDWindowViewController.h */,
+				F8E080D36807D905A5613AD8 /* SAMHUDWindowViewController.m */,
+				95E7447EA8406526971EB4C5 /* Resources */,
+				4D5779D044062ABB94EA37C6 /* Support Files */,
+			);
+			path = SAMHUDView;
+			sourceTree = "<group>";
+		};
+		758E9A0F7A9DA5C38F3239A3 /* Pods-TouchLock */ = {
+			isa = PBXGroup;
+			children = (
+				F29D47D373F8324581EACF6A /* Pods-TouchLock-acknowledgements.markdown */,
+				CFCA55486F950D359ACBE207 /* Pods-TouchLock-acknowledgements.plist */,
+				6A8962269EFC49AECCE61091 /* Pods-TouchLock-dummy.m */,
+				BAC7BF14433FE2008D60C112 /* Pods-TouchLock-environment.h */,
+				829024FE0666EAB6700542CF /* Pods-TouchLock-resources.sh */,
+				3C8759467065A57499F2DE95 /* Pods-TouchLock.debug.xcconfig */,
+				BE271028C7CA4DB619969975 /* Pods-TouchLock.release.xcconfig */,
+			);
+			name = "Pods-TouchLock";
+			path = "Target Support Files/Pods-TouchLock";
+			sourceTree = "<group>";
+		};
+		7A58716D008B1223D42A2F9A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CE6E5805ED6CBBBBB8FB1B0 /* Pods-TouchLock-SAMRateLimit.xcconfig */,
+				37D388EB21B72A018F5479B9 /* Pods-TouchLock-SAMRateLimit-Private.xcconfig */,
+				48658BF49EA928CE40DFAC11 /* Pods-TouchLock-SAMRateLimit-dummy.m */,
+				D04121EB7CDBEF4F14F5B29F /* Pods-TouchLock-SAMRateLimit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-TouchLock-SAMRateLimit";
+			sourceTree = "<group>";
+		};
+		7E98A738EFD96857D9109808 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				726738ED9F7904935C59EC63 /* CoreGraphics.framework */,
+				10A423B84930C5E45FE3091E /* Foundation.framework */,
+				E07ED5B486D1BACEBC629BEF /* LocalAuthentication.framework */,
+				4A7238926C27FFBAB5572525 /* MessageUI.framework */,
+				6EBF899F377A93F1B207233E /* QuartzCore.framework */,
+				B9FAB8C71D86F4DC01B0BF96 /* Security.framework */,
+				1275B2C5869BFC6D764AEFC3 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		89A314F782B625271F4AB212 /* SAMTextView */ = {
+			isa = PBXGroup;
+			children = (
+				1E866263DE2CE4BF6634D70D /* SAMTextView.h */,
+				98E676A3FDF33AB2CA2D1B3C /* SAMTextView.m */,
+				FF7A82BB22A757FA0FE6E66F /* Support Files */,
+			);
+			path = SAMTextView;
+			sourceTree = "<group>";
+		};
+		8F21CE66D0FA42582C2AFDE8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5565B18777682A74463E8334 /* Pods-TouchLock-SAMAddressBar.xcconfig */,
+				00AE0003946756C61934BCF8 /* Pods-TouchLock-SAMAddressBar-Private.xcconfig */,
+				3D74C5CC5917E94314A9A5DD /* Pods-TouchLock-SAMAddressBar-dummy.m */,
+				076E51C5B479ADB9719E4F93 /* Pods-TouchLock-SAMAddressBar-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-TouchLock-SAMAddressBar";
+			sourceTree = "<group>";
+		};
+		95E7447EA8406526971EB4C5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				691B02106438564A9509FB10 /* SAMHUDView-Check.png */,
+				1D53941EBB7474901C902757 /* SAMHUDView-Check@2x.png */,
+				FF784E4D449D7A1C4EB60740 /* SAMHUDView-X.png */,
+				40771D857877522EBF5761D4 /* SAMHUDView-X@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9E8FD390F7FAD0967FE958B6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B426A90330A1042333040469 /* Pods-TouchLock-SAMCircleProgressView.xcconfig */,
+				4FCBBCE14184A595A093E941 /* Pods-TouchLock-SAMCircleProgressView-Private.xcconfig */,
+				BD5A3135447DF289F78001D6 /* Pods-TouchLock-SAMCircleProgressView-dummy.m */,
+				F05DF035C7A2DE22250C3211 /* Pods-TouchLock-SAMCircleProgressView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-TouchLock-SAMCircleProgressView";
+			sourceTree = "<group>";
+		};
+		A3275F80C5D521D096D89177 /* SSKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				C09BD383D0237A9C8455D9C0 /* SSKeychain.h */,
+				AAD2A7E4360D84E85DA3B1AE /* SSKeychain.m */,
+				208B2CB0837CE8707CF47B38 /* SSKeychainQuery.h */,
+				5757D39BC8445233695005C9 /* SSKeychainQuery.m */,
+				EA1A4AE5C0EE93932D630AA7 /* Support Files */,
+			);
+			path = SSKeychain;
+			sourceTree = "<group>";
+		};
+		A543435B9D478A5301C98159 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8898B61EF3B6A26F9DE962A1 /* SAMWebView-action-button.png */,
+				12784CC453E7F1AF62894119 /* SAMWebView-action-button-mini.png */,
+				9CD4EDEB75381AAE0A88EDC5 /* SAMWebView-action-button-mini@2x.png */,
+				25B5E9052B118FABC11123FD /* SAMWebView-action-button@2x.png */,
+				3AA720D490F2E5CC2B8957B8 /* SAMWebView-back-button.png */,
+				8213BCBBBBE1E2D6A35DB069 /* SAMWebView-back-button-mini.png */,
+				A1729CF6FDF6C0EFF1D604D7 /* SAMWebView-back-button-mini@2x.png */,
+				B69F399322C816B6FE8238E5 /* SAMWebView-back-button@2x.png */,
+				4E773895099055CA967C1F7E /* SAMWebView-forward-button.png */,
+				C7F4CF7C9AE5AF750CDB7773 /* SAMWebView-forward-button-mini.png */,
+				56E0BE11BBCC131F20E9E947 /* SAMWebView-forward-button-mini@2x.png */,
+				51E69D7B60CC3FB822D163B5 /* SAMWebView-forward-button@2x.png */,
+				3ABF56694D1AEE8BABD2807D /* SAMWebView-reload-button.png */,
+				7D11876D0184A3BB80D6FDF4 /* SAMWebView-reload-button-mini.png */,
+				6B4647FFE0A13E574BEC587B /* SAMWebView-reload-button-mini@2x.png */,
+				0BC6FEC689FF92941747238B /* SAMWebView-reload-button@2x.png */,
+				CA738FEA91566B7DF80DA70D /* SAMWebView-safari-button.png */,
+				B53AAE0C98D8879565BE9323 /* SAMWebView-safari-button-mini.png */,
+				4C12D617096A7D117EA19A1A /* SAMWebView-safari-button-mini@2x.png */,
+				2969E4A4728E71A6DBD34E1B /* SAMWebView-safari-button@2x.png */,
+				D81CA20764223E75FC5E4270 /* SAMWebView-stop-button.png */,
+				EB281B804593EC821C63D07B /* SAMWebView-stop-button-mini.png */,
+				A6C3B66316923D7B6F9DB228 /* SAMWebView-stop-button-mini@2x.png */,
+				7185110FB76140818FB51AD8 /* SAMWebView-stop-button@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AAED49BB9FCD4817ECB642CE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F26974D7845B5301BD977D1 /* Pods-TouchLock-VENTouchLock.xcconfig */,
+				628D24866ECA4C201CE9DB6E /* Pods-TouchLock-VENTouchLock-Private.xcconfig */,
+				940F0F9199500EC42862ECA1 /* Pods-TouchLock-VENTouchLock-dummy.m */,
+				2E80FFAC1B45ABEB1E8EC5FE /* Pods-TouchLock-VENTouchLock-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-TouchLock-VENTouchLock";
+			sourceTree = "<group>";
+		};
+		AD776DEDCECB62BBCD9E0EC7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B063E754CD5F6B65732897D9 /* Pods-TouchLock-SAMWebView.xcconfig */,
+				4EDE7C85B438756B573F0BC1 /* Pods-TouchLock-SAMWebView-Private.xcconfig */,
+				F605A3D4EAA8429F52A20E21 /* Pods-TouchLock-SAMWebView-dummy.m */,
+				7D95606FC5C00B5D40F56EAC /* Pods-TouchLock-SAMWebView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-TouchLock-SAMWebView";
+			sourceTree = "<group>";
+		};
+		B3CA405CF819AD7DE8EAD214 /* SAMGradientView */ = {
+			isa = PBXGroup;
+			children = (
+				0E0F61400199FF4710041FBC /* SAMGradientView.h */,
+				1B36E9FD328D2EDE95625FF9 /* SAMGradientView.m */,
+				59F9DE9AF13232CE3F1C85C4 /* Support Files */,
+			);
+			path = SAMGradientView;
+			sourceTree = "<group>";
+		};
+		BA7F62A160A4D58C4BC5DFBE /* SAMCircleProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				05DB13EB398F2258B5134447 /* SAMCircleProgressView.h */,
+				614A9DC3D304D6C5A08032AB /* SAMCircleProgressView.m */,
+				9E8FD390F7FAD0967FE958B6 /* Support Files */,
+			);
+			path = SAMCircleProgressView;
+			sourceTree = "<group>";
+		};
+		BCFD559763FCD29863651D6A /* SAMRateLimit */ = {
+			isa = PBXGroup;
+			children = (
+				BF62ED6AFE220D31DE426997 /* SAMPersistentRateLimit.h */,
+				59951F3C4CF329E9AB691291 /* SAMPersistentRateLimit.m */,
+				9D809A097361BFB2C4F0D279 /* SAMRateLimit.h */,
+				1979B883C554C7227E2BEA2C /* SAMRateLimit.m */,
+				7A58716D008B1223D42A2F9A /* Support Files */,
+			);
+			path = SAMRateLimit;
+			sourceTree = "<group>";
+		};
+		CD23BD6512CEA5960662F3B1 /* SAMWebView */ = {
+			isa = PBXGroup;
+			children = (
+				109C403ACAF73640975D45F3 /* SAMWebView.h */,
+				058FBDBEFB6A25D80D653223 /* SAMWebView.m */,
+				7FD6F6B0E71538A5DC801A56 /* SAMWebViewController.h */,
+				84D24317B4255DC94A752ABF /* SAMWebViewController.m */,
+				A543435B9D478A5301C98159 /* Resources */,
+				AD776DEDCECB62BBCD9E0EC7 /* Support Files */,
+			);
+			path = SAMWebView;
+			sourceTree = "<group>";
+		};
+		D6181502F2C4D677B8FE1290 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A011D0A9C6AB27644985BC71 /* libPods-TouchLock.a */,
+				9E8A2F9174417C5DB4F46A56 /* libPods-TouchLock-SAMAddressBar.a */,
+				D481AF03B149071AF563509C /* libPods-TouchLock-SAMBadgeView.a */,
+				CB7151101D314A971F289440 /* libPods-TouchLock-SAMCategories.a */,
+				821174C25ECB315886513263 /* libPods-TouchLock-SAMCircleProgressView.a */,
+				47973760BC71619603F90CFB /* libPods-TouchLock-SAMGradientView.a */,
+				6F5DB771EDA8A7F40B5F1882 /* libPods-TouchLock-SAMHUDView.a */,
+				3F7F53392DA88CEFE1C51598 /* libPods-TouchLock-SAMLabel.a */,
+				6DEF355EF2A48962E070552B /* libPods-TouchLock-SAMLoadingView.a */,
+				060578C3439B7DB2130A2D67 /* libPods-TouchLock-SAMRateLimit.a */,
+				0BA33E25115EBF3647335DD4 /* libPods-TouchLock-SAMTextField.a */,
+				936A9828DB75A737137883D2 /* libPods-TouchLock-SAMTextView.a */,
+				2A5BCC59269AD7D17AC4C594 /* libPods-TouchLock-SAMWebView.a */,
+				B7B0E769CD224E40C1CDE140 /* libPods-TouchLock-SSKeychain.a */,
+				FA240C0B6A6B6EC9BE87360B /* libPods-TouchLock-SSToolkit.a */,
+				B37B79987A0B946457CF76E0 /* libPods-TouchLock-VENTouchLock.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E023C5CBE20D7E14E58B6049 /* SAMCategories */ = {
+			isa = PBXGroup;
+			children = (
+				687CA80EE913BBB9AEF25A8D /* NSArray+SAMAdditions.h */,
+				96B43B7293C5F10970CBECCF /* NSArray+SAMAdditions.m */,
+				273A3530DFFA38DAE6143929 /* NSData+SAMAdditions.h */,
+				DEB1423C7A9BB0235AA472D2 /* NSData+SAMAdditions.m */,
+				05391186E7265869C27215B7 /* NSDate+SAMAdditions.h */,
+				FD284C41D0379633A157066D /* NSDate+SAMAdditions.m */,
+				1B603B3D92123E52CFBC2F9E /* NSDictionary+SAMAdditions.h */,
+				4B6AFB6BC6C329D45B9ECAC1 /* NSDictionary+SAMAdditions.m */,
+				E54F6E4A6ED0E3187107E58F /* NSNumber+SAMAdditions.h */,
+				38E4D60CC2D9999DB10736F6 /* NSNumber+SAMAdditions.m */,
+				092CF6B2ED6E43271309EDDB /* NSObject+SAMAdditions.h */,
+				39115D0AD6BC4A24B041D491 /* NSObject+SAMAdditions.m */,
+				F8F8BBDCC8C0B2E0D0A2F34F /* NSString+SAMAdditions.h */,
+				D2478DCC5DDBE9574BB9ED6B /* NSString+SAMAdditions.m */,
+				04B80B062DC8C1E44736B879 /* NSURL+SAMAdditions.h */,
+				695644D939AE31C903BCDB25 /* NSURL+SAMAdditions.m */,
+				6CA1B876295FB41DA539CE0A /* NSUserDefaults+SAMAdditions.h */,
+				54EA4D959C53A178BC4500C0 /* NSUserDefaults+SAMAdditions.m */,
+				4FC79B17239A52C0755CC521 /* SAMCategories.h */,
+				B6E120712FB9F8A2C3E81927 /* UIApplication+SAMAdditions.h */,
+				D46B4AE6319BBCBC8D5B8B58 /* UIApplication+SAMAdditions.m */,
+				33878FEE0DA5E7F3D293762F /* UIColor+SAMAdditions.h */,
+				390E511733A68AB40A6147BA /* UIColor+SAMAdditions.m */,
+				F024DB40C10A76EB9E278D3E /* UIControl+SAMAdditions.h */,
+				9D88FDC4E3743EA99B319A82 /* UIControl+SAMAdditions.m */,
+				BD4A69367BFD480EABD38416 /* UIDevice+SAMAdditions.h */,
+				BFA02928787CFF1EE0EECE70 /* UIDevice+SAMAdditions.m */,
+				E681A283D005D3C5820BEC43 /* UIScreen+SAMAdditions.h */,
+				BED126C643FCEB385840384C /* UIScreen+SAMAdditions.m */,
+				39C798D29510AC46633EA98D /* UIScrollView+SAMAdditions.h */,
+				3885FCD3D005188797D02D54 /* UIScrollView+SAMAdditions.m */,
+				7F773B5EEA01D215974B333D /* UIView+SAMAdditions.h */,
+				2362BBC15303F6D0C877BF40 /* UIView+SAMAdditions.m */,
+				CFE42A04CE0157B759E75380 /* UIViewController+SAMAdditions.h */,
+				528C539177CDDF5E224C5A6C /* UIViewController+SAMAdditions.m */,
+				35B4F5B1C328843F336AFF0C /* Resources */,
+				0FFC662AEF13EA23B1009569 /* Support Files */,
+			);
+			path = SAMCategories;
+			sourceTree = "<group>";
+		};
+		EA1A4AE5C0EE93932D630AA7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				274182DF50CCF75592A3C2C5 /* Pods-TouchLock-SSKeychain.xcconfig */,
+				FEC3EBF32FE8138C8806DEFC /* Pods-TouchLock-SSKeychain-Private.xcconfig */,
+				659AFE58AF9DDD7C4C67069B /* Pods-TouchLock-SSKeychain-dummy.m */,
+				60BBEE05EC3D06456C73530E /* Pods-TouchLock-SSKeychain-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-TouchLock-SSKeychain";
+			sourceTree = "<group>";
+		};
+		FC338468D80707507DDAFF8F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F5AC898DA5A9FA06E196299 /* Pods-TouchLock-SAMLabel.xcconfig */,
+				7C95B3954DD638C947C29AEC /* Pods-TouchLock-SAMLabel-Private.xcconfig */,
+				17CB1028A9F4CA2C5630AF01 /* Pods-TouchLock-SAMLabel-dummy.m */,
+				22C709AD9A604F7D2DA06ED3 /* Pods-TouchLock-SAMLabel-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-TouchLock-SAMLabel";
+			sourceTree = "<group>";
+		};
+		FF7A82BB22A757FA0FE6E66F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFF3F14C75B839262C61F3BB /* Pods-TouchLock-SAMTextView.xcconfig */,
+				6B276AACD4AC47D532043E62 /* Pods-TouchLock-SAMTextView-Private.xcconfig */,
+				45B33595D72141220CDDC89D /* Pods-TouchLock-SAMTextView-dummy.m */,
+				6D8427AFF17550DF2D8A542B /* Pods-TouchLock-SAMTextView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-TouchLock-SAMTextView";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1F78E29B1466B24CD3F022C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAEE741D5DF80D9AE0DAAB8D /* SAMCircleProgressView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21FAE62E02945ECB180F3370 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CE265AEAEC2B9AA9BC7AA77 /* SAMTextField.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B23F47A0D97C46BB758602 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E12868EBAB985B42ACB02D /* SAMGradientView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4437613030D35E279ECF857D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11C915540D8F274402D253BD /* UIViewController+VENTouchLock.h in Headers */,
+				7261E33ACFF6B82669CF9FC6 /* VENTouchLock.h in Headers */,
+				86B1CE1781D2CBF9D5B88383 /* VENTouchLockAppearance.h in Headers */,
+				9C161290EF467BCCF5002016 /* VENTouchLockCreatePasscodeViewController.h in Headers */,
+				3F04C38745649F1AE1EF5803 /* VENTouchLockEnterPasscodeViewController.h in Headers */,
+				8D56DCD78E8D172A20FF7E90 /* VENTouchLockPasscodeCharacterView.h in Headers */,
+				2DB2323787F6E214B6CBC313 /* VENTouchLockPasscodeView.h in Headers */,
+				B125DAEBAC47F46B1829E664 /* VENTouchLockPasscodeViewController.h in Headers */,
+				F69D7E597C73FD97EF6996AD /* VENTouchLockSplashViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		871B15C358A23263B65F5C8B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA4FB03364D3EEFB12ACFDC /* SAMLoadingView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89D3C6223987FF46F36043B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76DF6B33E9D4B21137B30AE7 /* SAMPersistentRateLimit.h in Headers */,
+				D616392FD369A058B24A24FB /* SAMRateLimit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		916938D579B33D7CB89CBAAC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B63F06C31B7D82F94C9A522 /* NSArray+SAMAdditions.h in Headers */,
+				D625C758C47D30B4E01B4315 /* NSData+SAMAdditions.h in Headers */,
+				2B0F84AD2A23AF1F943B1CF1 /* NSDate+SAMAdditions.h in Headers */,
+				C2CDFD3C083CDAF001D32B2D /* NSDictionary+SAMAdditions.h in Headers */,
+				71800225FC9007532CDE1A5F /* NSNumber+SAMAdditions.h in Headers */,
+				DB1CC9DB41B6C59F22EE22F5 /* NSObject+SAMAdditions.h in Headers */,
+				7608070EA82FB1E860881B82 /* NSString+SAMAdditions.h in Headers */,
+				2C9D76E0FD6A8648A3130E1B /* NSURL+SAMAdditions.h in Headers */,
+				16A68B5207B1E897EAFB1BB9 /* NSUserDefaults+SAMAdditions.h in Headers */,
+				1C2A71DC4FBAF83FEB892E6A /* SAMCategories.h in Headers */,
+				9AAB488E7C1D0C2EF666E61E /* UIApplication+SAMAdditions.h in Headers */,
+				C23775CE4736592698705066 /* UIColor+SAMAdditions.h in Headers */,
+				417751162FFF31BDB2F93C27 /* UIControl+SAMAdditions.h in Headers */,
+				E18AC71E414195E39AD8016B /* UIDevice+SAMAdditions.h in Headers */,
+				43B928271EC3ECFC3422B53E /* UIScreen+SAMAdditions.h in Headers */,
+				CFD9E08049444B9B153346A3 /* UIScrollView+SAMAdditions.h in Headers */,
+				88CDA83FE89BBC4EC3EE312A /* UIView+SAMAdditions.h in Headers */,
+				4F5B7FE178E8083B0E7E2938 /* UIViewController+SAMAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ADB9C8818D3FE1EAF4B461C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD80647CA45E967A57755DF /* SAMHUDView.h in Headers */,
+				96EFA7D08417E3D1DEAF78E9 /* SAMHUDWindow.h in Headers */,
+				E26A4D0C5B2F69ECBDE93C24 /* SAMHUDWindowViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60CBF585FB1BBFBC5180CF5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54B0A0AF3F86D0F342F70B63 /* SAMTextView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C9009F2CB15CE42BFB767D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA622E21DDF0232C1878C24A /* SSToolkit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFEA98AD8DEAD111756560AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F153A2374B06AB5572785F8 /* SAMBadgeView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1E87171DFF25F8BE48C1AA5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1DC47FA6CB4090E44CE6819 /* SSKeychain.h in Headers */,
+				A120B2A5DEA2692A7D351A48 /* SSKeychainQuery.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35839B57033E58A94DA8E4A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C8FDD2F5264FF4B3ABFD3E9 /* SAMWebView.h in Headers */,
+				829B6D895322B57E948656C2 /* SAMWebViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEDA707D4460CD8F58242A01 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093B843C8472FFC8C86E8822 /* SAMAddressBar.h in Headers */,
+				7E3FF8B77B16320299EA7109 /* SAMAddressBarTextField.h in Headers */,
+				E2BCA9E8EF698B9FC9314341 /* SAMAddressBarTextFieldBackgroundView.h in Headers */,
+				0F6CE582A21D15AA43BB15D1 /* SAMAddressBarTextFieldBackgroundViewInnerView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA25BB3FF2BA4C8C54311C7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17677C8F8F3BC982CDA63E1A /* SAMLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		002C3B79E3D1FCE3DF7BCD1D /* Pods-TouchLock-SAMAddressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D706C6CD4C6E1D8F221F670 /* Build configuration list for PBXNativeTarget "Pods-TouchLock-SAMAddressBar" */;
+			buildPhases = (
+				D586D077AC3A206245DD7ED5 /* Sources */,
+				BF4566D69DF42C62B1A6A0AE /* Frameworks */,
+				EEDA707D4460CD8F58242A01 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TouchLock-SAMAddressBar";
+			productName = "Pods-TouchLock-SAMAddressBar";
+			productReference = 9E8A2F9174417C5DB4F46A56 /* libPods-TouchLock-SAMAddressBar.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0F5878D1A8105E0EAAD5E297 /* Pods-TouchLock-SSKeychain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60723F8F44B7BEF4243B9DB9 /* Build configuration list for PBXNativeTarget "Pods-TouchLock-SSKeychain" */;
+			buildPhases = (
+				F08FE2BBD1229BF2780209E3 /* Sources */,
+				C1165D4A762840F2B4901877 /* Frameworks */,
+				E1E87171DFF25F8BE48C1AA5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TouchLock-SSKeychain";
+			productName = "Pods-TouchLock-SSKeychain";
+			productReference = B7B0E769CD224E40C1CDE140 /* libPods-TouchLock-SSKeychain.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		15401B294D0BDB1E87E9CE83 /* Pods-TouchLock-SAMHUDView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 420FDB5E46BAA281D0304C80 /* Build configuration list for PBXNativeTarget "Pods-TouchLock-SAMHUDView" */;
+			buildPhases = (
+				595950DE28D867029F4EDA09 /* Sources */,
+				DC81612E8A351A565240A2A1 /* Frameworks */,
+				9ADB9C8818D3FE1EAF4B461C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TouchLock-SAMHUDView";
+			productName = "Pods-TouchLock-SAMHUDView";
+			productReference = 6F5DB771EDA8A7F40B5F1882 /* libPods-TouchLock-SAMHUDView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		18C4A0C91421745CB4A0E082 /* Pods-TouchLock-SAMTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16549EAAAE9AA0A3E8883F92 /* Build configuration list for PBXNativeTarget "Pods-TouchLock-SAMTextField" */;
+			buildPhases = (
+				ADE6BC10CF51BFC906D0770E /* Sources */,
+				37B7AC62167513D6A9898747 /* Frameworks */,
+				21FAE62E02945ECB180F3370 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TouchLock-SAMTextField";
+			productName = "Pods-TouchLock-SAMTextField";
+			productReference = 0BA33E25115EBF3647335DD4 /* libPods-TouchLock-SAMTextField.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1FE16280742C6CDF262B35C5 /* Pods-TouchLock-SAMCircleProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4926CED3B54E56FE0A338A00 /* Build configuration list for PBXNativeTarget "Pods-TouchLock-SAMCircleProgressView" */;
+			buildPhases = (
+				03778A4921518B57C2D8C415 /* Sources */,
+				40BBDD6C0D5E06C6E64E52AD /* Frameworks */,
+				1F78E29B1466B24CD3F022C4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TouchLock-SAMCircleProgressView";
+			productName = "Pods-TouchLock-SAMCircleProgressView";
+			productReference = 821174C25ECB315886513263 /* libPods-TouchLock-SAMCircleProgressView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		33A3F2C9B32BBAB2B14DC9B2 /* Pods-TouchLock-SAMLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F5E2D390376EE342A265DC7 /* Build configuration list for PBXNativeTarget "Pods-TouchLock-SAMLabel" */;
+			buildPhases = (
+				125D7BF9776A263EDC260AF8 /* Sources */,
+				5B6E10705E1016055240CF8C /* Frameworks */,
+				FDA25BB3FF2BA4C8C54311C7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TouchLock-SAMLabel";
+			productName = "Pods-TouchLock-SAMLabel";
+			productReference = 3F7F53392DA88CEFE1C51598 /* libPods-TouchLock-SAMLabel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		43DD7349CCBCD5290640B88A /* Pods-TouchLock-SAMCategories */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 134D6CA737002B6BE731E2EF /* Build configuration list for PBXNativeTarget "Pods-TouchLock-SAMCategories" */;
+			buildPhases = (
+				48BD37C33EBCC9A65F65BB67 /* Sources */,
+				4E283AEC94F15BC73BDA8A52 /* Frameworks */,
+				916938D579B33D7CB89CBAAC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TouchLock-SAMCategories";
+			productName = "Pods-TouchLock-SAMCategories";
+			productReference = CB7151101D314A971F289440 /* libPods-TouchLock-SAMCategories.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		540603CED7F28F66CDFDD125 /* Pods-TouchLock-SAMTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C41E40DA5F772EF8950C3594 /* Build configuration list for PBXNativeTarget "Pods-TouchLock-SAMTextView" */;
+			buildPhases = (
+				2139F43FB3A0B58211289070 /* Sources */,
+				059F7E06292A0D894D7A1689 /* Frameworks */,
+				C60CBF585FB1BBFBC5180CF5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TouchLock-SAMTextView";
+			productName = "Pods-TouchLock-SAMTextView";
+			productReference = 936A9828DB75A737137883D2 /* libPods-TouchLock-SAMTextView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5DEDC9E49B67C81F79EB42DB /* Pods-TouchLock-VENTouchLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A7E9A59E570F4E0286CA428 /* Build configuration list for PBXNativeTarget "Pods-TouchLock-VENTouchLock" */;
+			buildPhases = (
+				70F93BB5E7690B94993B8810 /* Sources */,
+				A248A5D300F9640A54FECCDC /* Frameworks */,
+				4437613030D35E279ECF857D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D6D3CF7B4E74303DEEC5FC1 /* PBXTargetDependency */,
+			);
+			name = "Pods-TouchLock-VENTouchLock";
+			productName = "Pods-TouchLock-VENTouchLock";
+			productReference = B37B79987A0B946457CF76E0 /* libPods-TouchLock-VENTouchLock.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6602A06B4F3167F22E197CCA /* Pods-TouchLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 531EA103D72D3B8CD46D90A9 /* Build configuration list for PBXNativeTarget "Pods-TouchLock" */;
+			buildPhases = (
+				1F0CAA625610B7EF3BBC0F08 /* Sources */,
+				50EC7E9D8C00A1DA9DD40ADC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2A534187C9F19691083A2E6 /* PBXTargetDependency */,
+				0D14C316516D97A0D629D471 /* PBXTargetDependency */,
+				13C96F5BA0EC5FA7BE9C3746 /* PBXTargetDependency */,
+				11B94F7AC7740C34CB092325 /* PBXTargetDependency */,
+				6A7936CA386572D5A3F292C9 /* PBXTargetDependency */,
+				29636A771D6DFEBB3834B276 /* PBXTargetDependency */,
+				48B386F0D5E258C6C29A3ABB /* PBXTargetDependency */,
+				02DDC3CB33907149F1CF8426 /* PBXTargetDependency */,
+				B3BC30247ABBA6ABD83A34A1 /* PBXTargetDependency */,
+				89DEDCB06FBD8455E4FD487D /* PBXTargetDependency */,
+				8DDDC1D8338A2E22745C0940 /* PBXTargetDependency */,
+				DC907308A3DFF4703E1DAC42 /* PBXTargetDependency */,
+				2429D7A0C54AF6A52312D625 /* PBXTargetDependency */,
+				E14AE61BAC9001C4EF8C8DC8 /* PBXTargetDependency */,
+				2F6C3754F3AB671EDDA36A04 /* PBXTargetDependency */,
+			);
+			name = "Pods-TouchLock";
+			productName = "Pods-TouchLock";
+			productReference = A011D0A9C6AB27644985BC71 /* libPods-TouchLock.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		802EF91994126F88BDAEFD07 /* Pods-TouchLock-SAMWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F17F115BCFE8ED7522C44A /* Build configuration list for PBXNativeTarget "Pods-TouchLock-SAMWebView" */;
+			buildPhases = (
+				5ECBF81390FD60B6CB49E390 /* Sources */,
+				1060E53B32161E497D5EB710 /* Frameworks */,
+				E35839B57033E58A94DA8E4A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TouchLock-SAMWebView";
+			productName = "Pods-TouchLock-SAMWebView";
+			productReference = 2A5BCC59269AD7D17AC4C594 /* libPods-TouchLock-SAMWebView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		80F8895769E4AA900B36B9D0 /* Pods-TouchLock-SAMBadgeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB5C5185D789CDA3A4F41383 /* Build configuration list for PBXNativeTarget "Pods-TouchLock-SAMBadgeView" */;
+			buildPhases = (
+				952648644E15439C9226618F /* Sources */,
+				BC0E3495DF2A86162EDB20FB /* Frameworks */,
+				DFEA98AD8DEAD111756560AA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TouchLock-SAMBadgeView";
+			productName = "Pods-TouchLock-SAMBadgeView";
+			productReference = D481AF03B149071AF563509C /* libPods-TouchLock-SAMBadgeView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9DFEDA1943495528B82FC66A /* Pods-TouchLock-SSToolkit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA791184BD7F30448AF01D01 /* Build configuration list for PBXNativeTarget "Pods-TouchLock-SSToolkit" */;
+			buildPhases = (
+				77644882C525871CC720CC21 /* Sources */,
+				45268C591B0A2ED4AA85CF4D /* Frameworks */,
+				D6C9009F2CB15CE42BFB767D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				956C51084008449DD24E7C28 /* PBXTargetDependency */,
+				6BFF4CC619A9582C0E73BE46 /* PBXTargetDependency */,
+				10478581DAA4BDBE5FD00139 /* PBXTargetDependency */,
+				2F5B149711DB628519CF95A4 /* PBXTargetDependency */,
+				19273FE3BAFCB6F71E92F7D7 /* PBXTargetDependency */,
+				9F6BAD47C879122667DD8ABD /* PBXTargetDependency */,
+				FA28AA45784C74F44418F7DB /* PBXTargetDependency */,
+				64F01BB308FC19408B840F81 /* PBXTargetDependency */,
+				6BE83185AEB77B9E733B89AF /* PBXTargetDependency */,
+				5B13F32A0AD921EBBFEF029E /* PBXTargetDependency */,
+				516052218C819A46C1476D75 /* PBXTargetDependency */,
+				F183CC67DB541E7AEB1A37CE /* PBXTargetDependency */,
+			);
+			name = "Pods-TouchLock-SSToolkit";
+			productName = "Pods-TouchLock-SSToolkit";
+			productReference = FA240C0B6A6B6EC9BE87360B /* libPods-TouchLock-SSToolkit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B34F790D7E011E9CE5995095 /* Pods-TouchLock-SAMLoadingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35FF1CB0B50C2071BB33B3C6 /* Build configuration list for PBXNativeTarget "Pods-TouchLock-SAMLoadingView" */;
+			buildPhases = (
+				F226461B5D807192502449B4 /* Sources */,
+				4540473A0A7A7D05C19FBBC5 /* Frameworks */,
+				871B15C358A23263B65F5C8B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TouchLock-SAMLoadingView";
+			productName = "Pods-TouchLock-SAMLoadingView";
+			productReference = 6DEF355EF2A48962E070552B /* libPods-TouchLock-SAMLoadingView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B75CA690CCE088CABA7AB7C3 /* Pods-TouchLock-SAMGradientView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91020848D7191DA9B7E7D480 /* Build configuration list for PBXNativeTarget "Pods-TouchLock-SAMGradientView" */;
+			buildPhases = (
+				A54DA05B8B803B7770BD199C /* Sources */,
+				2E339612DCDCCA9A88848E3D /* Frameworks */,
+				32B23F47A0D97C46BB758602 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TouchLock-SAMGradientView";
+			productName = "Pods-TouchLock-SAMGradientView";
+			productReference = 47973760BC71619603F90CFB /* libPods-TouchLock-SAMGradientView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BA1675F453173CFBB23D40B8 /* Pods-TouchLock-SAMRateLimit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4DE23003E7AB3875BEEF513 /* Build configuration list for PBXNativeTarget "Pods-TouchLock-SAMRateLimit" */;
+			buildPhases = (
+				D9ECCCF5283740B14F5659F5 /* Sources */,
+				57B6F3C80CCAC325A931202D /* Frameworks */,
+				89D3C6223987FF46F36043B9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TouchLock-SAMRateLimit";
+			productName = "Pods-TouchLock-SAMRateLimit";
+			productReference = 060578C3439B7DB2130A2D67 /* libPods-TouchLock-SAMRateLimit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDE4C5E41103469E83FFFA0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 203DC0A054CBECFFA01D991B /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5486E091B3577E660052C26B;
+			productRefGroup = D6181502F2C4D677B8FE1290 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6602A06B4F3167F22E197CCA /* Pods-TouchLock */,
+				002C3B79E3D1FCE3DF7BCD1D /* Pods-TouchLock-SAMAddressBar */,
+				80F8895769E4AA900B36B9D0 /* Pods-TouchLock-SAMBadgeView */,
+				43DD7349CCBCD5290640B88A /* Pods-TouchLock-SAMCategories */,
+				1FE16280742C6CDF262B35C5 /* Pods-TouchLock-SAMCircleProgressView */,
+				B75CA690CCE088CABA7AB7C3 /* Pods-TouchLock-SAMGradientView */,
+				15401B294D0BDB1E87E9CE83 /* Pods-TouchLock-SAMHUDView */,
+				33A3F2C9B32BBAB2B14DC9B2 /* Pods-TouchLock-SAMLabel */,
+				B34F790D7E011E9CE5995095 /* Pods-TouchLock-SAMLoadingView */,
+				BA1675F453173CFBB23D40B8 /* Pods-TouchLock-SAMRateLimit */,
+				18C4A0C91421745CB4A0E082 /* Pods-TouchLock-SAMTextField */,
+				540603CED7F28F66CDFDD125 /* Pods-TouchLock-SAMTextView */,
+				802EF91994126F88BDAEFD07 /* Pods-TouchLock-SAMWebView */,
+				0F5878D1A8105E0EAAD5E297 /* Pods-TouchLock-SSKeychain */,
+				9DFEDA1943495528B82FC66A /* Pods-TouchLock-SSToolkit */,
+				5DEDC9E49B67C81F79EB42DB /* Pods-TouchLock-VENTouchLock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03778A4921518B57C2D8C415 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF1CFCD4EB583AB5A49036B /* Pods-TouchLock-SAMCircleProgressView-dummy.m in Sources */,
+				2890474EDF97B1A62AAFB45D /* SAMCircleProgressView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		125D7BF9776A263EDC260AF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F87CFCDDAC1191B4E770BA /* Pods-TouchLock-SAMLabel-dummy.m in Sources */,
+				2E0CF6FF73770FC27E932350 /* SAMLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0CAA625610B7EF3BBC0F08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E022D17BBE476F1142EAC7B1 /* Pods-TouchLock-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2139F43FB3A0B58211289070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6E09CE8E9B11CCEA67E47CD /* Pods-TouchLock-SAMTextView-dummy.m in Sources */,
+				EC7FE5A982CF531C2AAD080B /* SAMTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48BD37C33EBCC9A65F65BB67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0730EEDE8FD2D722D7609E1 /* NSArray+SAMAdditions.m in Sources */,
+				CDFCA399FF9807CFD70080F1 /* NSData+SAMAdditions.m in Sources */,
+				81F0658D765A254E508DFC0C /* NSDate+SAMAdditions.m in Sources */,
+				7D01778FAD253AFD9AF79DE8 /* NSDictionary+SAMAdditions.m in Sources */,
+				20F3B59B97CD4DAA59953F9D /* NSNumber+SAMAdditions.m in Sources */,
+				E4B947E6D15756BBE01C05C3 /* NSObject+SAMAdditions.m in Sources */,
+				68F08B4DEA0326468D81FDCC /* NSString+SAMAdditions.m in Sources */,
+				C74273ED2DEBC826CDFC5AD1 /* NSURL+SAMAdditions.m in Sources */,
+				593F28FE827D5BF79FCB129F /* NSUserDefaults+SAMAdditions.m in Sources */,
+				4FF32103F811932F3C74CCB4 /* Pods-TouchLock-SAMCategories-dummy.m in Sources */,
+				3AC12FC8240115B1504D0F36 /* UIApplication+SAMAdditions.m in Sources */,
+				82C733E688EC19F82D934CE1 /* UIColor+SAMAdditions.m in Sources */,
+				0ADAB235CFAB4905BEA41ABA /* UIControl+SAMAdditions.m in Sources */,
+				5D778537EDA7708D76A3ADC7 /* UIDevice+SAMAdditions.m in Sources */,
+				6C5CD12EE812E82A554B1EB9 /* UIScreen+SAMAdditions.m in Sources */,
+				BAD2EC04035B8F0835FC3DEE /* UIScrollView+SAMAdditions.m in Sources */,
+				ED49F50E2D42391099CF310D /* UIView+SAMAdditions.m in Sources */,
+				3CC42E457B2B4C9BD1F5F5C8 /* UIViewController+SAMAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		595950DE28D867029F4EDA09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF86804285345433DDE7E07F /* Pods-TouchLock-SAMHUDView-dummy.m in Sources */,
+				9357E977D098C6417EFA6169 /* SAMHUDView.m in Sources */,
+				28A93854EDF480DD4FEEEBC0 /* SAMHUDWindow.m in Sources */,
+				483E2020C9695F4494747799 /* SAMHUDWindowViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ECBF81390FD60B6CB49E390 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A634B47C25FEAF653409B34B /* Pods-TouchLock-SAMWebView-dummy.m in Sources */,
+				831ACCAE8555B17B323BA2AB /* SAMWebView.m in Sources */,
+				A7FD5A6A0BABA9B9510C2F18 /* SAMWebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F93BB5E7690B94993B8810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F915FFBF0721D2C1EB0540DB /* Pods-TouchLock-VENTouchLock-dummy.m in Sources */,
+				392CF0854F716AF8404CF9C5 /* UIViewController+VENTouchLock.m in Sources */,
+				5D189C517A08B21822C831A3 /* VENTouchLock.m in Sources */,
+				E0ABCDAD92CFD1166C5F3C20 /* VENTouchLockAppearance.m in Sources */,
+				3A96E28F42D280760101B4D6 /* VENTouchLockCreatePasscodeViewController.m in Sources */,
+				820EC9F4D85A773BC48ECDE4 /* VENTouchLockEnterPasscodeViewController.m in Sources */,
+				3123621B17BC1502DD8B1BFD /* VENTouchLockPasscodeCharacterView.m in Sources */,
+				694D08A4CE2DFED0FC2221FD /* VENTouchLockPasscodeView.m in Sources */,
+				92670BF5ACB766CFE067D19E /* VENTouchLockPasscodeViewController.m in Sources */,
+				7CBB3CA5C15222D71B96A840 /* VENTouchLockSplashViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77644882C525871CC720CC21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E4786E5A0BF6ABCDA3DF0F /* Pods-TouchLock-SSToolkit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		952648644E15439C9226618F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0198B442FA74327A39DD07 /* Pods-TouchLock-SAMBadgeView-dummy.m in Sources */,
+				A0A97CE4CD707A25F4EE0A12 /* SAMBadgeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54DA05B8B803B7770BD199C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97D5EE4D35B8526C87C1649F /* Pods-TouchLock-SAMGradientView-dummy.m in Sources */,
+				BF33161C96841710B7BDDA6C /* SAMGradientView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE6BC10CF51BFC906D0770E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5A5E5703CD9B2FCCC8FF7EB /* Pods-TouchLock-SAMTextField-dummy.m in Sources */,
+				F69577CD7EB97B869C861DCB /* SAMTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D586D077AC3A206245DD7ED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E30B40D7BB2E5B471AD70CA /* Pods-TouchLock-SAMAddressBar-dummy.m in Sources */,
+				241F6F459FA172802DFDCB33 /* SAMAddressBar.m in Sources */,
+				882C877D44E7A6714FD9B4C0 /* SAMAddressBarTextField.m in Sources */,
+				986301D95251ABA1B000788D /* SAMAddressBarTextFieldBackgroundView.m in Sources */,
+				71A00AA852AC730C895B4054 /* SAMAddressBarTextFieldBackgroundViewInnerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9ECCCF5283740B14F5659F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A31146D94FFD8608B20AEA /* Pods-TouchLock-SAMRateLimit-dummy.m in Sources */,
+				C6CE3801199BF899629CF990 /* SAMPersistentRateLimit.m in Sources */,
+				E73DE1C69E08EC55043DB166 /* SAMRateLimit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08FE2BBD1229BF2780209E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CF3C65B570F81A78FD5495C /* Pods-TouchLock-SSKeychain-dummy.m in Sources */,
+				BBC25CBF8DCB2D18BC35DD40 /* SSKeychain.m in Sources */,
+				85AC4364975AB2585178ABEF /* SSKeychainQuery.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F226461B5D807192502449B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0A89595106B5C4DE929D86 /* Pods-TouchLock-SAMLoadingView-dummy.m in Sources */,
+				D9FA0464F8D6433196D4E354 /* SAMLoadingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02DDC3CB33907149F1CF8426 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TouchLock-SAMLoadingView";
+			target = B34F790D7E011E9CE5995095 /* Pods-TouchLock-SAMLoadingView */;
+			targetProxy = 2F7B8353EF095951F4F71A4D /* PBXContainerItemProxy */;
+		};
+		0D14C316516D97A0D629D471 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TouchLock-SAMBadgeView";
+			target = 80F8895769E4AA900B36B9D0 /* Pods-TouchLock-SAMBadgeView */;
+			targetProxy = 5C7C0595D3E0346F1B6E7807 /* PBXContainerItemProxy */;
+		};
+		10478581DAA4BDBE5FD00139 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TouchLock-SAMCategories";
+			target = 43DD7349CCBCD5290640B88A /* Pods-TouchLock-SAMCategories */;
+			targetProxy = B3DD5769A1B8204739F847B1 /* PBXContainerItemProxy */;
+		};
+		11B94F7AC7740C34CB092325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TouchLock-SAMCircleProgressView";
+			target = 1FE16280742C6CDF262B35C5 /* Pods-TouchLock-SAMCircleProgressView */;
+			targetProxy = 4B08BDE19E9A8171E1C675FE /* PBXContainerItemProxy */;
+		};
+		13C96F5BA0EC5FA7BE9C3746 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TouchLock-SAMCategories";
+			target = 43DD7349CCBCD5290640B88A /* Pods-TouchLock-SAMCategories */;
+			targetProxy = 7F263FD4DEFD80026CB48170 /* PBXContainerItemProxy */;
+		};
+		19273FE3BAFCB6F71E92F7D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TouchLock-SAMGradientView";
+			target = B75CA690CCE088CABA7AB7C3 /* Pods-TouchLock-SAMGradientView */;
+			targetProxy = CCA5C0E72FBB7477F6167291 /* PBXContainerItemProxy */;
+		};
+		2429D7A0C54AF6A52312D625 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TouchLock-SSKeychain";
+			target = 0F5878D1A8105E0EAAD5E297 /* Pods-TouchLock-SSKeychain */;
+			targetProxy = 6264B093FD9B0F3911F743CC /* PBXContainerItemProxy */;
+		};
+		29636A771D6DFEBB3834B276 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TouchLock-SAMHUDView";
+			target = 15401B294D0BDB1E87E9CE83 /* Pods-TouchLock-SAMHUDView */;
+			targetProxy = 7D9599873FB208D7D642F8AD /* PBXContainerItemProxy */;
+		};
+		2F5B149711DB628519CF95A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TouchLock-SAMCircleProgressView";
+			target = 1FE16280742C6CDF262B35C5 /* Pods-TouchLock-SAMCircleProgressView */;
+			targetProxy = 1539D83393A65DDB53EB2CB5 /* PBXContainerItemProxy */;
+		};
+		2F6C3754F3AB671EDDA36A04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TouchLock-VENTouchLock";
+			target = 5DEDC9E49B67C81F79EB42DB /* Pods-TouchLock-VENTouchLock */;
+			targetProxy = 6D915A572499EF09585530D0 /* PBXContainerItemProxy */;
+		};
+		48B386F0D5E258C6C29A3ABB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TouchLock-SAMLabel";
+			target = 33A3F2C9B32BBAB2B14DC9B2 /* Pods-TouchLock-SAMLabel */;
+			targetProxy = 8847402A2ACB77E4DACCD017 /* PBXContainerItemProxy */;
+		};
+		516052218C819A46C1476D75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TouchLock-SAMTextView";
+			target = 540603CED7F28F66CDFDD125 /* Pods-TouchLock-SAMTextView */;
+			targetProxy = 83CD7CD18EFF8240E2E196B0 /* PBXContainerItemProxy */;
+		};
+		5B13F32A0AD921EBBFEF029E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TouchLock-SAMTextField";
+			target = 18C4A0C91421745CB4A0E082 /* Pods-TouchLock-SAMTextField */;
+			targetProxy = 37DBFC86722A46E3C8CD32AD /* PBXContainerItemProxy */;
+		};
+		64F01BB308FC19408B840F81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TouchLock-SAMLoadingView";
+			target = B34F790D7E011E9CE5995095 /* Pods-TouchLock-SAMLoadingView */;
+			targetProxy = 543A48EE2CF993E6845EAFE7 /* PBXContainerItemProxy */;
+		};
+		6A7936CA386572D5A3F292C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TouchLock-SAMGradientView";
+			target = B75CA690CCE088CABA7AB7C3 /* Pods-TouchLock-SAMGradientView */;
+			targetProxy = 8DA391D2C8CC030B61768DFA /* PBXContainerItemProxy */;
+		};
+		6BE83185AEB77B9E733B89AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TouchLock-SAMRateLimit";
+			target = BA1675F453173CFBB23D40B8 /* Pods-TouchLock-SAMRateLimit */;
+			targetProxy = 3EE47E0647D91CDB44524B61 /* PBXContainerItemProxy */;
+		};
+		6BFF4CC619A9582C0E73BE46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TouchLock-SAMBadgeView";
+			target = 80F8895769E4AA900B36B9D0 /* Pods-TouchLock-SAMBadgeView */;
+			targetProxy = C052DA045EEE8C6451EC4606 /* PBXContainerItemProxy */;
+		};
+		6D6D3CF7B4E74303DEEC5FC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TouchLock-SSKeychain";
+			target = 0F5878D1A8105E0EAAD5E297 /* Pods-TouchLock-SSKeychain */;
+			targetProxy = 2093918C5A39693C4DB495F6 /* PBXContainerItemProxy */;
+		};
+		89DEDCB06FBD8455E4FD487D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TouchLock-SAMTextField";
+			target = 18C4A0C91421745CB4A0E082 /* Pods-TouchLock-SAMTextField */;
+			targetProxy = DBB25C8C758CF865ECADB4B7 /* PBXContainerItemProxy */;
+		};
+		8DDDC1D8338A2E22745C0940 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TouchLock-SAMTextView";
+			target = 540603CED7F28F66CDFDD125 /* Pods-TouchLock-SAMTextView */;
+			targetProxy = ABEC2C6873D58FDC29355769 /* PBXContainerItemProxy */;
+		};
+		956C51084008449DD24E7C28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TouchLock-SAMAddressBar";
+			target = 002C3B79E3D1FCE3DF7BCD1D /* Pods-TouchLock-SAMAddressBar */;
+			targetProxy = A77952A5CE3A49B5FEFF8A1C /* PBXContainerItemProxy */;
+		};
+		9F6BAD47C879122667DD8ABD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TouchLock-SAMHUDView";
+			target = 15401B294D0BDB1E87E9CE83 /* Pods-TouchLock-SAMHUDView */;
+			targetProxy = 325C42217DB3D9E0F9A0A90E /* PBXContainerItemProxy */;
+		};
+		A2A534187C9F19691083A2E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TouchLock-SAMAddressBar";
+			target = 002C3B79E3D1FCE3DF7BCD1D /* Pods-TouchLock-SAMAddressBar */;
+			targetProxy = 8F369BF24CECD8293C9C9C4E /* PBXContainerItemProxy */;
+		};
+		B3BC30247ABBA6ABD83A34A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TouchLock-SAMRateLimit";
+			target = BA1675F453173CFBB23D40B8 /* Pods-TouchLock-SAMRateLimit */;
+			targetProxy = D32843DC0D017D8240ED6C3B /* PBXContainerItemProxy */;
+		};
+		DC907308A3DFF4703E1DAC42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TouchLock-SAMWebView";
+			target = 802EF91994126F88BDAEFD07 /* Pods-TouchLock-SAMWebView */;
+			targetProxy = 0D8BBD8904F870383AFFF531 /* PBXContainerItemProxy */;
+		};
+		E14AE61BAC9001C4EF8C8DC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TouchLock-SSToolkit";
+			target = 9DFEDA1943495528B82FC66A /* Pods-TouchLock-SSToolkit */;
+			targetProxy = F2D07919693869C44DC5C0A5 /* PBXContainerItemProxy */;
+		};
+		F183CC67DB541E7AEB1A37CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TouchLock-SAMWebView";
+			target = 802EF91994126F88BDAEFD07 /* Pods-TouchLock-SAMWebView */;
+			targetProxy = C998256C414D1E0FBD095973 /* PBXContainerItemProxy */;
+		};
+		FA28AA45784C74F44418F7DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TouchLock-SAMLabel";
+			target = 33A3F2C9B32BBAB2B14DC9B2 /* Pods-TouchLock-SAMLabel */;
+			targetProxy = D1F9C752E7E36F523468D155 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0936525F8A30D95A316E8F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEC3EBF32FE8138C8806DEFC /* Pods-TouchLock-SSKeychain-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TouchLock-SSKeychain/Pods-TouchLock-SSKeychain-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		19B9A2E27891D98BF25DAD95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 544E6A87A67F978DBE6ED919 /* Pods-TouchLock-SAMLoadingView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TouchLock-SAMLoadingView/Pods-TouchLock-SAMLoadingView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1E57C14A8C1BC0585F14E9AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EDE7C85B438756B573F0BC1 /* Pods-TouchLock-SAMWebView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TouchLock-SAMWebView/Pods-TouchLock-SAMWebView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		21F2F9F0277048A8B5C00FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FCBBCE14184A595A093E941 /* Pods-TouchLock-SAMCircleProgressView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TouchLock-SAMCircleProgressView/Pods-TouchLock-SAMCircleProgressView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		26B1263475E3F1A51057B472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E9E0E088C2212B942EC416D /* Pods-TouchLock-SAMTextField-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TouchLock-SAMTextField/Pods-TouchLock-SAMTextField-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3174090D40CE57FBDC132F09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00AE0003946756C61934BCF8 /* Pods-TouchLock-SAMAddressBar-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TouchLock-SAMAddressBar/Pods-TouchLock-SAMAddressBar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		33A871DEC9B32AEF3FE5625A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEC3EBF32FE8138C8806DEFC /* Pods-TouchLock-SSKeychain-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TouchLock-SSKeychain/Pods-TouchLock-SSKeychain-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		41ECBE732D474D597719D170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 544E6A87A67F978DBE6ED919 /* Pods-TouchLock-SAMLoadingView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TouchLock-SAMLoadingView/Pods-TouchLock-SAMLoadingView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		44E76895407080DD385AF89F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B893BEB50CB5BD19F2D608A /* Pods-TouchLock-SAMGradientView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TouchLock-SAMGradientView/Pods-TouchLock-SAMGradientView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4935C0E68280C4C6B3131FD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 628D24866ECA4C201CE9DB6E /* Pods-TouchLock-VENTouchLock-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TouchLock-VENTouchLock/Pods-TouchLock-VENTouchLock-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4969A5DBC2E3FDC5FD6BBF40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37D388EB21B72A018F5479B9 /* Pods-TouchLock-SAMRateLimit-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TouchLock-SAMRateLimit/Pods-TouchLock-SAMRateLimit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4E58E44BC05916A67C041127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE271028C7CA4DB619969975 /* Pods-TouchLock.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5416462AD21C4499887FD78F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 878F346D19B3B108EA4D5D6E /* Pods-TouchLock-SAMCategories-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TouchLock-SAMCategories/Pods-TouchLock-SAMCategories-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		58947A71B81162B6BD84E365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FCBBCE14184A595A093E941 /* Pods-TouchLock-SAMCircleProgressView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TouchLock-SAMCircleProgressView/Pods-TouchLock-SAMCircleProgressView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5B0C190E14581D949C7A221E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		673001F1E092B58B6095F708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15D87293CB1397FB93F25B61 /* Pods-TouchLock-SSToolkit-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TouchLock-SSToolkit/Pods-TouchLock-SSToolkit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		75C27D2C9A2C10F5A997F1C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F9E3F29B0849C722883F55A /* Pods-TouchLock-SAMHUDView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TouchLock-SAMHUDView/Pods-TouchLock-SAMHUDView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7D4F8F5151E80A8BD68BDB04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B893BEB50CB5BD19F2D608A /* Pods-TouchLock-SAMGradientView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TouchLock-SAMGradientView/Pods-TouchLock-SAMGradientView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7FDC58384C46A3FB12908FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C8759467065A57499F2DE95 /* Pods-TouchLock.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		80397AB4F3AB6F473BB36933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 443938E7F32284F4CF572FDB /* Pods-TouchLock-SAMBadgeView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TouchLock-SAMBadgeView/Pods-TouchLock-SAMBadgeView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		87D93B6D085BE25718DBA8A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 628D24866ECA4C201CE9DB6E /* Pods-TouchLock-VENTouchLock-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TouchLock-VENTouchLock/Pods-TouchLock-VENTouchLock-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8F886771C02239283BE35E36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C95B3954DD638C947C29AEC /* Pods-TouchLock-SAMLabel-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TouchLock-SAMLabel/Pods-TouchLock-SAMLabel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		92D44927F5D5DF83D14AAA59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B276AACD4AC47D532043E62 /* Pods-TouchLock-SAMTextView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TouchLock-SAMTextView/Pods-TouchLock-SAMTextView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9874AFE74647922CB3715112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 443938E7F32284F4CF572FDB /* Pods-TouchLock-SAMBadgeView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TouchLock-SAMBadgeView/Pods-TouchLock-SAMBadgeView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A6A33EB9AAAEF65935BB9665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C95B3954DD638C947C29AEC /* Pods-TouchLock-SAMLabel-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TouchLock-SAMLabel/Pods-TouchLock-SAMLabel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B88CB57D3A3FE57456DC607A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EDE7C85B438756B573F0BC1 /* Pods-TouchLock-SAMWebView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TouchLock-SAMWebView/Pods-TouchLock-SAMWebView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BCE96644FAF8ADE9DB201716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 878F346D19B3B108EA4D5D6E /* Pods-TouchLock-SAMCategories-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TouchLock-SAMCategories/Pods-TouchLock-SAMCategories-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BD738E849EE34B2E9EEB7BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15D87293CB1397FB93F25B61 /* Pods-TouchLock-SSToolkit-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TouchLock-SSToolkit/Pods-TouchLock-SSToolkit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C6CFC3E0207BAEB03D0EE2A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B276AACD4AC47D532043E62 /* Pods-TouchLock-SAMTextView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TouchLock-SAMTextView/Pods-TouchLock-SAMTextView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CB86A4BD4A45F39427B50AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00AE0003946756C61934BCF8 /* Pods-TouchLock-SAMAddressBar-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TouchLock-SAMAddressBar/Pods-TouchLock-SAMAddressBar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CCC1C3E737CFC710D5B5C828 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37D388EB21B72A018F5479B9 /* Pods-TouchLock-SAMRateLimit-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TouchLock-SAMRateLimit/Pods-TouchLock-SAMRateLimit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D0ECCC12AFAE89A38C5F456B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D6FF274F8BE9B3CF3A44C43D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E9E0E088C2212B942EC416D /* Pods-TouchLock-SAMTextField-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TouchLock-SAMTextField/Pods-TouchLock-SAMTextField-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E9887C57090D0D2FB2383D86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F9E3F29B0849C722883F55A /* Pods-TouchLock-SAMHUDView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TouchLock-SAMHUDView/Pods-TouchLock-SAMHUDView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F5E2D390376EE342A265DC7 /* Build configuration list for PBXNativeTarget "Pods-TouchLock-SAMLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F886771C02239283BE35E36 /* Debug */,
+				A6A33EB9AAAEF65935BB9665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		134D6CA737002B6BE731E2EF /* Build configuration list for PBXNativeTarget "Pods-TouchLock-SAMCategories" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5416462AD21C4499887FD78F /* Debug */,
+				BCE96644FAF8ADE9DB201716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16549EAAAE9AA0A3E8883F92 /* Build configuration list for PBXNativeTarget "Pods-TouchLock-SAMTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6FF274F8BE9B3CF3A44C43D /* Debug */,
+				26B1263475E3F1A51057B472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A7E9A59E570F4E0286CA428 /* Build configuration list for PBXNativeTarget "Pods-TouchLock-VENTouchLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4935C0E68280C4C6B3131FD9 /* Debug */,
+				87D93B6D085BE25718DBA8A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		203DC0A054CBECFFA01D991B /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0ECCC12AFAE89A38C5F456B /* Debug */,
+				5B0C190E14581D949C7A221E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35FF1CB0B50C2071BB33B3C6 /* Build configuration list for PBXNativeTarget "Pods-TouchLock-SAMLoadingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41ECBE732D474D597719D170 /* Debug */,
+				19B9A2E27891D98BF25DAD95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		420FDB5E46BAA281D0304C80 /* Build configuration list for PBXNativeTarget "Pods-TouchLock-SAMHUDView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C27D2C9A2C10F5A997F1C7 /* Debug */,
+				E9887C57090D0D2FB2383D86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4926CED3B54E56FE0A338A00 /* Build configuration list for PBXNativeTarget "Pods-TouchLock-SAMCircleProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F2F9F0277048A8B5C00FE9 /* Debug */,
+				58947A71B81162B6BD84E365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		531EA103D72D3B8CD46D90A9 /* Build configuration list for PBXNativeTarget "Pods-TouchLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FDC58384C46A3FB12908FCD /* Debug */,
+				4E58E44BC05916A67C041127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60723F8F44B7BEF4243B9DB9 /* Build configuration list for PBXNativeTarget "Pods-TouchLock-SSKeychain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0936525F8A30D95A316E8F10 /* Debug */,
+				33A871DEC9B32AEF3FE5625A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62F17F115BCFE8ED7522C44A /* Build configuration list for PBXNativeTarget "Pods-TouchLock-SAMWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B88CB57D3A3FE57456DC607A /* Debug */,
+				1E57C14A8C1BC0585F14E9AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D706C6CD4C6E1D8F221F670 /* Build configuration list for PBXNativeTarget "Pods-TouchLock-SAMAddressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB86A4BD4A45F39427B50AA4 /* Debug */,
+				3174090D40CE57FBDC132F09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91020848D7191DA9B7E7D480 /* Build configuration list for PBXNativeTarget "Pods-TouchLock-SAMGradientView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D4F8F5151E80A8BD68BDB04 /* Debug */,
+				44E76895407080DD385AF89F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4DE23003E7AB3875BEEF513 /* Build configuration list for PBXNativeTarget "Pods-TouchLock-SAMRateLimit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4969A5DBC2E3FDC5FD6BBF40 /* Debug */,
+				CCC1C3E737CFC710D5B5C828 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA791184BD7F30448AF01D01 /* Build configuration list for PBXNativeTarget "Pods-TouchLock-SSToolkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD738E849EE34B2E9EEB7BC0 /* Debug */,
+				673001F1E092B58B6095F708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C41E40DA5F772EF8950C3594 /* Build configuration list for PBXNativeTarget "Pods-TouchLock-SAMTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92D44927F5D5DF83D14AAA59 /* Debug */,
+				C6CFC3E0207BAEB03D0EE2A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB5C5185D789CDA3A4F41383 /* Build configuration list for PBXNativeTarget "Pods-TouchLock-SAMBadgeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80397AB4F3AB6F473BB36933 /* Debug */,
+				9874AFE74647922CB3715112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDE4C5E41103469E83FFFA0B /* Project object */;
+}

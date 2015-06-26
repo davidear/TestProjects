@@ -1,0 +1,1 @@
+PODS_TOUCHLOCK_SAMLOADINGVIEW_OTHER_LDFLAGS = -framework "CoreGraphics" -framework "UIKit"
