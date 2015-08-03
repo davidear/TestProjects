@@ -27,7 +27,6 @@
     CAAnimation *animation;
     CALayer *layer;
 //    CAMediaTiming;
-    CATransition
 }
 - (IBAction)change:(id)sender {
     
