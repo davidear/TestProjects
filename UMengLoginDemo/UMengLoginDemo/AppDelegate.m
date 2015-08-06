@@ -22,7 +22,7 @@
     //打开调试log的开关
     [UMSocialData openLog:YES];
     
-    [UMSocialData setAppKey:@"53290df956240b6b4a0084b3"];
+    [UMSocialData setAppKey:@"55c31431e0f55a65c1002597"];
     //设置微信AppId，设置分享url，默认使用友盟的网址
     [UMSocialWechatHandler setWXAppId:@"wxe09e14fcb69825cc" appSecret:@"8b6355edfcedb88defa7fae31056a3f0" url:@"http://www.umeng.com/social"];
     return YES;
