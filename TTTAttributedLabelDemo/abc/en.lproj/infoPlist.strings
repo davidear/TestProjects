@@ -1,0 +1,9 @@
+/* 
+  infoPlist.strings
+  abc
+
+  Created by DaiFengyi on 15/9/21.
+  Copyright © 2015年 DaiFengyi. All rights reserved.
+*/
+CFBundleDisplayName = "Program";
+"hello" = "hello";

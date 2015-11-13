@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="rSM-jo-QuI">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--我-->
+        <scene sceneID="zkv-TP-ec2">
+            <objects>
+                <viewController id="5kq-sk-diL" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HlK-S4-bWl"/>
+                        <viewControllerLayoutGuide type="bottom" id="SH1-de-4Ez"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Zyh-g9-R71">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="我" image="me" badgeValue="2" id="f2N-1n-qKG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bGv-9x-UJU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="285" y="1767"/>
+        </scene>
+        <!--发现-->
+        <scene sceneID="FzR-W2-4wu">
+            <objects>
+                <viewController id="bgQ-qv-7Av" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4ak-w7-r4O"/>
+                        <viewControllerLayoutGuide type="bottom" id="Bo0-y6-mLv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6eJ-CZ-6y2">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="发现" image="discovery" badgeValue="3" id="Pk5-4Q-FAE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yxa-OB-gId" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="285" y="2452"/>
+        </scene>
+        <!--探索-->
+        <scene sceneID="hrN-za-7CO">
+            <objects>
+                <viewController id="00G-yb-rCn" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bek-ZU-I0n"/>
+                        <viewControllerLayoutGuide type="bottom" id="14B-6e-dk0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jL3-UZ-1T9">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aKE-Zx-J4C" customClass="TTTAttributedLabel">
+                                <rect key="frame" x="52" y="413" width="254" height="21"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Label">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="好" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NZO-Xh-c3U">
+                                <rect key="frame" x="52" y="111" width="100" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.34146116539999999" blue="0.67911317000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Xsw-0D-Gu5"/>
+                                    <constraint firstAttribute="height" constant="30" id="fV8-mt-PBi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="探索" image="search" badgeValue="1" id="ETe-wZ-BAU"/>
+                    <connections>
+                        <outlet property="tttLabel" destination="aKE-Zx-J4C" id="BxO-oI-EpR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j2u-6V-Lcu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="186" y="1345"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="e8r-HM-WHq">
+            <objects>
+                <tabBarController id="rSM-jo-QuI" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="d4n-w1-cKY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="00G-yb-rCn" kind="relationship" relationship="viewControllers" id="Dso-U1-4Pw"/>
+                        <segue destination="5kq-sk-diL" kind="relationship" relationship="viewControllers" id="qdf-Mz-0VN"/>
+                        <segue destination="bgQ-qv-7Av" kind="relationship" relationship="viewControllers" id="w6w-8B-B9w"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2hh-Wf-osh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-535" y="1437"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="discovery" width="25" height="25"/>
+        <image name="me" width="24" height="25"/>
+        <image name="search" width="26" height="25"/>
+    </resources>
+</document>

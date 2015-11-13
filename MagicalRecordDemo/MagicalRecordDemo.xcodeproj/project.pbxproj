@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2E7F26C1BE9AF1B00DC064D /* SAISlideiCard+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E7F2611BE9AF1B00DC064D /* SAISlideiCard+CoreDataProperties.m */; };
+		B2E7F26D1BE9AF1B00DC064D /* SAISlideiCard.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E7F2631BE9AF1B00DC064D /* SAISlideiCard.m */; };
+		B2E7F26E1BE9AF1B00DC064D /* SAIiCardImage+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E7F2651BE9AF1B00DC064D /* SAIiCardImage+CoreDataProperties.m */; };
+		B2E7F26F1BE9AF1B00DC064D /* SAIiCardImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E7F2671BE9AF1B00DC064D /* SAIiCardImage.m */; };
+		B2E7F2701BE9AF1B00DC064D /* SAIBaseiCard+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E7F2691BE9AF1B00DC064D /* SAIBaseiCard+CoreDataProperties.m */; };
+		B2E7F2711BE9AF1B00DC064D /* SAIBaseiCard.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E7F26B1BE9AF1B00DC064D /* SAIBaseiCard.m */; };
+		B2EA80911BE74F0300F866FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EA80901BE74F0300F866FF /* main.m */; };
+		B2EA80941BE74F0300F866FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EA80931BE74F0300F866FF /* AppDelegate.m */; };
+		B2EA80971BE74F0300F866FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EA80961BE74F0300F866FF /* ViewController.m */; };
+		B2EA809A1BE74F0300F866FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2EA80981BE74F0300F866FF /* Main.storyboard */; };
+		B2EA809C1BE74F0300F866FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2EA809B1BE74F0300F866FF /* Assets.xcassets */; };
+		B2EA809F1BE74F0300F866FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2EA809D1BE74F0300F866FF /* LaunchScreen.storyboard */; };
+		B2EA80AA1BE74F0300F866FF /* MagicalRecordDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EA80A91BE74F0300F866FF /* MagicalRecordDemoTests.m */; };
+		B2EA80B51BE74F0300F866FF /* MagicalRecordDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EA80B41BE74F0300F866FF /* MagicalRecordDemoUITests.m */; };
+		B2EA80D71BE752C200F866FF /* SAIiCard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B2EA80D51BE752C200F866FF /* SAIiCard.xcdatamodeld */; };
+		BE3F271542761933E6355E87 /* libPods-MagicalRecordDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF16519D2EC55AD8C836659 /* libPods-MagicalRecordDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2EA80A61BE74F0300F866FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2EA80841BE74F0300F866FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2EA808B1BE74F0300F866FF;
+			remoteInfo = MagicalRecordDemo;
+		};
+		B2EA80B11BE74F0300F866FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2EA80841BE74F0300F866FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2EA808B1BE74F0300F866FF;
+			remoteInfo = MagicalRecordDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5DF16519D2EC55AD8C836659 /* libPods-MagicalRecordDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MagicalRecordDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		915129AD1FD68FEC027E2306 /* Pods-MagicalRecordDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicalRecordDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagicalRecordDemo/Pods-MagicalRecordDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B2E7F2601BE9AF1B00DC064D /* SAISlideiCard+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SAISlideiCard+CoreDataProperties.h"; sourceTree = "<group>"; };
+		B2E7F2611BE9AF1B00DC064D /* SAISlideiCard+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SAISlideiCard+CoreDataProperties.m"; sourceTree = "<group>"; };
+		B2E7F2621BE9AF1B00DC064D /* SAISlideiCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAISlideiCard.h; sourceTree = "<group>"; };
+		B2E7F2631BE9AF1B00DC064D /* SAISlideiCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAISlideiCard.m; sourceTree = "<group>"; };
+		B2E7F2641BE9AF1B00DC064D /* SAIiCardImage+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SAIiCardImage+CoreDataProperties.h"; sourceTree = "<group>"; };
+		B2E7F2651BE9AF1B00DC064D /* SAIiCardImage+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SAIiCardImage+CoreDataProperties.m"; sourceTree = "<group>"; };
+		B2E7F2661BE9AF1B00DC064D /* SAIiCardImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAIiCardImage.h; sourceTree = "<group>"; };
+		B2E7F2671BE9AF1B00DC064D /* SAIiCardImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAIiCardImage.m; sourceTree = "<group>"; };
+		B2E7F2681BE9AF1B00DC064D /* SAIBaseiCard+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SAIBaseiCard+CoreDataProperties.h"; sourceTree = "<group>"; };
+		B2E7F2691BE9AF1B00DC064D /* SAIBaseiCard+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SAIBaseiCard+CoreDataProperties.m"; sourceTree = "<group>"; };
+		B2E7F26A1BE9AF1B00DC064D /* SAIBaseiCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAIBaseiCard.h; sourceTree = "<group>"; };
+		B2E7F26B1BE9AF1B00DC064D /* SAIBaseiCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAIBaseiCard.m; sourceTree = "<group>"; };
+		B2EA808C1BE74F0300F866FF /* MagicalRecordDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicalRecordDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2EA80901BE74F0300F866FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2EA80921BE74F0300F866FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B2EA80931BE74F0300F866FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B2EA80951BE74F0300F866FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B2EA80961BE74F0300F866FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B2EA80991BE74F0300F866FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2EA809B1BE74F0300F866FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2EA809E1BE74F0300F866FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2EA80A01BE74F0300F866FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2EA80A51BE74F0300F866FF /* MagicalRecordDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicalRecordDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2EA80A91BE74F0300F866FF /* MagicalRecordDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicalRecordDemoTests.m; sourceTree = "<group>"; };
+		B2EA80AB1BE74F0300F866FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2EA80B01BE74F0300F866FF /* MagicalRecordDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicalRecordDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2EA80B41BE74F0300F866FF /* MagicalRecordDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicalRecordDemoUITests.m; sourceTree = "<group>"; };
+		B2EA80B61BE74F0300F866FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2EA80D61BE752C200F866FF /* SAIiCard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SAIiCard.xcdatamodel; sourceTree = "<group>"; };
+		FF16B5C946001DC1B47D89B0 /* Pods-MagicalRecordDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicalRecordDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagicalRecordDemo/Pods-MagicalRecordDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2EA80891BE74F0300F866FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3F271542761933E6355E87 /* libPods-MagicalRecordDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2EA80A21BE74F0300F866FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2EA80AD1BE74F0300F866FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30D513426C1E45568F5F7AE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DF16519D2EC55AD8C836659 /* libPods-MagicalRecordDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2EA80831BE74F0300F866FF = {
+			isa = PBXGroup;
+			children = (
+				B2EA808E1BE74F0300F866FF /* MagicalRecordDemo */,
+				B2EA80A81BE74F0300F866FF /* MagicalRecordDemoTests */,
+				B2EA80B31BE74F0300F866FF /* MagicalRecordDemoUITests */,
+				B2EA808D1BE74F0300F866FF /* Products */,
+				B99FA7024F06FCFC64ED8654 /* Pods */,
+				30D513426C1E45568F5F7AE7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B2EA808D1BE74F0300F866FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2EA808C1BE74F0300F866FF /* MagicalRecordDemo.app */,
+				B2EA80A51BE74F0300F866FF /* MagicalRecordDemoTests.xctest */,
+				B2EA80B01BE74F0300F866FF /* MagicalRecordDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2EA808E1BE74F0300F866FF /* MagicalRecordDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B2EA80C21BE7528900F866FF /* Model */,
+				B2EA80921BE74F0300F866FF /* AppDelegate.h */,
+				B2EA80931BE74F0300F866FF /* AppDelegate.m */,
+				B2EA80951BE74F0300F866FF /* ViewController.h */,
+				B2EA80961BE74F0300F866FF /* ViewController.m */,
+				B2EA80981BE74F0300F866FF /* Main.storyboard */,
+				B2EA809B1BE74F0300F866FF /* Assets.xcassets */,
+				B2EA809D1BE74F0300F866FF /* LaunchScreen.storyboard */,
+				B2EA80A01BE74F0300F866FF /* Info.plist */,
+				B2EA808F1BE74F0300F866FF /* Supporting Files */,
+			);
+			path = MagicalRecordDemo;
+			sourceTree = "<group>";
+		};
+		B2EA808F1BE74F0300F866FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2EA80901BE74F0300F866FF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2EA80A81BE74F0300F866FF /* MagicalRecordDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2EA80A91BE74F0300F866FF /* MagicalRecordDemoTests.m */,
+				B2EA80AB1BE74F0300F866FF /* Info.plist */,
+			);
+			path = MagicalRecordDemoTests;
+			sourceTree = "<group>";
+		};
+		B2EA80B31BE74F0300F866FF /* MagicalRecordDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B2EA80B41BE74F0300F866FF /* MagicalRecordDemoUITests.m */,
+				B2EA80B61BE74F0300F866FF /* Info.plist */,
+			);
+			path = MagicalRecordDemoUITests;
+			sourceTree = "<group>";
+		};
+		B2EA80C21BE7528900F866FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B2E7F2601BE9AF1B00DC064D /* SAISlideiCard+CoreDataProperties.h */,
+				B2E7F2611BE9AF1B00DC064D /* SAISlideiCard+CoreDataProperties.m */,
+				B2E7F2621BE9AF1B00DC064D /* SAISlideiCard.h */,
+				B2E7F2631BE9AF1B00DC064D /* SAISlideiCard.m */,
+				B2E7F2641BE9AF1B00DC064D /* SAIiCardImage+CoreDataProperties.h */,
+				B2E7F2651BE9AF1B00DC064D /* SAIiCardImage+CoreDataProperties.m */,
+				B2E7F2661BE9AF1B00DC064D /* SAIiCardImage.h */,
+				B2E7F2671BE9AF1B00DC064D /* SAIiCardImage.m */,
+				B2E7F2681BE9AF1B00DC064D /* SAIBaseiCard+CoreDataProperties.h */,
+				B2E7F2691BE9AF1B00DC064D /* SAIBaseiCard+CoreDataProperties.m */,
+				B2E7F26A1BE9AF1B00DC064D /* SAIBaseiCard.h */,
+				B2E7F26B1BE9AF1B00DC064D /* SAIBaseiCard.m */,
+				B2EA80D51BE752C200F866FF /* SAIiCard.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B99FA7024F06FCFC64ED8654 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF16B5C946001DC1B47D89B0 /* Pods-MagicalRecordDemo.debug.xcconfig */,
+				915129AD1FD68FEC027E2306 /* Pods-MagicalRecordDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2EA808B1BE74F0300F866FF /* MagicalRecordDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2EA80B91BE74F0300F866FF /* Build configuration list for PBXNativeTarget "MagicalRecordDemo" */;
+			buildPhases = (
+				0E2B7EADDD9BA91CE1209C42 /* Check Pods Manifest.lock */,
+				B2EA80881BE74F0300F866FF /* Sources */,
+				B2EA80891BE74F0300F866FF /* Frameworks */,
+				B2EA808A1BE74F0300F866FF /* Resources */,
+				D1748881574FB8233B4BBE9C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicalRecordDemo;
+			productName = MagicalRecordDemo;
+			productReference = B2EA808C1BE74F0300F866FF /* MagicalRecordDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2EA80A41BE74F0300F866FF /* MagicalRecordDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2EA80BC1BE74F0300F866FF /* Build configuration list for PBXNativeTarget "MagicalRecordDemoTests" */;
+			buildPhases = (
+				B2EA80A11BE74F0300F866FF /* Sources */,
+				B2EA80A21BE74F0300F866FF /* Frameworks */,
+				B2EA80A31BE74F0300F866FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2EA80A71BE74F0300F866FF /* PBXTargetDependency */,
+			);
+			name = MagicalRecordDemoTests;
+			productName = MagicalRecordDemoTests;
+			productReference = B2EA80A51BE74F0300F866FF /* MagicalRecordDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B2EA80AF1BE74F0300F866FF /* MagicalRecordDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2EA80BF1BE74F0300F866FF /* Build configuration list for PBXNativeTarget "MagicalRecordDemoUITests" */;
+			buildPhases = (
+				B2EA80AC1BE74F0300F866FF /* Sources */,
+				B2EA80AD1BE74F0300F866FF /* Frameworks */,
+				B2EA80AE1BE74F0300F866FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2EA80B21BE74F0300F866FF /* PBXTargetDependency */,
+			);
+			name = MagicalRecordDemoUITests;
+			productName = MagicalRecordDemoUITests;
+			productReference = B2EA80B01BE74F0300F866FF /* MagicalRecordDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2EA80841BE74F0300F866FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = DaiFengyi;
+				TargetAttributes = {
+					B2EA808B1BE74F0300F866FF = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					B2EA80A41BE74F0300F866FF = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = B2EA808B1BE74F0300F866FF;
+					};
+					B2EA80AF1BE74F0300F866FF = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = B2EA808B1BE74F0300F866FF;
+					};
+				};
+			};
+			buildConfigurationList = B2EA80871BE74F0300F866FF /* Build configuration list for PBXProject "MagicalRecordDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2EA80831BE74F0300F866FF;
+			productRefGroup = B2EA808D1BE74F0300F866FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2EA808B1BE74F0300F866FF /* MagicalRecordDemo */,
+				B2EA80A41BE74F0300F866FF /* MagicalRecordDemoTests */,
+				B2EA80AF1BE74F0300F866FF /* MagicalRecordDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2EA808A1BE74F0300F866FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EA809F1BE74F0300F866FF /* LaunchScreen.storyboard in Resources */,
+				B2EA809C1BE74F0300F866FF /* Assets.xcassets in Resources */,
+				B2EA809A1BE74F0300F866FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2EA80A31BE74F0300F866FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2EA80AE1BE74F0300F866FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E2B7EADDD9BA91CE1209C42 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D1748881574FB8233B4BBE9C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicalRecordDemo/Pods-MagicalRecordDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2EA80881BE74F0300F866FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2E7F2711BE9AF1B00DC064D /* SAIBaseiCard.m in Sources */,
+				B2EA80971BE74F0300F866FF /* ViewController.m in Sources */,
+				B2EA80D71BE752C200F866FF /* SAIiCard.xcdatamodeld in Sources */,
+				B2E7F2701BE9AF1B00DC064D /* SAIBaseiCard+CoreDataProperties.m in Sources */,
+				B2EA80941BE74F0300F866FF /* AppDelegate.m in Sources */,
+				B2E7F26D1BE9AF1B00DC064D /* SAISlideiCard.m in Sources */,
+				B2E7F26E1BE9AF1B00DC064D /* SAIiCardImage+CoreDataProperties.m in Sources */,
+				B2E7F26F1BE9AF1B00DC064D /* SAIiCardImage.m in Sources */,
+				B2E7F26C1BE9AF1B00DC064D /* SAISlideiCard+CoreDataProperties.m in Sources */,
+				B2EA80911BE74F0300F866FF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2EA80A11BE74F0300F866FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EA80AA1BE74F0300F866FF /* MagicalRecordDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2EA80AC1BE74F0300F866FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EA80B51BE74F0300F866FF /* MagicalRecordDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2EA80A71BE74F0300F866FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2EA808B1BE74F0300F866FF /* MagicalRecordDemo */;
+			targetProxy = B2EA80A61BE74F0300F866FF /* PBXContainerItemProxy */;
+		};
+		B2EA80B21BE74F0300F866FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2EA808B1BE74F0300F866FF /* MagicalRecordDemo */;
+			targetProxy = B2EA80B11BE74F0300F866FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2EA80981BE74F0300F866FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2EA80991BE74F0300F866FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B2EA809D1BE74F0300F866FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2EA809E1BE74F0300F866FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2EA80B71BE74F0300F866FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B2EA80B81BE74F0300F866FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2EA80BA1BE74F0300F866FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF16B5C946001DC1B47D89B0 /* Pods-MagicalRecordDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MagicalRecordDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChildrenOurFuture.MagicalRecordDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B2EA80BB1BE74F0300F866FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 915129AD1FD68FEC027E2306 /* Pods-MagicalRecordDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MagicalRecordDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChildrenOurFuture.MagicalRecordDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B2EA80BD1BE74F0300F866FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MagicalRecordDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChildrenOurFuture.MagicalRecordDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicalRecordDemo.app/MagicalRecordDemo";
+			};
+			name = Debug;
+		};
+		B2EA80BE1BE74F0300F866FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MagicalRecordDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChildrenOurFuture.MagicalRecordDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicalRecordDemo.app/MagicalRecordDemo";
+			};
+			name = Release;
+		};
+		B2EA80C01BE74F0300F866FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MagicalRecordDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChildrenOurFuture.MagicalRecordDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MagicalRecordDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B2EA80C11BE74F0300F866FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MagicalRecordDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChildrenOurFuture.MagicalRecordDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MagicalRecordDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2EA80871BE74F0300F866FF /* Build configuration list for PBXProject "MagicalRecordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2EA80B71BE74F0300F866FF /* Debug */,
+				B2EA80B81BE74F0300F866FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2EA80B91BE74F0300F866FF /* Build configuration list for PBXNativeTarget "MagicalRecordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2EA80BA1BE74F0300F866FF /* Debug */,
+				B2EA80BB1BE74F0300F866FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2EA80BC1BE74F0300F866FF /* Build configuration list for PBXNativeTarget "MagicalRecordDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2EA80BD1BE74F0300F866FF /* Debug */,
+				B2EA80BE1BE74F0300F866FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2EA80BF1BE74F0300F866FF /* Build configuration list for PBXNativeTarget "MagicalRecordDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2EA80C01BE74F0300F866FF /* Debug */,
+				B2EA80C11BE74F0300F866FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B2EA80D51BE752C200F866FF /* SAIiCard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B2EA80D61BE752C200F866FF /* SAIiCard.xcdatamodel */,
+			);
+			currentVersion = B2EA80D61BE752C200F866FF /* SAIiCard.xcdatamodel */;
+			path = SAIiCard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B2EA80841BE74F0300F866FF /* Project object */;
+}

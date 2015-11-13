@@ -1,0 +1,16 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '6.0'
+
+target 'MagicalRecordDemo' do
+pod "MagicalRecord"
+pod "CocoaLumberjack"
+end
+
+target 'MagicalRecordDemoTests' do
+
+end
+
+target 'MagicalRecordDemoUITests' do
+
+end
+

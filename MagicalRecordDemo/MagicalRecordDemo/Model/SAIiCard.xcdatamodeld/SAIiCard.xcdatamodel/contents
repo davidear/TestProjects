@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="14F1021" minimumToolsVersion="Xcode 7.0">
+    <entity name="SAIBaseiCard" representedClassName="SAIBaseiCard" syncable="YES">
+        <attribute name="cardNote" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="iCardImage" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SAIiCardImage" inverseName="iCard" inverseEntity="SAIiCardImage" syncable="YES"/>
+    </entity>
+    <entity name="SAIiCardImage" representedClassName="SAIiCardImage" syncable="YES">
+        <attribute name="height" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="width" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="iCard" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SAIBaseiCard" inverseName="iCardImage" inverseEntity="SAIBaseiCard" syncable="YES"/>
+        <relationship name="results" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="SAISlideiCard" inverseName="results" inverseEntity="SAISlideiCard" syncable="YES"/>
+    </entity>
+    <entity name="SAISlideiCard" representedClassName="SAISlideiCard" parentEntity="SAIBaseiCard" syncable="YES">
+        <relationship name="results" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="SAIiCardImage" inverseName="results" inverseEntity="SAIiCardImage" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="SAIBaseiCard" positionX="-36" positionY="9" width="128" height="75"/>
+        <element name="SAIiCardImage" positionX="0" positionY="45" width="128" height="105"/>
+        <element name="SAISlideiCard" positionX="54" positionY="99" width="128" height="60"/>
+    </elements>
+</model>
