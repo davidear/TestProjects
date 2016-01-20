@@ -70,7 +70,7 @@
 
 #pragma mark - extension
 - (void)flipSubview:(UIView *)topView WithSubview:(UIView *)backView {
-    if (![self.subviews containsObject:backView] | ![self.subviews containsObject:topView]) {
+    if (![self.view.subviews containsObject:backView] | ![self.view.subviews containsObject:topView]) {
         return;
     }
     CGContextRef context=UIGraphicsGetCurrentContext();

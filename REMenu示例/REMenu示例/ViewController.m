@@ -24,7 +24,6 @@
     self.segmentView.items = @[@"左侧", @"右侧"];
     self.segmentView.delegate = self;
     
-    [REMenuItem alloc] initwith
     REMenuItem *homeItem = [[REMenuItem alloc] initWithTitle:@"Home"
                                                     subtitle:@"Return to Home Screen"
                                                        image:[UIImage imageNamed:@"Icon_Home"]

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="83z-fb-9Dd">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--snow-->
+        <scene sceneID="q3v-3G-4f3">
+            <objects>
+                <viewController id="K6I-Gm-I7p" customClass="Snow" customModule="Animation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1uF-Rq-rJJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="PXz-nQ-RAp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fqi-dF-9GQ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="snow" id="ARX-Ox-IEc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CyO-d4-CcW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="390" y="358"/>
+        </scene>
+        <!--button-->
+        <scene sceneID="an0-xa-DP2">
+            <objects>
+                <viewController id="s4Q-eh-bPv" customClass="Buttons" customModule="Animation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NMv-FY-la3"/>
+                        <viewControllerLayoutGuide type="bottom" id="t0l-tI-yVv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xcD-rj-rDu">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f5E-Vs-w7E">
+                                <rect key="frame" x="20" y="28" width="44" height="44"/>
+                                <state key="normal" image="like_normal"/>
+                                <state key="selected" image="like_selected"/>
+                                <state key="highlighted" image="like_selected"/>
+                                <connections>
+                                    <action selector="zanClick:" destination="s4Q-eh-bPv" eventType="touchUpInside" id="RLz-Nv-SnC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4wH-8W-7Ra">
+                                <rect key="frame" x="134" y="35" width="44" height="30"/>
+                                <color key="backgroundColor" red="0.98431372549999996" green="0.87058823529999996" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="badge"/>
+                                <connections>
+                                    <action selector="dadgeClick:" destination="s4Q-eh-bPv" eventType="touchUpInside" id="TKV-NX-5Er"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="项目名称Animation，目录TestProjects" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8em-4R-3vP">
+                                <rect key="frame" x="13" y="289" width="243" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="button" id="ahN-0N-yXV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kcb-Vu-dFb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="390" y="-371"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="gYa-Tu-1Eq">
+            <objects>
+                <tabBarController id="83z-fb-9Dd" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="tvf-UE-WcG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="s4Q-eh-bPv" kind="relationship" relationship="viewControllers" id="gkw-xA-GPY"/>
+                        <segue destination="K6I-Gm-I7p" kind="relationship" relationship="viewControllers" id="VkP-dO-mKH"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H60-Ce-5hS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-379" y="73"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="like_normal" width="16" height="14"/>
+        <image name="like_selected" width="14" height="12"/>
+    </resources>
+</document>
