@@ -11,6 +11,14 @@
 @interface FYBannerItem : UIButton
 @end
 @implementation FYBannerItem
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        self.adjustsImageWhenHighlighted = NO;
+    }
+    return self;
+}
 @end
 
 #define kTimerDuration 5

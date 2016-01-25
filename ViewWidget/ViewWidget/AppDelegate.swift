@@ -16,6 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        self.window = UIWindow(frame:UIScreen.mainScreen().bounds)
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        let root = sb.instantiateInitialViewController()
+        FYNewFeatureController.showNewFeatureBeforeRootViewController(root, window: self.window)
+        self.window?.makeKeyAndVisible()
         return true
     }
 

@@ -16,6 +16,7 @@
 		B208423E1C5076ED00C8D980 /* ViewWidgetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B208423D1C5076ED00C8D980 /* ViewWidgetTests.swift */; };
 		B20842491C5076ED00C8D980 /* ViewWidgetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20842481C5076ED00C8D980 /* ViewWidgetUITests.swift */; };
 		B20842671C5078BA00C8D980 /* FYScrollBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = B20842661C5078BA00C8D980 /* FYScrollBanner.m */; };
+		B25797321C5609920039A75A /* FYNewFeatureController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25797311C5609920039A75A /* FYNewFeatureController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		B20842601C5078AA00C8D980 /* ViewWidget-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewWidget-Bridging-Header.h"; sourceTree = "<group>"; };
 		B20842651C5078BA00C8D980 /* FYScrollBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYScrollBanner.h; sourceTree = "<group>"; };
 		B20842661C5078BA00C8D980 /* FYScrollBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYScrollBanner.m; sourceTree = "<group>"; };
+		B25797301C5609920039A75A /* FYNewFeatureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYNewFeatureController.h; sourceTree = "<group>"; };
+		B25797311C5609920039A75A /* FYNewFeatureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYNewFeatureController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,7 @@
 		B20842251C5076ED00C8D980 /* ViewWidget */ = {
 			isa = PBXGroup;
 			children = (
+				B257972F1C5609920039A75A /* Introduce */,
 				B20842641C5078BA00C8D980 /* ScrollBanner */,
 				B20842261C5076ED00C8D980 /* AppDelegate.swift */,
 				B20842281C5076ED00C8D980 /* FirstViewController.swift */,
@@ -141,6 +145,15 @@
 				B20842661C5078BA00C8D980 /* FYScrollBanner.m */,
 			);
 			path = ScrollBanner;
+			sourceTree = "<group>";
+		};
+		B257972F1C5609920039A75A /* Introduce */ = {
+			isa = PBXGroup;
+			children = (
+				B25797301C5609920039A75A /* FYNewFeatureController.h */,
+				B25797311C5609920039A75A /* FYNewFeatureController.m */,
+			);
+			path = Introduce;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +289,7 @@
 			files = (
 				B208422B1C5076ED00C8D980 /* SecondViewController.swift in Sources */,
 				B20842271C5076ED00C8D980 /* AppDelegate.swift in Sources */,
+				B25797321C5609920039A75A /* FYNewFeatureController.m in Sources */,
 				B20842671C5078BA00C8D980 /* FYScrollBanner.m in Sources */,
 				B20842291C5076ED00C8D980 /* FirstViewController.swift in Sources */,
 			);
@@ -507,6 +521,7 @@
 				B208424F1C5076ED00C8D980 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B20842501C5076ED00C8D980 /* Build configuration list for PBXNativeTarget "ViewWidgetTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +530,7 @@
 				B20842521C5076ED00C8D980 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B20842531C5076ED00C8D980 /* Build configuration list for PBXNativeTarget "ViewWidgetUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +539,7 @@
 				B20842551C5076ED00C8D980 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
