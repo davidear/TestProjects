@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		829E693B1A39EF86C745ABF8 /* libPods-ScrollView撑大机理.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCCC0748AB3C48450065C034 /* libPods-ScrollView撑大机理.a */; };
+		B25797B81C56846C0039A75A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B25797B71C56846C0039A75A /* main.m */; };
+		B25797BB1C56846C0039A75A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B25797BA1C56846C0039A75A /* AppDelegate.m */; };
+		B25797BE1C56846C0039A75A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B25797BD1C56846C0039A75A /* ViewController.m */; };
+		B25797C11C56846C0039A75A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B25797BF1C56846C0039A75A /* Main.storyboard */; };
+		B25797C31C56846C0039A75A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B25797C21C56846C0039A75A /* Assets.xcassets */; };
+		B25797C61C56846C0039A75A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B25797C41C56846C0039A75A /* LaunchScreen.storyboard */; };
+		B25797D11C56846C0039A75A /* ScrollView____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B25797D01C56846C0039A75A /* ScrollView____Tests.m */; };
+		B25797DC1C56846C0039A75A /* ScrollView____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B25797DB1C56846C0039A75A /* ScrollView____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B25797CD1C56846C0039A75A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B25797AB1C56846C0039A75A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B25797B21C56846C0039A75A;
+			remoteInfo = "ScrollView撑大机理";
+		};
+		B25797D81C56846C0039A75A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B25797AB1C56846C0039A75A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B25797B21C56846C0039A75A;
+			remoteInfo = "ScrollView撑大机理";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		602A809E934989B4CBD91E77 /* Pods-ScrollView撑大机理.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollView撑大机理.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollView撑大机理/Pods-ScrollView撑大机理.debug.xcconfig"; sourceTree = "<group>"; };
+		A76BFE201D45E9C1B025F48F /* Pods-ScrollView撑大机理.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollView撑大机理.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollView撑大机理/Pods-ScrollView撑大机理.release.xcconfig"; sourceTree = "<group>"; };
+		B25797B31C56846C0039A75A /* ScrollView撑大机理.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ScrollView撑大机理.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B25797B71C56846C0039A75A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B25797B91C56846C0039A75A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B25797BA1C56846C0039A75A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B25797BC1C56846C0039A75A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B25797BD1C56846C0039A75A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B25797C01C56846C0039A75A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B25797C21C56846C0039A75A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B25797C51C56846C0039A75A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B25797C71C56846C0039A75A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B25797CC1C56846C0039A75A /* ScrollView撑大机理Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ScrollView撑大机理Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B25797D01C56846C0039A75A /* ScrollView____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ScrollView____Tests.m"; sourceTree = "<group>"; };
+		B25797D21C56846C0039A75A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B25797D71C56846C0039A75A /* ScrollView撑大机理UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ScrollView撑大机理UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B25797DB1C56846C0039A75A /* ScrollView____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ScrollView____UITests.m"; sourceTree = "<group>"; };
+		B25797DD1C56846C0039A75A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCCC0748AB3C48450065C034 /* libPods-ScrollView撑大机理.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScrollView撑大机理.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B25797B01C56846C0039A75A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829E693B1A39EF86C745ABF8 /* libPods-ScrollView撑大机理.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B25797C91C56846C0039A75A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B25797D41C56846C0039A75A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E73803C42C5B2515810CB0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCCC0748AB3C48450065C034 /* libPods-ScrollView撑大机理.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A32A051B113108431729515 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				602A809E934989B4CBD91E77 /* Pods-ScrollView撑大机理.debug.xcconfig */,
+				A76BFE201D45E9C1B025F48F /* Pods-ScrollView撑大机理.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B25797AA1C56846C0039A75A = {
+			isa = PBXGroup;
+			children = (
+				B25797B51C56846C0039A75A /* ScrollView撑大机理 */,
+				B25797CF1C56846C0039A75A /* ScrollView撑大机理Tests */,
+				B25797DA1C56846C0039A75A /* ScrollView撑大机理UITests */,
+				B25797B41C56846C0039A75A /* Products */,
+				8A32A051B113108431729515 /* Pods */,
+				7E73803C42C5B2515810CB0C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B25797B41C56846C0039A75A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B25797B31C56846C0039A75A /* ScrollView撑大机理.app */,
+				B25797CC1C56846C0039A75A /* ScrollView撑大机理Tests.xctest */,
+				B25797D71C56846C0039A75A /* ScrollView撑大机理UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B25797B51C56846C0039A75A /* ScrollView撑大机理 */ = {
+			isa = PBXGroup;
+			children = (
+				B25797B91C56846C0039A75A /* AppDelegate.h */,
+				B25797BA1C56846C0039A75A /* AppDelegate.m */,
+				B25797BC1C56846C0039A75A /* ViewController.h */,
+				B25797BD1C56846C0039A75A /* ViewController.m */,
+				B25797BF1C56846C0039A75A /* Main.storyboard */,
+				B25797C21C56846C0039A75A /* Assets.xcassets */,
+				B25797C41C56846C0039A75A /* LaunchScreen.storyboard */,
+				B25797C71C56846C0039A75A /* Info.plist */,
+				B25797B61C56846C0039A75A /* Supporting Files */,
+			);
+			path = "ScrollView撑大机理";
+			sourceTree = "<group>";
+		};
+		B25797B61C56846C0039A75A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B25797B71C56846C0039A75A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B25797CF1C56846C0039A75A /* ScrollView撑大机理Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B25797D01C56846C0039A75A /* ScrollView____Tests.m */,
+				B25797D21C56846C0039A75A /* Info.plist */,
+			);
+			path = "ScrollView撑大机理Tests";
+			sourceTree = "<group>";
+		};
+		B25797DA1C56846C0039A75A /* ScrollView撑大机理UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B25797DB1C56846C0039A75A /* ScrollView____UITests.m */,
+				B25797DD1C56846C0039A75A /* Info.plist */,
+			);
+			path = "ScrollView撑大机理UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B25797B21C56846C0039A75A /* ScrollView撑大机理 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B25797E01C56846C0039A75A /* Build configuration list for PBXNativeTarget "ScrollView撑大机理" */;
+			buildPhases = (
+				F62866A9D8249FE486D52D7F /* Check Pods Manifest.lock */,
+				B25797AF1C56846C0039A75A /* Sources */,
+				B25797B01C56846C0039A75A /* Frameworks */,
+				B25797B11C56846C0039A75A /* Resources */,
+				65B5E0DEBDB92B599194D12C /* Embed Pods Frameworks */,
+				E4ECE34567E051E8772616A3 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ScrollView撑大机理";
+			productName = "ScrollView撑大机理";
+			productReference = B25797B31C56846C0039A75A /* ScrollView撑大机理.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B25797CB1C56846C0039A75A /* ScrollView撑大机理Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B25797E31C56846C0039A75A /* Build configuration list for PBXNativeTarget "ScrollView撑大机理Tests" */;
+			buildPhases = (
+				B25797C81C56846C0039A75A /* Sources */,
+				B25797C91C56846C0039A75A /* Frameworks */,
+				B25797CA1C56846C0039A75A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B25797CE1C56846C0039A75A /* PBXTargetDependency */,
+			);
+			name = "ScrollView撑大机理Tests";
+			productName = "ScrollView撑大机理Tests";
+			productReference = B25797CC1C56846C0039A75A /* ScrollView撑大机理Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B25797D61C56846C0039A75A /* ScrollView撑大机理UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B25797E61C56846C0039A75A /* Build configuration list for PBXNativeTarget "ScrollView撑大机理UITests" */;
+			buildPhases = (
+				B25797D31C56846C0039A75A /* Sources */,
+				B25797D41C56846C0039A75A /* Frameworks */,
+				B25797D51C56846C0039A75A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B25797D91C56846C0039A75A /* PBXTargetDependency */,
+			);
+			name = "ScrollView撑大机理UITests";
+			productName = "ScrollView撑大机理UITests";
+			productReference = B25797D71C56846C0039A75A /* ScrollView撑大机理UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B25797AB1C56846C0039A75A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = DaiFengyi;
+				TargetAttributes = {
+					B25797B21C56846C0039A75A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					B25797CB1C56846C0039A75A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B25797B21C56846C0039A75A;
+					};
+					B25797D61C56846C0039A75A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B25797B21C56846C0039A75A;
+					};
+				};
+			};
+			buildConfigurationList = B25797AE1C56846C0039A75A /* Build configuration list for PBXProject "ScrollView撑大机理" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B25797AA1C56846C0039A75A;
+			productRefGroup = B25797B41C56846C0039A75A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B25797B21C56846C0039A75A /* ScrollView撑大机理 */,
+				B25797CB1C56846C0039A75A /* ScrollView撑大机理Tests */,
+				B25797D61C56846C0039A75A /* ScrollView撑大机理UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B25797B11C56846C0039A75A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25797C61C56846C0039A75A /* LaunchScreen.storyboard in Resources */,
+				B25797C31C56846C0039A75A /* Assets.xcassets in Resources */,
+				B25797C11C56846C0039A75A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B25797CA1C56846C0039A75A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B25797D51C56846C0039A75A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65B5E0DEBDB92B599194D12C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScrollView撑大机理/Pods-ScrollView撑大机理-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4ECE34567E051E8772616A3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScrollView撑大机理/Pods-ScrollView撑大机理-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F62866A9D8249FE486D52D7F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B25797AF1C56846C0039A75A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25797BE1C56846C0039A75A /* ViewController.m in Sources */,
+				B25797BB1C56846C0039A75A /* AppDelegate.m in Sources */,
+				B25797B81C56846C0039A75A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B25797C81C56846C0039A75A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25797D11C56846C0039A75A /* ScrollView____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B25797D31C56846C0039A75A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25797DC1C56846C0039A75A /* ScrollView____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B25797CE1C56846C0039A75A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B25797B21C56846C0039A75A /* ScrollView撑大机理 */;
+			targetProxy = B25797CD1C56846C0039A75A /* PBXContainerItemProxy */;
+		};
+		B25797D91C56846C0039A75A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B25797B21C56846C0039A75A /* ScrollView撑大机理 */;
+			targetProxy = B25797D81C56846C0039A75A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B25797BF1C56846C0039A75A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B25797C01C56846C0039A75A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B25797C41C56846C0039A75A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B25797C51C56846C0039A75A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B25797DE1C56846C0039A75A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B25797DF1C56846C0039A75A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B25797E11C56846C0039A75A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 602A809E934989B4CBD91E77 /* Pods-ScrollView撑大机理.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ScrollView撑大机理/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ChildrenOurFuture.ScrollView----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B25797E21C56846C0039A75A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A76BFE201D45E9C1B025F48F /* Pods-ScrollView撑大机理.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ScrollView撑大机理/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ChildrenOurFuture.ScrollView----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B25797E41C56846C0039A75A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ScrollView撑大机理Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ChildrenOurFuture.ScrollView----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollView撑大机理.app/ScrollView撑大机理";
+			};
+			name = Debug;
+		};
+		B25797E51C56846C0039A75A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ScrollView撑大机理Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ChildrenOurFuture.ScrollView----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollView撑大机理.app/ScrollView撑大机理";
+			};
+			name = Release;
+		};
+		B25797E71C56846C0039A75A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ScrollView撑大机理UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ChildrenOurFuture.ScrollView----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ScrollView撑大机理";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B25797E81C56846C0039A75A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ScrollView撑大机理UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ChildrenOurFuture.ScrollView----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ScrollView撑大机理";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B25797AE1C56846C0039A75A /* Build configuration list for PBXProject "ScrollView撑大机理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B25797DE1C56846C0039A75A /* Debug */,
+				B25797DF1C56846C0039A75A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B25797E01C56846C0039A75A /* Build configuration list for PBXNativeTarget "ScrollView撑大机理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B25797E11C56846C0039A75A /* Debug */,
+				B25797E21C56846C0039A75A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B25797E31C56846C0039A75A /* Build configuration list for PBXNativeTarget "ScrollView撑大机理Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B25797E41C56846C0039A75A /* Debug */,
+				B25797E51C56846C0039A75A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B25797E61C56846C0039A75A /* Build configuration list for PBXNativeTarget "ScrollView撑大机理UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B25797E71C56846C0039A75A /* Debug */,
+				B25797E81C56846C0039A75A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B25797AB1C56846C0039A75A /* Project object */;
+}
