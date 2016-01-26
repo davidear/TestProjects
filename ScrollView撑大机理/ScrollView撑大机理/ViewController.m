@@ -6,12 +6,15 @@
 //  Copyright © 2016年 DaiFengyi. All rights reserved.
 //
 
+
+/*
+ todo: 
+ 1. topView悬浮 done
+ 2. mainScroll翻页时，tv改变contentOffset
+ */
 #import "ViewController.h"
 #import "Masonry.h"
 @interface ViewController ()<UIScrollViewDelegate, UITableViewDataSource,UITableViewDelegate>
-//@property (weak, nonatomic) IBOutlet UIScrollView *bigScroll;
-//@property (weak, nonatomic) IBOutlet UIScrollView *midScroll;
-//@property (weak, nonatomic) IBOutlet UIScrollView *internalScroll;
 @property (strong, nonatomic) UILabel *topView;
 @property (strong, nonatomic) NSMutableArray *tvArray;
 @property (weak, nonatomic) IBOutlet UIScrollView *mainScrollView;
@@ -91,7 +94,7 @@
         }
         //设置其在mainScroll中的frame，此时的y值参考tv的contentOffset.y
         [self.topView mas_updateConstraints:^(MASConstraintMaker *make) {
-            make.top.equalTo(@(-tv.contentOffset.y));
+            make.top.equalTo(@(MAX(-100, -tv.contentOffset.y)));
             make.width.equalTo(self.mainScrollView.mas_width);
             make.height.equalTo(@150);
         }];
@@ -104,21 +107,39 @@
         [self.topView mas_updateConstraints:^(MASConstraintMaker *make) {
             make.left.equalTo(self.mainScrollView.mas_left).with.offset(scrollView.contentOffset.x);
         }];
+    }else if ([scrollView isKindOfClass:[UITableView class]]){
+        NSLog(@"scrollView content offset y %f", scrollView.contentOffset.y);
+        if (scrollView.contentOffset.y  > 100) {// 滑动超过100，则跟随tableView一起滑动，造成悬浮
+            [self.topView mas_updateConstraints:^(MASConstraintMaker *make) {
+                make.top.equalTo(scrollView.mas_top).with.offset(scrollView.contentOffset.y - 100);
+            }];
+        }else {// 滑动小于100，固定在tableview的顶部
+            [self.topView mas_updateConstraints:^(MASConstraintMaker *make) {
+                make.top.equalTo(scrollView.mas_top);
+            }];
+        }
     }
 }
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
     if ( scrollView == self.mainScrollView) {
+        NSLog(@"self.topView.frame.origin.y %f", self.topView.frame.origin.y);
         NSInteger index = scrollView.contentOffset.x / [UIScreen mainScreen].bounds.size.width;
         UITableView *tv = self.tvArray[index];
+        //更新tv的contentOffset，为了todo2
+        if (self.topView.frame.origin.y > -100) { //topView未在顶部极限位置
+//            [tv setContentOffset:CGPointMake(0, self.topView.frame.origin.y)];
+            tv.contentOffset = CGPointMake(0, -self.topView.frame.origin.y);
+        }
+        
         //从mainScrollView中移除
         [self.topView removeFromSuperview];
         //加入到新的tableView的header中
-        [tv.tableHeaderView addSubview:self.topView];
+        [tv addSubview:self.topView];
         //设置相关尺寸
         [self.topView mas_remakeConstraints:^(MASConstraintMaker *make) {
-            make.left.equalTo(tv.tableHeaderView.mas_left);
-            make.top.equalTo(tv.tableHeaderView.mas_top);
+            make.left.equalTo(tv.mas_left);
+            make.top.equalTo(tv.mas_top);
             make.width.equalTo(self.mainScrollView.mas_width);
             make.height.equalTo(@150);
         }];
