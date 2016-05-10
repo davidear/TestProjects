@@ -1,20 +1,20 @@
 //
-//  ViewController.m
+//  FlipController.m
 //  翻转
 //
 //  Created by DaiFengyi on 15/9/22.
 //  Copyright © 2015年 DaiFengyi. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "FlipController.h"
 
-@interface ViewController ()
+@interface FlipController ()
 @property (weak, nonatomic) IBOutlet UIButton *button;
 //@property (strong, nonatomic) UIView *firstView;
 //@property (strong, nonatomic) UIView *secondView;
 @end
 
-@implementation ViewController
+@implementation FlipController
 {
     UIView *fistView;
     UIView *secondView;

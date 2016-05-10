@@ -14,11 +14,16 @@
 		B2278CA61C4F2E3D00BE7C05 /* AnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2278CA51C4F2E3D00BE7C05 /* AnimationTests.swift */; };
 		B2278CB11C4F2E3D00BE7C05 /* AnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2278CB01C4F2E3D00BE7C05 /* AnimationUITests.swift */; };
 		B2278CBF1C4F2EB600BE7C05 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2278CBE1C4F2EB600BE7C05 /* QuartzCore.framework */; };
-		B2278CC11C4F2EF400BE7C05 /* Snow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2278CC01C4F2EF400BE7C05 /* Snow.swift */; };
-		B2278CC51C4F38E800BE7C05 /* SnowOC.m in Sources */ = {isa = PBXBuildFile; fileRef = B2278CC41C4F38E800BE7C05 /* SnowOC.m */; };
-		B2278CCB1C4F3B8000BE7C05 /* UIButton+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = B2278CC81C4F3B8000BE7C05 /* UIButton+Badge.m */; };
-		B2278CCC1C4F3B8000BE7C05 /* UIButton+ZanAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B2278CCA1C4F3B8000BE7C05 /* UIButton+ZanAnimation.m */; };
-		B2278CD21C4F3C1800BE7C05 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2278CD11C4F3C1800BE7C05 /* Buttons.swift */; };
+		B2C18B9B1CE188DE00EB9D6E /* Snow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C18B941CE188DE00EB9D6E /* Snow.swift */; };
+		B2C18B9C1CE188DE00EB9D6E /* SnowOC.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C18B961CE188DE00EB9D6E /* SnowOC.m */; };
+		B2C18BA91CE18D1A00EB9D6E /* UIButton+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C18BA41CE18D1A00EB9D6E /* UIButton+Badge.m */; };
+		B2C18BAA1CE18D1A00EB9D6E /* ButtonAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C18BA51CE18D1A00EB9D6E /* ButtonAnimationController.swift */; };
+		B2C18BAB1CE18D1A00EB9D6E /* UIButton+ZanAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C18BA81CE18D1A00EB9D6E /* UIButton+ZanAnimation.m */; };
+		B2C18BAF1CE18D5700EB9D6E /* FlipController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C18BAE1CE18D5700EB9D6E /* FlipController.m */; };
+		B2C18BB71CE18F1900EB9D6E /* JSHLabelButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C18BB21CE18F1900EB9D6E /* JSHLabelButton.m */; };
+		B2C18BB81CE18F1900EB9D6E /* JSHLabelChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C18BB41CE18F1900EB9D6E /* JSHLabelChooseView.m */; };
+		B2C18BB91CE18F1900EB9D6E /* RearrageController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C18BB61CE18F1900EB9D6E /* RearrageController.m */; };
+		B2C18BBB1CE1969900EB9D6E /* JSHBookLabels.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2C18BBA1CE1969900EB9D6E /* JSHBookLabels.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,15 +57,24 @@
 		B2278CB01C4F2E3D00BE7C05 /* AnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationUITests.swift; sourceTree = "<group>"; };
 		B2278CB21C4F2E3D00BE7C05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2278CBE1C4F2EB600BE7C05 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		B2278CC01C4F2EF400BE7C05 /* Snow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Snow.swift; sourceTree = "<group>"; };
 		B2278CC21C4F38E800BE7C05 /* Animation-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animation-Bridging-Header.h"; sourceTree = "<group>"; };
-		B2278CC31C4F38E800BE7C05 /* SnowOC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowOC.h; sourceTree = "<group>"; };
-		B2278CC41C4F38E800BE7C05 /* SnowOC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnowOC.m; sourceTree = "<group>"; };
-		B2278CC71C4F3B8000BE7C05 /* UIButton+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Badge.h"; sourceTree = "<group>"; };
-		B2278CC81C4F3B8000BE7C05 /* UIButton+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Badge.m"; sourceTree = "<group>"; };
-		B2278CC91C4F3B8000BE7C05 /* UIButton+ZanAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ZanAnimation.h"; sourceTree = "<group>"; };
-		B2278CCA1C4F3B8000BE7C05 /* UIButton+ZanAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ZanAnimation.m"; sourceTree = "<group>"; };
-		B2278CD11C4F3C1800BE7C05 /* Buttons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		B2C18B941CE188DE00EB9D6E /* Snow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Snow.swift; sourceTree = "<group>"; };
+		B2C18B951CE188DE00EB9D6E /* SnowOC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowOC.h; sourceTree = "<group>"; };
+		B2C18B961CE188DE00EB9D6E /* SnowOC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnowOC.m; sourceTree = "<group>"; };
+		B2C18BA31CE18D1A00EB9D6E /* UIButton+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Badge.h"; sourceTree = "<group>"; };
+		B2C18BA41CE18D1A00EB9D6E /* UIButton+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Badge.m"; sourceTree = "<group>"; };
+		B2C18BA51CE18D1A00EB9D6E /* ButtonAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonAnimationController.swift; sourceTree = "<group>"; };
+		B2C18BA71CE18D1A00EB9D6E /* UIButton+ZanAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ZanAnimation.h"; sourceTree = "<group>"; };
+		B2C18BA81CE18D1A00EB9D6E /* UIButton+ZanAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ZanAnimation.m"; sourceTree = "<group>"; };
+		B2C18BAD1CE18D5700EB9D6E /* FlipController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipController.h; sourceTree = "<group>"; };
+		B2C18BAE1CE18D5700EB9D6E /* FlipController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipController.m; sourceTree = "<group>"; };
+		B2C18BB11CE18F1900EB9D6E /* JSHLabelButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSHLabelButton.h; sourceTree = "<group>"; };
+		B2C18BB21CE18F1900EB9D6E /* JSHLabelButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSHLabelButton.m; sourceTree = "<group>"; };
+		B2C18BB31CE18F1900EB9D6E /* JSHLabelChooseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSHLabelChooseView.h; sourceTree = "<group>"; };
+		B2C18BB41CE18F1900EB9D6E /* JSHLabelChooseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSHLabelChooseView.m; sourceTree = "<group>"; };
+		B2C18BB51CE18F1900EB9D6E /* RearrageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RearrageController.h; sourceTree = "<group>"; };
+		B2C18BB61CE18F1900EB9D6E /* RearrageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RearrageController.m; sourceTree = "<group>"; };
+		B2C18BBA1CE1969900EB9D6E /* JSHBookLabels.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = JSHBookLabels.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,12 +127,8 @@
 		B2278C8F1C4F2E3C00BE7C05 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
-				B2278CC61C4F3B8000BE7C05 /* Category */,
+				B2C18B8F1CE188DE00EB9D6E /* Mudule */,
 				B2278C901C4F2E3C00BE7C05 /* AppDelegate.swift */,
-				B2278CD11C4F3C1800BE7C05 /* Buttons.swift */,
-				B2278CC01C4F2EF400BE7C05 /* Snow.swift */,
-				B2278CC31C4F38E800BE7C05 /* SnowOC.h */,
-				B2278CC41C4F38E800BE7C05 /* SnowOC.m */,
 				B2278C941C4F2E3C00BE7C05 /* Main.storyboard */,
 				B2278C971C4F2E3C00BE7C05 /* Assets.xcassets */,
 				B2278C991C4F2E3C00BE7C05 /* LaunchScreen.storyboard */,
@@ -146,15 +156,76 @@
 			path = AnimationUITests;
 			sourceTree = "<group>";
 		};
-		B2278CC61C4F3B8000BE7C05 /* Category */ = {
+		B2C18B8F1CE188DE00EB9D6E /* Mudule */ = {
 			isa = PBXGroup;
 			children = (
-				B2278CC71C4F3B8000BE7C05 /* UIButton+Badge.h */,
-				B2278CC81C4F3B8000BE7C05 /* UIButton+Badge.m */,
-				B2278CC91C4F3B8000BE7C05 /* UIButton+ZanAnimation.h */,
-				B2278CCA1C4F3B8000BE7C05 /* UIButton+ZanAnimation.m */,
+				B2C18BB01CE18F1900EB9D6E /* Rearrange */,
+				B2C18BAC1CE18D5700EB9D6E /* Flip */,
+				B2C18BA11CE18D1A00EB9D6E /* ButtonAnimation */,
+				B2C18B931CE188DE00EB9D6E /* Snow */,
 			);
-			path = Category;
+			path = Mudule;
+			sourceTree = "<group>";
+		};
+		B2C18B931CE188DE00EB9D6E /* Snow */ = {
+			isa = PBXGroup;
+			children = (
+				B2C18B941CE188DE00EB9D6E /* Snow.swift */,
+				B2C18B951CE188DE00EB9D6E /* SnowOC.h */,
+				B2C18B961CE188DE00EB9D6E /* SnowOC.m */,
+			);
+			path = Snow;
+			sourceTree = "<group>";
+		};
+		B2C18BA11CE18D1A00EB9D6E /* ButtonAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				B2C18BA21CE18D1A00EB9D6E /* Badge */,
+				B2C18BA51CE18D1A00EB9D6E /* ButtonAnimationController.swift */,
+				B2C18BA61CE18D1A00EB9D6E /* Zan */,
+			);
+			path = ButtonAnimation;
+			sourceTree = "<group>";
+		};
+		B2C18BA21CE18D1A00EB9D6E /* Badge */ = {
+			isa = PBXGroup;
+			children = (
+				B2C18BA31CE18D1A00EB9D6E /* UIButton+Badge.h */,
+				B2C18BA41CE18D1A00EB9D6E /* UIButton+Badge.m */,
+			);
+			path = Badge;
+			sourceTree = "<group>";
+		};
+		B2C18BA61CE18D1A00EB9D6E /* Zan */ = {
+			isa = PBXGroup;
+			children = (
+				B2C18BA71CE18D1A00EB9D6E /* UIButton+ZanAnimation.h */,
+				B2C18BA81CE18D1A00EB9D6E /* UIButton+ZanAnimation.m */,
+			);
+			path = Zan;
+			sourceTree = "<group>";
+		};
+		B2C18BAC1CE18D5700EB9D6E /* Flip */ = {
+			isa = PBXGroup;
+			children = (
+				B2C18BAD1CE18D5700EB9D6E /* FlipController.h */,
+				B2C18BAE1CE18D5700EB9D6E /* FlipController.m */,
+			);
+			path = Flip;
+			sourceTree = "<group>";
+		};
+		B2C18BB01CE18F1900EB9D6E /* Rearrange */ = {
+			isa = PBXGroup;
+			children = (
+				B2C18BB11CE18F1900EB9D6E /* JSHLabelButton.h */,
+				B2C18BB21CE18F1900EB9D6E /* JSHLabelButton.m */,
+				B2C18BB31CE18F1900EB9D6E /* JSHLabelChooseView.h */,
+				B2C18BB41CE18F1900EB9D6E /* JSHLabelChooseView.m */,
+				B2C18BB51CE18F1900EB9D6E /* RearrageController.h */,
+				B2C18BB61CE18F1900EB9D6E /* RearrageController.m */,
+				B2C18BBA1CE1969900EB9D6E /* JSHBookLabels.plist */,
+			);
+			path = Rearrange;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +332,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2C18BBB1CE1969900EB9D6E /* JSHBookLabels.plist in Resources */,
 				B2278C9B1C4F2E3C00BE7C05 /* LaunchScreen.storyboard in Resources */,
 				B2278C981C4F2E3C00BE7C05 /* Assets.xcassets in Resources */,
 				B2278C961C4F2E3C00BE7C05 /* Main.storyboard in Resources */,
@@ -288,12 +360,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2278CC11C4F2EF400BE7C05 /* Snow.swift in Sources */,
+				B2C18BAF1CE18D5700EB9D6E /* FlipController.m in Sources */,
+				B2C18BAB1CE18D1A00EB9D6E /* UIButton+ZanAnimation.m in Sources */,
+				B2C18B9B1CE188DE00EB9D6E /* Snow.swift in Sources */,
+				B2C18BAA1CE18D1A00EB9D6E /* ButtonAnimationController.swift in Sources */,
+				B2C18BB91CE18F1900EB9D6E /* RearrageController.m in Sources */,
+				B2C18BB81CE18F1900EB9D6E /* JSHLabelChooseView.m in Sources */,
+				B2C18BB71CE18F1900EB9D6E /* JSHLabelButton.m in Sources */,
+				B2C18B9C1CE188DE00EB9D6E /* SnowOC.m in Sources */,
 				B2278C911C4F2E3C00BE7C05 /* AppDelegate.swift in Sources */,
-				B2278CCC1C4F3B8000BE7C05 /* UIButton+ZanAnimation.m in Sources */,
-				B2278CD21C4F3C1800BE7C05 /* Buttons.swift in Sources */,
-				B2278CC51C4F38E800BE7C05 /* SnowOC.m in Sources */,
-				B2278CCB1C4F3B8000BE7C05 /* UIButton+Badge.m in Sources */,
+				B2C18BA91CE18D1A00EB9D6E /* UIButton+Badge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,6 +599,7 @@
 				B2278CB71C4F2E3D00BE7C05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2278CB81C4F2E3D00BE7C05 /* Build configuration list for PBXNativeTarget "AnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +608,7 @@
 				B2278CBA1C4F2E3D00BE7C05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2278CBB1C4F2E3D00BE7C05 /* Build configuration list for PBXNativeTarget "AnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +617,7 @@
 				B2278CBD1C4F2E3D00BE7C05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

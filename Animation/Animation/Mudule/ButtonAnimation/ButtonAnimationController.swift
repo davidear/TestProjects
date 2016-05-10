@@ -1,5 +1,5 @@
 //
-//  Buttons.swift
+//  ButtonAnimationController.swift
 //  Animation
 //
 //  Created by DaiFengyi on 16/1/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Buttons: UIViewController {
+class ButtonAnimationController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
